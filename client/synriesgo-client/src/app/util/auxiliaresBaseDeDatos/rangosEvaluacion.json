@@ -1,0 +1,5 @@
+[
+    {"rae_pk_id": 1, "rae_desc": "Adecuado (Mayor o igual a 98%)"},
+    {"rae_pk_id": 2, "rae_desc": "En riesgo (Entre 90% y 97%)"},
+    {"rae_pk_id": 3, "rae_desc": "Critico (Menor o igual a 89%)"}
+]

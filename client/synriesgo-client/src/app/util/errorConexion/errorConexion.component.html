@@ -1,0 +1,37 @@
+<div id="errorConexion{{identificador}}" class="fullscreen cortina hide">
+  <div class="vertical-center-hijo">
+    <div class="row" >
+      <div class="col-12 text-center">
+        <mat-card>
+          <label class="h5">
+            <div id="computerBug" class="d-inline-block me-2">
+              <fa-icon class="text-danger" [icon]="faComputer"></fa-icon>
+            </div>
+
+            <label>
+              ¡Tenemos un problema para completar tu petición!
+            </label>
+          </label>
+
+          <hr class="m-0 mt-1 mb-3"/>
+
+          <label class="h6">
+            Por favor cierra este mensaje e intenta nuevamente. Si este mensaje persiste, contácta con el administrador de la aplicación.
+          </label>
+
+          <br/><br/>
+
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <button mat-raised-button color="warn" (click)="desactivarError()">
+                <fa-icon [icon]="faXmark"></fa-icon>
+                &nbsp;
+                Cerrar
+              </button>
+            </div>
+          </div>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="a" x="-.25" y="-.25" width="1.5" height="1.5">
+   <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="3.3"/>
+   <feColorMatrix result="bluralpha" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.130000 0"/>
+   <feOffset dx="2.7" dy=".4" in="bluralpha" result="offsetBlur"/>
+   <feMerge>
+    <feMergeNode in="offsetBlur"/>
+    <feMergeNode in="SourceGraphic"/>
+   </feMerge>
+  </filter>
+ </defs>
+ <path transform="matrix(.84267 0 0 .84267 6.714 5.0498)" d="m5.6168 51.076 0.16196-22.388 33.042-15.858 15.387 9.095 0.14231 29.44-48.734-0.28978z" fill="none" filter="url(#a)" stroke="#3c586e" stroke-width=".1924"/>
+ <path transform="matrix(.84267 0 0 .84267 6.714 5.0498)" d="m38.983 14.23 14.578 8.6286 0.18977 27.615-14.443-0.09661-0.32395-36.147z" fill="none" filter="url(#a)" stroke="#3c586e" stroke-width=".1924"/>
+ <path transform="matrix(.84267 0 0 .84267 6.714 5.0498)" d="m6.4266 29.621 32.071-15.625 0.32395 36.437-32.718-0.28978 0.32395-20.522z" fill="none" filter="url(#a)" stroke="#3c586e" stroke-width=".1924"/>
+ <path transform="matrix(.84267 0 0 .84267 6.714 5.0498)" d="m7.1694 32.283 29.546-13.856v6.9961l-29.526 10.522-0.01975-3.663z" fill="#3465a4" fill-rule="evenodd" filter="url(#a)" stroke="#3c586e" stroke-width=".1924"/>
+ <path transform="matrix(.84267 0 0 .84267 6.714 5.0498)" d="m7.3788 39.484 28.527-8.2305v6.0633l-28.602 6.2965 0.07522-4.1294z" fill="#3465a4" fill-rule="evenodd" filter="url(#a)" stroke="#3c586e" stroke-width=".1924"/>
+ <path transform="matrix(.84267 0 0 .84267 6.714 5.0498)" d="m7.3985 45.945 0.04743 3.1 29.27-0.76792 0.16196-6.9961-29.479 4.6641z" fill="#3465a4" fill-rule="evenodd" filter="url(#a)" stroke="#3c586e" stroke-width=".1924"/>
+ <path transform="matrix(.84267 0 0 .84267 6.714 5.0498)" d="m8.5323 27.386 0.06709-2.2637 30.06-15.09 14.025 8.6286 0.06709 2.4286-14.092-8.2588-30.127 14.555z" fill="#204a87" fill-rule="evenodd" filter="url(#a)" stroke="#3c586e" stroke-width=".1924"/>
+ <path transform="matrix(.84267 0 0 .84267 6.714 5.0498)" d="m39.756 18.466 12.942 6.5136v4.947l-12.942-4.6172v-6.8434z" fill="#3465a4" fill-rule="evenodd" filter="url(#a)" stroke="#3c586e" stroke-width=".1924"/>
+ <path transform="matrix(.84267 0 0 .84267 6.714 5.0498)" d="m39.87 30.422 2e-6 6.2662 13.057 2.4735-0.11452-5.4417-12.942-3.298z" fill="#3465a4" fill-rule="evenodd" filter="url(#a)" stroke="#3c586e" stroke-width=".1924"/>
+ <path transform="matrix(.84267 0 0 .84267 6.714 5.0498)" d="m39.985 41.305 0.05729 6.6785 12.942-0.08247-0.05728-5.1119-12.942-1.4841z" fill="#3465a4" fill-rule="evenodd" filter="url(#a)" stroke="#3c586e" stroke-width=".1924"/>
+ <path transform="matrix(.84267 0 0 .84267 6.714 5.0498)" d="m4.2506 51.199h51.425v1.649h-51.425z" fill="#204a87" filter="url(#a)"/>
+</svg>

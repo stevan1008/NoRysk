@@ -1,0 +1,14 @@
+[
+    {"fgr_pk_id": "1", "fgr_desc": "Actividades no autorizadas"},
+    {"fgr_pk_id": "2", "fgr_desc": "Administración indebida de activos de información"},
+    {"fgr_pk_id": "3", "fgr_desc": "Asonadas"},
+    {"fgr_pk_id": "4", "fgr_desc": "Ausencia de documentación o documentación incompleta de los clientes"},
+    {"fgr_pk_id": "5", "fgr_desc": "Ausencia de documentación o documentación incompleta del proceso"},
+    {"fgr_pk_id": "6", "fgr_desc": "Desastres y otros eventos"},
+    {"fgr_pk_id": "7", "fgr_desc": "Discriminación"},
+    {"fgr_pk_id": "8", "fgr_desc": "Fallas de contrapartes comerciales"},
+    {"fgr_pk_id": "9", "fgr_desc": "Fallas de proveedores o servicios contratados"},
+    {"fgr_pk_id": "10", "fgr_desc": "Fallas en el diseño del proceso"},
+    {"fgr_pk_id": "11", "fgr_desc": "Fallas en la atención al cliente"},
+    {"fgr_pk_id": "12", "fgr_desc": "Fallas en la definición de los ADS"}
+]

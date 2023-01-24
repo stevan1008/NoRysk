@@ -1,0 +1,141 @@
+<div class="container">
+  <form [formGroup]="formulario">
+    <div *ngIf="cargandoFormulario">
+      <br/>
+
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <img width="200" src="assets/carga/cargando1.gif"/>
+          <br/>
+          <label class="monserrat-font fs-18">Cargando</label>
+        </div>
+      </div>
+
+      <br/><br/>
+    </div>
+
+    <div class="appear-effect" *ngIf="!cargandoFormulario">
+      <div class="row">
+        <div class="col-6">
+          <mat-form-field class="eighty-percent">
+            <mat-label>Misión de su compañía</mat-label>
+            <textarea matInput formControlName="mision" class="mision-title" rows="3" maxlength="1500" [readonly]="cargandoGuardado" (input)="revisarFormulario()"></textarea>
+            <mat-error *ngIf="f['mision'].hasError('required')">
+                    La misión es <strong>obligatoria</strong>
+                  </mat-error>
+          </mat-form-field>
+
+          <br>
+
+          <label class="h6 w-80 text-center mision-title">
+            Misión
+            &nbsp;
+            <span *ngIf="!f['mision'].valid"><i class="fas fa-times text-danger"></i></span>
+            <span *ngIf="f['mision'].valid"><i class="fas fa-check text-success"></i></span>
+          </label>
+        </div>
+
+        <div class="col-6 text-end">
+          <mat-form-field class="eighty-percent">
+            <mat-label>Visión de su compañía</mat-label>
+            <textarea matInput formControlName="vision" class="vision-title" rows="3" maxlength="1500" [readonly]="cargandoGuardado" (input)="revisarFormulario()"></textarea>
+            <mat-error *ngIf="f['vision'].hasError('required')">
+              La visión es <strong>obligatoria</strong>
+            </mat-error>
+          </mat-form-field>
+
+          <br>
+
+          <label class="h6 w-80 text-center vision-title">
+            Visión
+            &nbsp;
+            <span *ngIf="!f['vision'].valid"><i class="fas fa-times text-danger"></i></span>
+            <span *ngIf="f['vision'].valid"><i class="fas fa-check text-success"></i></span>
+          </label>
+        </div>
+      </div>
+
+      <br/><br/><br/>
+
+      <div class="w-100 text-center">
+        <img width="10%" class="cog-spinning pinon-azul" [ngClass]="{'visibility-hidden': !f['mision'].valid}" src="/assets/auxiliares/cog1-azul.svg">
+        <img width="13%" class="cog-spinning-inverse" src="/assets/auxiliares/cog1-company.svg">
+        <img width="10%" class="cog-spinning pinon-naranja" [ngClass]="{'visibility-hidden': !f['vision'].valid}" src="/assets/auxiliares/cog1-naranja.svg">
+
+        <img width="10%" class="company-icon" src="/assets/auxiliares/company.svg">
+      </div>
+
+      <div class="w-100 text-center">
+        <img width="10%" class="cog-spinning" src="/assets/auxiliares/cog1-verde.svg" style="margin-top: -0.6%"
+            [ngClass]="{'visibility-hidden': !objetivosCorrectos}">
+      </div>
+
+      <br/><br/>
+
+      <div class="row">
+        <div class="col-sm-3"></div>
+
+        <div class="col-sm-6 text-center">
+          <label class="h6 objetivos-title">
+            Objetivos
+            &nbsp;
+            <span *ngIf="!objetivosCorrectos"><i class="fas fa-times text-danger"></i></span>
+            <span *ngIf="objetivosCorrectos"><i class="fas fa-check text-success"></i></span>
+          </label>
+
+          <br>
+
+          <div *ngFor="let obj of objetivos; index as i">
+            <mat-form-field class="eighty-percent">
+              <mat-label> Objetivo #{{i + 1}}</mat-label>
+              <textarea matInput [(ngModel)]="objetivos[i].peo_objetivo" class="objetivos-title" maxlength="1500" (input)="gestionarActulizacionObjetivo(i); revisarFormulario()"
+                        [ngModelOptions]="{standalone:true}" [readonly]="obj.peo_borrado || cargandoGuardado" [ngClass]="{'text-line-through': obj.peo_borrado}"></textarea>
+            </mat-form-field>
+
+            <button class="btn bg-tomato text-light m-2 ms-3" (click)="borrarObjetivo(i)" *ngIf="!obj.peo_borrado" matTooltip="Borrar el objetivo">
+              <i class="fa-solid fa-trash"></i>
+            </button>
+
+            <button class="btn bg-syn-2 m-2 ms-3" (click)="restaurarObjetivo(i)" *ngIf="obj.peo_borrado" matTooltip="Restaurar el objetivo">
+              <i class="fa-solid fa-arrow-rotate-left"></i>
+            </button>
+          </div>
+
+          <br/>
+
+          <button mat-button color="primary" (click)="agregarObjetivo()" *ngIf="!cargandoGuardado">
+            <i class="fa-solid fa-plus"></i>&nbsp;&nbsp;Clic para agregar objetivo
+          </button>
+        </div>
+
+        <div class="col-sm-3"></div>
+      </div>
+
+      <br><hr><br>
+
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <button class="btn bg-syn-4 monserrat-font fw-bold" [disabled]="!formularioCorrecto || !accionesActivas"
+                  (click)="onSubmit()" *ngIf="idFormulario == null">
+            <i class="fa-solid fa-floppy-disk"></i>&nbsp;&nbsp;
+            <span *ngIf="!cargandoGuardado">Guardar</span>
+            <span *ngIf="cargandoGuardado">
+              Guardando&nbsp;&nbsp;<i class="fa-solid fa-spinner fa-xs taskbar-loading"></i>
+            </span>
+          </button>
+
+          <button class="btn bg-syn-2 monserrat-font fw-bold" [disabled]="!formularioCorrecto || !accionesActivas || !hayCambios"
+                  (click)="onUpdate()" *ngIf="idFormulario != null">
+            <i class="fa-solid fa-floppy-disk"></i>&nbsp;&nbsp;
+            <span *ngIf="!cargandoGuardado">Actualizar</span>
+            <span *ngIf="cargandoGuardado">
+              Actualizando&nbsp;&nbsp;<i class="fa-solid fa-spinner fa-xs taskbar-loading"></i>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+
+<app-error-conexion [identificador]="''"></app-error-conexion>

@@ -1,0 +1,265 @@
+<div class="container">
+  <form [formGroup]="formulario">
+    <!-- Carrgando -->
+    <div *ngIf="cargando">
+      <br/>
+
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <img width="200" src="assets/carga/cargando1.gif"/>
+          <br/>
+          <label class="monserrat-font fs-18">Cargando</label>
+        </div>
+      </div>
+
+      <br/><br/>
+    </div>
+
+    <div class="appear-effect-fast" *ngIf="!cargando">
+      <br/>
+
+      <div class="row">
+        <div class="col-12">
+          <button class="btn text-light" style="background-color: #8E44AD" (click)="exportarMapaProcesos()">
+            <span *ngIf="!exportando">
+              <i class="fa-regular fa-file-image"></i>&nbsp;&nbsp;
+              <label class="monserrat-font hand-cursor">Exportar mapa de procesos</label>
+            </span>
+
+            <span *ngIf="exportando">
+              <i class="fa-solid fa-spinner fa-xs taskbar-loading"></i>&nbsp;&nbsp;
+              <label class="monserrat-font hand-cursor">Exportando</label>
+            </span>
+          </button>
+
+          <mat-slide-toggle [(ngModel)]="ocultarControles" class="float-end" [color]="'primary'" [disabled]="guardando > 0 || guardandoGlobal"
+                            [ngModelOptions]="{standalone: true}">
+            <label class="monserrat-font">Ocultar controles</label>
+          </mat-slide-toggle>
+        </div>
+      </div>
+
+      <br/>
+
+      <div #mapaProcesos>
+        <!-- Estrategicos -->
+        <ng-container *ngTemplateOutlet="pHead; context: { data : {'title': 'Estratégicos', 'arrow': 'arrow-est', 'background': 'bg-syn-1'}}"></ng-container>
+        <ng-container *ngTemplateOutlet="pContent; context: { data : {'macroproceso': 'estrategicos', 'id': 1, 'model': estrategicos}}"></ng-container>
+
+        <br/>
+
+        <!-- Misionales -->
+        <ng-container *ngTemplateOutlet="pHead; context: { data : {'title': 'Misionales', 'arrow': 'arrow-mis', 'background': 'bg-syn-2'}}"></ng-container>
+        <ng-container *ngTemplateOutlet="pContent; context: { data : {'macroproceso': 'misionales', 'id': 2, 'model': misionales}}"></ng-container>
+
+        <br/>
+
+        <!-- Apoyo -->
+        <ng-container *ngTemplateOutlet="pHead; context: { data : {'title': 'Apoyo', 'arrow': 'arrow-apo', 'background': 'bg-syn-3'}}"></ng-container>
+        <ng-container *ngTemplateOutlet="pContent; context: { data : {'macroproceso': 'apoyo', 'id': 3, 'model': apoyo}}"></ng-container>
+
+        <br/>
+
+        <!-- Evaluacion y control -->
+        <ng-container *ngTemplateOutlet="pHead; context: { data : {'title': 'Evaluación y control', 'arrow': 'arrow-eva', 'background': 'bg-syn-4'}}"></ng-container>
+        <ng-container *ngTemplateOutlet="pContent; context: { data : {'macroproceso': 'evaluacion', 'id': 4, 'model': evaluacion}}"></ng-container>
+      </div>
+    </div>
+
+    <div *ngIf="persistenciaPendiente > 0">
+      <br/><br/>
+
+      <div class="row">
+        <div class="col-12 text-center">
+          <button class="btn bg-syn-4-alt text-light monserrat-font" (click)="onSubmitMasivoProceso()" [disabled]="!formularioCorrecto || !accionesActivas">
+            <i class="fa-solid fa-floppy-disk"></i>&nbsp;&nbsp;Guardar todo
+          </button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+
+<!-- Plantilla título del proceso -->
+<ng-template #pHead let-data="data">
+  <div class="row macroprocesos-title mt-4" *ngIf="!cargando">
+    <div class="col-12 text-center">
+      <label class="arrow-left" [class]="data.arrow"></label>
+      <label class="monserrat-font text-light fs-24 p-2" [class]="data.background">{{data.title}}</label>
+      <label class="arrow-right" [class]="data.arrow"></label>
+    </div>
+  </div>
+</ng-template>
+
+<!-- Plantilla contenido del proceso -->
+<ng-template #pContent let-data="data">
+  <div class="text-center rounded p-3" [class]="data.macroproceso" *ngIf="!cargando">
+    <div *ngIf="data.model.length === 0">
+      <br/>
+      <label class="monserrat-font text-light">No se han agregado procesos aún</label>
+    </div>
+
+    <span class="proceso camingo-code-font m-2 p-1 rounded hand-cursor appear-effect-fast d-inline-flex" *ngFor="let prc of data.model; index as i">
+      <!-- Guardar el proceso -->
+      <button class="btn text-light me-1" style="background-color: #239B56"
+              *ngIf="data.model[i].prc_pk_id === null && data.model[i].prc_nombre !== null && data.model[i].prc_nombre.trim() !== '' &&
+                     !data.model[i].prc_guardando && !guardandoGlobal && !ocultarControles"
+              (click)="onSubmitProceso(data.id, i)"
+              matTooltip="Crear el proceso" [matTooltipShowDelay]="500">
+        <i class="fa-solid fa-floppy-disk"></i>
+      </button>
+
+      <!-- Ver los subprocesos -->
+      <button class="btn text-light me-1" style="background-color: #5D6D7E" *ngIf="data.model[i].prc_pk_id !== null && !data.model[i].prc_guardando && !ocultarControles"
+              [ngClass]="{'bg-syn-4-alt': data.model[i].prc_asignado}" [disabled]="guardandoGlobal"
+              matTooltip="Ver los subprocesos" [matTooltipShowDelay]="500" data-bs-toggle="modal" data-bs-target="#subprocesosModal"
+              (click)="gestionarSeleccionProceso(data.id, i)">
+        <i class="fa-solid fa-boxes-stacked"></i>
+      </button>
+
+      <i class="fa-solid fa-spinner fa-xs taskbar-loading spinner ms-1 me-2"
+         *ngIf="data.model[i].prc_guardando || (guardandoGlobal && (data.model[i].prc_pk_id === null || data.model[i].prc_actualizado))"></i>
+
+      <!-- Actualizar el proceso -->
+      <button class="btn text-light me-1" style="background-color: #3498DB"
+              *ngIf="data.model[i].prc_pk_id !== null && data.model[i].prc_actualizado && data.model[i].prc_nombre !== null &&
+                     data.model[i].prc_nombre.trim() !== '' && !data.model[i].prc_guardando && !guardandoGlobal && !ocultarControles"
+              (click)="onUpdateProceso(data.id, i)"
+              matTooltip="Actualizar el proceso" [matTooltipShowDelay]="500">
+        <i class="fa-solid fa-floppy-disk"></i>
+      </button>
+
+      <input [(ngModel)]="data.model[i].prc_nombre" id="{{data.id}}-{{i}}" class="form-control text-center" type="text" maxlength="300" (input)="gestionarActualizacionProceso(data.id, i)"
+             placeholder="Nombre del proceso" oninput="this.size = +this.value.length === 0 ? 5 : this.value.length" [ngModelOptions]="{standalone: true}"
+             [disabled]="data.model[i].prc_guardando || guardandoGlobal || ocultarControles || (data.model[i].prc_pk_id !== null && gestionSedesAbierto)"
+             autocomplete="off"/>
+
+      <!-- Borrar el proceso -->
+      <button class="btn text-light bg-tomato ms-1" (click)="quitarProceso(data.id, i)" *ngIf="!data.model[i].conf_borrado && !ocultarControles && !gestionSedesAbierto"
+              [disabled]="guardando > 0 || guardandoGlobal || borrando" matTooltip="Borrar el proceso" [matTooltipShowDelay]="500">
+        <i class="fa-solid fa-trash"></i>
+      </button>
+
+      <!-- Confirmar borrado del proceso -->
+      <button class="btn text-light bg-danger ms-1 d-flex" (click)="onDeleteProceso(data.id, i)"
+              *ngIf="data.model[i].conf_borrado && !ocultarControles">
+        <i class="fa-solid fa-trash mt-1 me-1"></i><i class="fa-solid fa-question mt-1"></i>
+      </button>
+    </span>
+
+    <div *ngIf="!ocultarControles">
+      <br/><br/>
+
+      <div class="row">
+        <div class="col-12 text-center">
+          <button class="btn" style="background-color: #D6EAF8" (click)="agregarProceso(data.id)">
+            <i class="fa-solid fa-plus"></i>&nbsp;&nbsp;
+            <label class="monserrat-font hand-cursor">Agregar proceso</label>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-template>
+
+<!-- Subprocesos -->
+<div class="modal modal-lg fade" id="subprocesosModal" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false"  aria-labelledby="subprocesosModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content border border-secondary">
+      <div class="modal-header text-light" style="background-color: #34495E">
+        <label class="monserrat-font">
+          <i class="fa-solid fa-boxes-stacked"></i>
+          &nbsp;&nbsp;
+          Subprocesos del proceso "{{procesoSeleccionado.prc_nombre}}"
+        </label>
+
+        <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+        <div class="text-center p-2">
+          <!-- Carrgando -->
+          <div *ngIf="cargandoSpr">
+            <br/>
+
+            <div class="row">
+              <div class="col-sm-12 text-center">
+                <img width="200" src="assets/carga/cargando1.gif"/>
+                <br/>
+                <label class="monserrat-font fs-18">Cargando</label>
+              </div>
+            </div>
+
+            <br/><br/>
+          </div>
+
+          <div *ngIf="!cargandoSpr">
+            <div class="row" *ngIf="subprocesos.length == 0">
+              <div class="col-12 text-center">
+                <label class="monserrat-font">No se han agregado subprocesos aún</label>
+              </div>
+            </div>
+
+            <span class="proceso camingo-code-font m-2 p-1 rounded hand-cursor appear-effect-fast d-inline-flex" *ngFor="let spr of subprocesos; index as i">
+              <!-- Guardar el subproceso -->
+              <button class="btn text-light me-1" style="background-color: #239B56"
+                      *ngIf="subprocesos[i].spr_pk_id === null && subprocesos[i].spr_nombre !== null && subprocesos[i].spr_nombre.trim() !== '' &&
+                            !subprocesos[i].spr_guardando && !guardandoGlobalSpr"
+                      (click)="onSubmitSubproceso(i)"
+                      matTooltip="Crear el proceso" [matTooltipShowDelay]="500">
+                <i class="fa-solid fa-floppy-disk"></i>
+              </button>
+
+              <i class="fa-solid fa-spinner fa-xs taskbar-loading spinner ms-1 me-2"
+                 *ngIf="subprocesos[i].spr_guardando || (guardandoGlobalSpr && (subprocesos[i].spr_pk_id === null || subprocesos[i].spr_actualizado))"></i>
+
+              <!-- Actualizar el subproceso -->
+              <button class="btn text-light me-1" style="background-color: #3498DB"
+                      *ngIf="subprocesos[i].spr_pk_id !== null && subprocesos[i].spr_actualizado && subprocesos[i].spr_nombre !== null &&
+                            subprocesos[i].spr_nombre.trim() !== '' && !subprocesos[i].spr_guardando && !guardandoGlobalSpr"
+                      (click)="onUpdateSubproceso(i)"
+                      matTooltip="Actualizar el proceso" [matTooltipShowDelay]="500">
+                <i class="fa-solid fa-floppy-disk"></i>
+              </button>
+
+              <input [(ngModel)]="subprocesos[i].spr_nombre" id="spr-{{i}}" class="form-control text-center" type="text" maxlength="300" style="min-width: 250px" (input)="gestionarActualizacionSubproceso(i)"
+                    placeholder="Nombre del subproceso" oninput="this.size = +this.value.length === 0 ? 5 : this.value.length" [ngModelOptions]="{standalone: true}"
+                    [disabled]="subprocesos[i].spr_guardando"
+                    autocomplete="off"/>
+
+              <!-- Borrar el subproceso -->
+              <button class="btn text-light bg-tomato ms-1" (click)="quitarSubproceso(i)" *ngIf="!subprocesos[i].conf_borrado"
+                      [disabled]="guardandoSpr > 0 || guardandoGlobalSpr || borrandoSpr" matTooltip="Borrar el proceso" [matTooltipShowDelay]="500">
+                <i class="fa-solid fa-trash"></i>
+              </button>
+
+              <!-- Confirmar borrado del subproceso -->
+              <button class="btn text-light bg-danger ms-1 d-flex" (click)="onDeleteSubproceso(i)"
+                      *ngIf="subprocesos[i].conf_borrado && !ocultarControles">
+                <i class="fa-solid fa-trash mt-1 me-1"></i><i class="fa-solid fa-question mt-1"></i>
+              </button>
+            </span>
+
+            <br/><br/>
+
+            <div class="row">
+              <div class="col-12 text-center">
+                <button class="btn m-2" style="background-color: #D6EAF8" (click)="agregarSubproceso()">
+                  <i class="fa-solid fa-plus"></i>&nbsp;&nbsp;
+                  <label class="monserrat-font hand-cursor">Agregar subproceso</label>
+                </button>
+
+                <button class="btn m-2 bg-syn-4-alt text-light monserrat-font" (click)="onSubmitMasivoSubproceso()" [disabled]="!formularioSprCorrecto || !accionesActivas"
+                        *ngIf="persistenciaSprPendiente > 0">
+                  <i class="fa-solid fa-floppy-disk"></i>&nbsp;&nbsp;Guardar todo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-error-conexion id="errcon" [identificador]="''"></app-error-conexion>

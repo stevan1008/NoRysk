@@ -1,0 +1,9 @@
+[
+    {"clr_pk_id": "1", "clr_desc": "Continuidad de negocio", "clr_tooltip": "Riesgos de incurrir en pérdidas por eventos de personas, procesos y/o tecnología, que puedan afectar la disponibilidad de los procesos o información."},
+    {"clr_pk_id": "2", "clr_desc": "Estratégico", "clr_tooltip": "Riesgos de reducción del crecimiento y de incumplimiento de los objetivos empresariales, por la incapacidad de respuesta ante un entorno competitivo dinámico."},
+    {"clr_pk_id": "3", "clr_desc": "Financiero", "clr_tooltip": "Riesgos derivados de fluctuaciones adversas en las variables financieras que afecten al resultado de la empresa."},
+    {"clr_pk_id": "4", "clr_desc": "Información", "clr_tooltip": "Riesgos de incurrir en pérdidas por deficiencias, fallas o inadecuaciones en el manejo adecuado de la información."},
+    {"clr_pk_id": "5", "clr_desc": "Legal", "clr_tooltip": "Riesgos de incurrir en pérdidas por deficiencias, fallas o inadecuaciones en el manejo adecuado de la información."},
+    {"clr_pk_id": "6", "clr_desc": "Operativo", "clr_tooltip": "Riesgos de incurrir en pérdidas por deficiencias, fallas o inadecuaciones en el recurso humano, los procesos, la tecnología, la infraestructura o por la ocurrencia de eventos externos."},
+    {"clr_pk_id": "7", "clr_desc": "Reputacional", "clr_tooltip": "Riesgos asociados a mala imagen, publicidad negativa, cierta o no, respecto a la compañía y sus prácticas de negocio, que cause pérdida de clientes y/o disminución de ingresos."}
+]

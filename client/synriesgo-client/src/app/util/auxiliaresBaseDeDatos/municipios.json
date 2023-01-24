@@ -1,0 +1,5612 @@
+[
+  {
+    "mun_pk_id": 5002,
+    "dep_fk_id": 5,
+    "mun_nombre": "Abejorral"
+  },
+  {
+    "mun_pk_id": 41006,
+    "dep_fk_id": 41,
+    "mun_nombre": "Acevedo"
+  },
+  {
+    "mun_pk_id": 41013,
+    "dep_fk_id": 41,
+    "mun_nombre": "Agrado"
+  },
+  {
+    "mun_pk_id": 76243,
+    "dep_fk_id": 76,
+    "mun_nombre": "El Águila"
+  },
+  {
+    "mun_pk_id": 20011,
+    "dep_fk_id": 20,
+    "mun_nombre": "Aguachica"
+  },
+  {
+    "mun_pk_id": 68013,
+    "dep_fk_id": 68,
+    "mun_nombre": "Aguada"
+  },
+  {
+    "mun_pk_id": 17013,
+    "dep_fk_id": 17,
+    "mun_nombre": "Aguadas"
+  },
+  {
+    "mun_pk_id": 85010,
+    "dep_fk_id": 85,
+    "mun_nombre": "Aguazul"
+  },
+  {
+    "mun_pk_id": 15720,
+    "dep_fk_id": 15,
+    "mun_nombre": "Sativanorte"
+  },
+  {
+    "mun_pk_id": 41016,
+    "dep_fk_id": 41,
+    "mun_nombre": "Aipe"
+  },
+  {
+    "mun_pk_id": 44035,
+    "dep_fk_id": 44,
+    "mun_nombre": "Albania"
+  },
+  {
+    "mun_pk_id": 68020,
+    "dep_fk_id": 68,
+    "mun_nombre": "Albania"
+  },
+  {
+    "mun_pk_id": 47030,
+    "dep_fk_id": 47,
+    "mun_nombre": "Algarrobo"
+  },
+  {
+    "mun_pk_id": 41020,
+    "dep_fk_id": 41,
+    "mun_nombre": "Algeciras"
+  },
+  {
+    "mun_pk_id": 19022,
+    "dep_fk_id": 19,
+    "mun_nombre": "Almaguer"
+  },
+  {
+    "mun_pk_id": 73024,
+    "dep_fk_id": 73,
+    "mun_nombre": "Alpujarra"
+  },
+  {
+    "mun_pk_id": 41026,
+    "dep_fk_id": 41,
+    "mun_nombre": "Altamira"
+  },
+  {
+    "mun_pk_id": 5665,
+    "dep_fk_id": 5,
+    "mun_nombre": "San Pedro de Urabá"
+  },
+  {
+    "mun_pk_id": 52788,
+    "dep_fk_id": 52,
+    "mun_nombre": "Tangua"
+  },
+  {
+    "mun_pk_id": 73026,
+    "dep_fk_id": 73,
+    "mun_nombre": "Alvarado"
+  },
+  {
+    "mun_pk_id": 5031,
+    "dep_fk_id": 5,
+    "mun_nombre": "Amalfi"
+  },
+  {
+    "mun_pk_id": 73030,
+    "dep_fk_id": 73,
+    "mun_nombre": "Ambalema"
+  },
+  {
+    "mun_pk_id": 25035,
+    "dep_fk_id": 25,
+    "mun_nombre": "Anapoima"
+  },
+  {
+    "mun_pk_id": 5034,
+    "dep_fk_id": 5,
+    "mun_nombre": "Andes"
+  },
+  {
+    "mun_pk_id": 5038,
+    "dep_fk_id": 5,
+    "mun_nombre": "Angostura"
+  },
+  {
+    "mun_pk_id": 25040,
+    "dep_fk_id": 25,
+    "mun_nombre": "Anolaima"
+  },
+  {
+    "mun_pk_id": 17042,
+    "dep_fk_id": 17,
+    "mun_nombre": "Anserma"
+  },
+  {
+    "mun_pk_id": 76041,
+    "dep_fk_id": 76,
+    "mun_nombre": "Ansermanuevo"
+  },
+  {
+    "mun_pk_id": 25599,
+    "dep_fk_id": 25,
+    "mun_nombre": "Apulo"
+  },
+  {
+    "mun_pk_id": 47053,
+    "dep_fk_id": 47,
+    "mun_nombre": "Aracataca"
+  },
+  {
+    "mun_pk_id": 17050,
+    "dep_fk_id": 17,
+    "mun_nombre": "Aranzazu"
+  },
+  {
+    "mun_pk_id": 68051,
+    "dep_fk_id": 68,
+    "mun_nombre": "Aratoca"
+  },
+  {
+    "mun_pk_id": 81001,
+    "dep_fk_id": 81,
+    "mun_nombre": "Arauca"
+  },
+  {
+    "mun_pk_id": 81065,
+    "dep_fk_id": 81,
+    "mun_nombre": "Arauquita"
+  },
+  {
+    "mun_pk_id": 54051,
+    "dep_fk_id": 54,
+    "mun_nombre": "Arboledas"
+  },
+  {
+    "mun_pk_id": 5051,
+    "dep_fk_id": 5,
+    "mun_nombre": "Arboletes"
+  },
+  {
+    "mun_pk_id": 5055,
+    "dep_fk_id": 5,
+    "mun_nombre": "Argelia"
+  },
+  {
+    "mun_pk_id": 19050,
+    "dep_fk_id": 19,
+    "mun_nombre": "Argelia"
+  },
+  {
+    "mun_pk_id": 76054,
+    "dep_fk_id": 76,
+    "mun_nombre": "Argelia"
+  },
+  {
+    "mun_pk_id": 5059,
+    "dep_fk_id": 5,
+    "mun_nombre": "Armenia"
+  },
+  {
+    "mun_pk_id": 63001,
+    "dep_fk_id": 63,
+    "mun_nombre": "Armenia"
+  },
+  {
+    "mun_pk_id": 52435,
+    "dep_fk_id": 52,
+    "mun_nombre": "Mallama"
+  },
+  {
+    "mun_pk_id": 20032,
+    "dep_fk_id": 20,
+    "mun_nombre": "Astrea"
+  },
+  {
+    "mun_pk_id": 73067,
+    "dep_fk_id": 73,
+    "mun_nombre": "Ataco"
+  },
+  {
+    "mun_pk_id": 27787,
+    "dep_fk_id": 27,
+    "mun_nombre": "Tadó"
+  },
+  {
+    "mun_pk_id": 15755,
+    "dep_fk_id": 15,
+    "mun_nombre": "Socotá"
+  },
+  {
+    "mun_pk_id": 19075,
+    "dep_fk_id": 19,
+    "mun_nombre": "Balboa"
+  },
+  {
+    "mun_pk_id": 66075,
+    "dep_fk_id": 66,
+    "mun_nombre": "Balboa"
+  },
+  {
+    "mun_pk_id": 41078,
+    "dep_fk_id": 41,
+    "mun_nombre": "Baraya"
+  },
+  {
+    "mun_pk_id": 15690,
+    "dep_fk_id": 15,
+    "mun_nombre": "Santa María"
+  },
+  {
+    "mun_pk_id": 18479,
+    "dep_fk_id": 18,
+    "mun_nombre": "Morelia"
+  },
+  {
+    "mun_pk_id": 18256,
+    "dep_fk_id": 18,
+    "mun_nombre": "El Paujíl"
+  },
+  {
+    "mun_pk_id": 15097,
+    "dep_fk_id": 15,
+    "mun_nombre": "Boavita"
+  },
+  {
+    "mun_pk_id": 15104,
+    "dep_fk_id": 15,
+    "mun_nombre": "Boyacá"
+  },
+  {
+    "mun_pk_id": 15762,
+    "dep_fk_id": 15,
+    "mun_nombre": "Sora"
+  },
+  {
+    "mun_pk_id": 15776,
+    "dep_fk_id": 15,
+    "mun_nombre": "Sutamarchán"
+  },
+  {
+    "mun_pk_id": 47720,
+    "dep_fk_id": 47,
+    "mun_nombre": "Santa Bárbara de Pinto"
+  },
+  {
+    "mun_pk_id": 13655,
+    "dep_fk_id": 13,
+    "mun_nombre": "San Jacinto del Cauca"
+  },
+  {
+    "mun_pk_id": 15296,
+    "dep_fk_id": 15,
+    "mun_nombre": "Gámeza"
+  },
+  {
+    "mun_pk_id": 27745,
+    "dep_fk_id": 27,
+    "mun_nombre": "Sipí"
+  },
+  {
+    "mun_pk_id": 17873,
+    "dep_fk_id": 17,
+    "mun_nombre": "Villamaría"
+  },
+  {
+    "mun_pk_id": 5658,
+    "dep_fk_id": 5,
+    "mun_nombre": "San José la Montaña"
+  },
+  {
+    "mun_pk_id": 18756,
+    "dep_fk_id": 18,
+    "mun_nombre": "Solano"
+  },
+  {
+    "mun_pk_id": 5647,
+    "dep_fk_id": 5,
+    "mun_nombre": "San Andrés de Cuerquía"
+  },
+  {
+    "mun_pk_id": 20443,
+    "dep_fk_id": 20,
+    "mun_nombre": "Manaure Balcón del Cesar"
+  },
+  {
+    "mun_pk_id": 17088,
+    "dep_fk_id": 17,
+    "mun_nombre": "Belalcázar"
+  },
+  {
+    "mun_pk_id": 52215,
+    "dep_fk_id": 52,
+    "mun_nombre": "Córdoba"
+  },
+  {
+    "mun_pk_id": 18029,
+    "dep_fk_id": 18,
+    "mun_nombre": "Albania"
+  },
+  {
+    "mun_pk_id": 70670,
+    "dep_fk_id": 70,
+    "mun_nombre": "Sampués"
+  },
+  {
+    "mun_pk_id": 47268,
+    "dep_fk_id": 47,
+    "mun_nombre": "El Retén"
+  },
+  {
+    "mun_pk_id": 23682,
+    "dep_fk_id": 23,
+    "mun_nombre": "San José de Uré"
+  },
+  {
+    "mun_pk_id": 19418,
+    "dep_fk_id": 19,
+    "mun_nombre": "López de Micay"
+  },
+  {
+    "mun_pk_id": 54810,
+    "dep_fk_id": 54,
+    "mun_nombre": "Tibú"
+  },
+  {
+    "mun_pk_id": 15514,
+    "dep_fk_id": 15,
+    "mun_nombre": "Páez"
+  },
+  {
+    "mun_pk_id": 13430,
+    "dep_fk_id": 13,
+    "mun_nombre": "Magangué"
+  },
+  {
+    "mun_pk_id": 68229,
+    "dep_fk_id": 68,
+    "mun_nombre": "Curití"
+  },
+  {
+    "mun_pk_id": 99624,
+    "dep_fk_id": 99,
+    "mun_nombre": "Santa Rosalía"
+  },
+  {
+    "mun_pk_id": 97666,
+    "dep_fk_id": 97,
+    "mun_nombre": "Taraira"
+  },
+  {
+    "mun_pk_id": 47288,
+    "dep_fk_id": 47,
+    "mun_nombre": "Fundación"
+  },
+  {
+    "mun_pk_id": 54174,
+    "dep_fk_id": 54,
+    "mun_nombre": "Chitagá"
+  },
+  {
+    "mun_pk_id": 5079,
+    "dep_fk_id": 5,
+    "mun_nombre": "Barbosa"
+  },
+  {
+    "mun_pk_id": 68077,
+    "dep_fk_id": 68,
+    "mun_nombre": "Barbosa"
+  },
+  {
+    "mun_pk_id": 68079,
+    "dep_fk_id": 68,
+    "mun_nombre": "Barichara"
+  },
+  {
+    "mun_pk_id": 73001,
+    "dep_fk_id": 73,
+    "mun_nombre": "Ibagué"
+  },
+  {
+    "mun_pk_id": 68081,
+    "dep_fk_id": 68,
+    "mun_nombre": "Barrancabermeja"
+  },
+  {
+    "mun_pk_id": 44078,
+    "dep_fk_id": 44,
+    "mun_nombre": "Barrancas"
+  },
+  {
+    "mun_pk_id": 23300,
+    "dep_fk_id": 23,
+    "mun_nombre": "Cotorra"
+  },
+  {
+    "mun_pk_id": 8758,
+    "dep_fk_id": 8,
+    "mun_nombre": "Soledad"
+  },
+  {
+    "mun_pk_id": 20045,
+    "dep_fk_id": 20,
+    "mun_nombre": "Becerril"
+  },
+  {
+    "mun_pk_id": 5172,
+    "dep_fk_id": 5,
+    "mun_nombre": "Chigorodó"
+  },
+  {
+    "mun_pk_id": 15814,
+    "dep_fk_id": 15,
+    "mun_nombre": "Toca"
+  },
+  {
+    "mun_pk_id": 5088,
+    "dep_fk_id": 5,
+    "mun_nombre": "Bello"
+  },
+  {
+    "mun_pk_id": 5086,
+    "dep_fk_id": 5,
+    "mun_nombre": "Belmira"
+  },
+  {
+    "mun_pk_id": 5091,
+    "dep_fk_id": 5,
+    "mun_nombre": "Betania"
+  },
+  {
+    "mun_pk_id": 5093,
+    "dep_fk_id": 5,
+    "mun_nombre": "Betulia"
+  },
+  {
+    "mun_pk_id": 68092,
+    "dep_fk_id": 68,
+    "mun_nombre": "Betulia"
+  },
+  {
+    "mun_pk_id": 25095,
+    "dep_fk_id": 25,
+    "mun_nombre": "Bituima"
+  },
+  {
+    "mun_pk_id": 54099,
+    "dep_fk_id": 54,
+    "mun_nombre": "Bochalema"
+  },
+  {
+    "mun_pk_id": 85315,
+    "dep_fk_id": 85,
+    "mun_nombre": "Sácama"
+  },
+  {
+    "mun_pk_id": 20060,
+    "dep_fk_id": 20,
+    "mun_nombre": "Bosconia"
+  },
+  {
+    "mun_pk_id": 68001,
+    "dep_fk_id": 68,
+    "mun_nombre": "Bucaramanga"
+  },
+  {
+    "mun_pk_id": 54109,
+    "dep_fk_id": 54,
+    "mun_nombre": "Bucarasica"
+  },
+  {
+    "mun_pk_id": 76109,
+    "dep_fk_id": 76,
+    "mun_nombre": "Buenaventura"
+  },
+  {
+    "mun_pk_id": 63111,
+    "dep_fk_id": 63,
+    "mun_nombre": "Buenavista"
+  },
+  {
+    "mun_pk_id": 70110,
+    "dep_fk_id": 70,
+    "mun_nombre": "Buenavista"
+  },
+  {
+    "mun_pk_id": 27245,
+    "dep_fk_id": 27,
+    "mun_nombre": "El Carmen de Atrato"
+  },
+  {
+    "mun_pk_id": 76113,
+    "dep_fk_id": 76,
+    "mun_nombre": "Bugalagrande"
+  },
+  {
+    "mun_pk_id": 25120,
+    "dep_fk_id": 25,
+    "mun_nombre": "Cabrera"
+  },
+  {
+    "mun_pk_id": 68121,
+    "dep_fk_id": 68,
+    "mun_nombre": "Cabrera"
+  },
+  {
+    "mun_pk_id": 50124,
+    "dep_fk_id": 50,
+    "mun_nombre": "Cabuyaro"
+  },
+  {
+    "mun_pk_id": 25123,
+    "dep_fk_id": 25,
+    "mun_nombre": "Cachipay"
+  },
+  {
+    "mun_pk_id": 5125,
+    "dep_fk_id": 5,
+    "mun_nombre": "Caicedo"
+  },
+  {
+    "mun_pk_id": 76122,
+    "dep_fk_id": 76,
+    "mun_nombre": "Caicedonia"
+  },
+  {
+    "mun_pk_id": 70124,
+    "dep_fk_id": 70,
+    "mun_nombre": "Caimito"
+  },
+  {
+    "mun_pk_id": 73124,
+    "dep_fk_id": 73,
+    "mun_nombre": "Cajamarca"
+  },
+  {
+    "mun_pk_id": 95015,
+    "dep_fk_id": 95,
+    "mun_nombre": "Calamar"
+  },
+  {
+    "mun_pk_id": 5129,
+    "dep_fk_id": 5,
+    "mun_nombre": "Caldas"
+  },
+  {
+    "mun_pk_id": 19137,
+    "dep_fk_id": 19,
+    "mun_nombre": "Caldono"
+  },
+  {
+    "mun_pk_id": 76001,
+    "dep_fk_id": 76,
+    "mun_nombre": "Cali"
+  },
+  {
+    "mun_pk_id": 68132,
+    "dep_fk_id": 68,
+    "mun_nombre": "California"
+  },
+  {
+    "mun_pk_id": 76126,
+    "dep_fk_id": 76,
+    "mun_nombre": "Calima"
+  },
+  {
+    "mun_pk_id": 19142,
+    "dep_fk_id": 19,
+    "mun_nombre": "Caloto"
+  },
+  {
+    "mun_pk_id": 5134,
+    "dep_fk_id": 5,
+    "mun_nombre": "Campamento"
+  },
+  {
+    "mun_pk_id": 15740,
+    "dep_fk_id": 15,
+    "mun_nombre": "Siachoque"
+  },
+  {
+    "mun_pk_id": 41132,
+    "dep_fk_id": 41,
+    "mun_nombre": "Campoalegre"
+  },
+  {
+    "mun_pk_id": 76130,
+    "dep_fk_id": 76,
+    "mun_nombre": "Candelaria"
+  },
+  {
+    "mun_pk_id": 52352,
+    "dep_fk_id": 52,
+    "mun_nombre": "Iles"
+  },
+  {
+    "mun_pk_id": 68147,
+    "dep_fk_id": 68,
+    "mun_nombre": "Capitanejo"
+  },
+  {
+    "mun_pk_id": 5145,
+    "dep_fk_id": 5,
+    "mun_nombre": "Caramanta"
+  },
+  {
+    "mun_pk_id": 5147,
+    "dep_fk_id": 5,
+    "mun_nombre": "Carepa"
+  },
+  {
+    "mun_pk_id": 68101,
+    "dep_fk_id": 68,
+    "mun_nombre": "Bolívar"
+  },
+  {
+    "mun_pk_id": 5197,
+    "dep_fk_id": 5,
+    "mun_nombre": "Cocorná"
+  },
+  {
+    "mun_pk_id": 27077,
+    "dep_fk_id": 27,
+    "mun_nombre": "Bajo Baudó"
+  },
+  {
+    "mun_pk_id": 5150,
+    "dep_fk_id": 5,
+    "mun_nombre": "Carolina"
+  },
+  {
+    "mun_pk_id": 76100,
+    "dep_fk_id": 76,
+    "mun_nombre": "Bolívar"
+  },
+  {
+    "mun_pk_id": 15638,
+    "dep_fk_id": 15,
+    "mun_nombre": "Sáchica"
+  },
+  {
+    "mun_pk_id": 76147,
+    "dep_fk_id": 76,
+    "mun_nombre": "Cartago"
+  },
+  {
+    "mun_pk_id": 73152,
+    "dep_fk_id": 73,
+    "mun_nombre": "Casabianca"
+  },
+  {
+    "mun_pk_id": 19780,
+    "dep_fk_id": 19,
+    "mun_nombre": "Suárez"
+  },
+  {
+    "mun_pk_id": 5154,
+    "dep_fk_id": 5,
+    "mun_nombre": "Caucasia"
+  },
+  {
+    "mun_pk_id": 68162,
+    "dep_fk_id": 68,
+    "mun_nombre": "Cerrito"
+  },
+  {
+    "mun_pk_id": 52051,
+    "dep_fk_id": 52,
+    "mun_nombre": "Arboleda"
+  },
+  {
+    "mun_pk_id": 73168,
+    "dep_fk_id": 73,
+    "mun_nombre": "Chaparral"
+  },
+  {
+    "mun_pk_id": 68169,
+    "dep_fk_id": 68,
+    "mun_nombre": "Charta"
+  },
+  {
+    "mun_pk_id": 68176,
+    "dep_fk_id": 68,
+    "mun_nombre": "Chima"
+  },
+  {
+    "mun_pk_id": 20175,
+    "dep_fk_id": 20,
+    "mun_nombre": "Chimichagua"
+  },
+  {
+    "mun_pk_id": 25178,
+    "dep_fk_id": 25,
+    "mun_nombre": "Chipaque"
+  },
+  {
+    "mun_pk_id": 47170,
+    "dep_fk_id": 47,
+    "mun_nombre": "Chivolo"
+  },
+  {
+    "mun_pk_id": 13458,
+    "dep_fk_id": 13,
+    "mun_nombre": "Montecristo"
+  },
+  {
+    "mun_pk_id": 68190,
+    "dep_fk_id": 68,
+    "mun_nombre": "Cimitarra"
+  },
+  {
+    "mun_pk_id": 63190,
+    "dep_fk_id": 63,
+    "mun_nombre": "Circasia"
+  },
+  {
+    "mun_pk_id": 5190,
+    "dep_fk_id": 5,
+    "mun_nombre": "Cisneros"
+  },
+  {
+    "mun_pk_id": 41807,
+    "dep_fk_id": 41,
+    "mun_nombre": "Timaná"
+  },
+  {
+    "mun_pk_id": 73200,
+    "dep_fk_id": 73,
+    "mun_nombre": "Coello"
+  },
+  {
+    "mun_pk_id": 25200,
+    "dep_fk_id": 25,
+    "mun_nombre": "Cogua"
+  },
+  {
+    "mun_pk_id": 41206,
+    "dep_fk_id": 41,
+    "mun_nombre": "Colombia"
+  },
+  {
+    "mun_pk_id": 70204,
+    "dep_fk_id": 70,
+    "mun_nombre": "Coloso"
+  },
+  {
+    "mun_pk_id": 5209,
+    "dep_fk_id": 5,
+    "mun_nombre": "Concordia"
+  },
+  {
+    "mun_pk_id": 47205,
+    "dep_fk_id": 47,
+    "mun_nombre": "Concordia"
+  },
+  {
+    "mun_pk_id": 68209,
+    "dep_fk_id": 68,
+    "mun_nombre": "Confines"
+  },
+  {
+    "mun_pk_id": 27615,
+    "dep_fk_id": 27,
+    "mun_nombre": "Riosucio"
+  },
+  {
+    "mun_pk_id": 5212,
+    "dep_fk_id": 5,
+    "mun_nombre": "Copacabana"
+  },
+  {
+    "mun_pk_id": 19212,
+    "dep_fk_id": 19,
+    "mun_nombre": "Corinto"
+  },
+  {
+    "mun_pk_id": 68217,
+    "dep_fk_id": 68,
+    "mun_nombre": "Coromoro"
+  },
+  {
+    "mun_pk_id": 70215,
+    "dep_fk_id": 70,
+    "mun_nombre": "Corozal"
+  },
+  {
+    "mun_pk_id": 25214,
+    "dep_fk_id": 25,
+    "mun_nombre": "Cota"
+  },
+  {
+    "mun_pk_id": 73217,
+    "dep_fk_id": 73,
+    "mun_nombre": "Coyaima"
+  },
+  {
+    "mun_pk_id": 85139,
+    "dep_fk_id": 85,
+    "mun_nombre": "Maní"
+  },
+  {
+    "mun_pk_id": 54223,
+    "dep_fk_id": 54,
+    "mun_nombre": "Cucutilla"
+  },
+  {
+    "mun_pk_id": 50226,
+    "dep_fk_id": 50,
+    "mun_nombre": "Cumaral"
+  },
+  {
+    "mun_pk_id": 99773,
+    "dep_fk_id": 99,
+    "mun_nombre": "Cumaribo"
+  },
+  {
+    "mun_pk_id": 73226,
+    "dep_fk_id": 73,
+    "mun_nombre": "Cunday"
+  },
+  {
+    "mun_pk_id": 5234,
+    "dep_fk_id": 5,
+    "mun_nombre": "Dabeiba"
+  },
+  {
+    "mun_pk_id": 76233,
+    "dep_fk_id": 76,
+    "mun_nombre": "Dagua"
+  },
+  {
+    "mun_pk_id": 44090,
+    "dep_fk_id": 44,
+    "mun_nombre": "Dibulla"
+  },
+  {
+    "mun_pk_id": 73236,
+    "dep_fk_id": 73,
+    "mun_nombre": "Dolores"
+  },
+  {
+    "mun_pk_id": 66170,
+    "dep_fk_id": 66,
+    "mun_nombre": "Dosquebradas"
+  },
+  {
+    "mun_pk_id": 54239,
+    "dep_fk_id": 54,
+    "mun_nombre": "Durania"
+  },
+  {
+    "mun_pk_id": 15686,
+    "dep_fk_id": 15,
+    "mun_nombre": "Santana"
+  },
+  {
+    "mun_pk_id": 5809,
+    "dep_fk_id": 5,
+    "mun_nombre": "Titiribí"
+  },
+  {
+    "mun_pk_id": 15464,
+    "dep_fk_id": 15,
+    "mun_nombre": "Mongua"
+  },
+  {
+    "mun_pk_id": 5885,
+    "dep_fk_id": 5,
+    "mun_nombre": "Yalí"
+  },
+  {
+    "mun_pk_id": 5858,
+    "dep_fk_id": 5,
+    "mun_nombre": "Vegachí"
+  },
+  {
+    "mun_pk_id": 23570,
+    "dep_fk_id": 23,
+    "mun_nombre": "Pueblo Nuevo"
+  },
+  {
+    "mun_pk_id": 52835,
+    "dep_fk_id": 52,
+    "mun_nombre": "San Andrés de Tumaco"
+  },
+  {
+    "mun_pk_id": 5364,
+    "dep_fk_id": 5,
+    "mun_nombre": "Jardín"
+  },
+  {
+    "mun_pk_id": 25053,
+    "dep_fk_id": 25,
+    "mun_nombre": "Arbeláez"
+  },
+  {
+    "mun_pk_id": 76616,
+    "dep_fk_id": 76,
+    "mun_nombre": "Riofrío"
+  },
+  {
+    "mun_pk_id": 25871,
+    "dep_fk_id": 25,
+    "mun_nombre": "Villagómez"
+  },
+  {
+    "mun_pk_id": 25777,
+    "dep_fk_id": 25,
+    "mun_nombre": "Supatá"
+  },
+  {
+    "mun_pk_id": 13673,
+    "dep_fk_id": 13,
+    "mun_nombre": "Santa Catalina"
+  },
+  {
+    "mun_pk_id": 5480,
+    "dep_fk_id": 5,
+    "mun_nombre": "Mutatá"
+  },
+  {
+    "mun_pk_id": 68324,
+    "dep_fk_id": 68,
+    "mun_nombre": "Guavatá"
+  },
+  {
+    "mun_pk_id": 25269,
+    "dep_fk_id": 25,
+    "mun_nombre": "Facatativá"
+  },
+  {
+    "mun_pk_id": 18592,
+    "dep_fk_id": 18,
+    "mun_nombre": "Puerto Rico"
+  },
+  {
+    "mun_pk_id": 27491,
+    "dep_fk_id": 27,
+    "mun_nombre": "Nóvita"
+  },
+  {
+    "mun_pk_id": 8436,
+    "dep_fk_id": 8,
+    "mun_nombre": "Manatí"
+  },
+  {
+    "mun_pk_id": 52480,
+    "dep_fk_id": 52,
+    "mun_nombre": "Nariño"
+  },
+  {
+    "mun_pk_id": 15693,
+    "dep_fk_id": 15,
+    "mun_nombre": "Santa Rosa de Viterbo"
+  },
+  {
+    "mun_pk_id": 13006,
+    "dep_fk_id": 13,
+    "mun_nombre": "Achí"
+  },
+  {
+    "mun_pk_id": 52560,
+    "dep_fk_id": 52,
+    "mun_nombre": "Potosí"
+  },
+  {
+    "mun_pk_id": 5679,
+    "dep_fk_id": 5,
+    "mun_nombre": "Santa Bárbara"
+  },
+  {
+    "mun_pk_id": 27073,
+    "dep_fk_id": 27,
+    "mun_nombre": "Bagadó"
+  },
+  {
+    "mun_pk_id": 15759,
+    "dep_fk_id": 15,
+    "mun_nombre": "Sogamoso"
+  },
+  {
+    "mun_pk_id": 5264,
+    "dep_fk_id": 5,
+    "mun_nombre": "Entrerríos"
+  },
+  {
+    "mun_pk_id": 15185,
+    "dep_fk_id": 15,
+    "mun_nombre": "Chitaraque"
+  },
+  {
+    "mun_pk_id": 13160,
+    "dep_fk_id": 13,
+    "mun_nombre": "Cantagallo"
+  },
+  {
+    "mun_pk_id": 15790,
+    "dep_fk_id": 15,
+    "mun_nombre": "Tasco"
+  },
+  {
+    "mun_pk_id": 52256,
+    "dep_fk_id": 52,
+    "mun_nombre": "El Rosario"
+  },
+  {
+    "mun_pk_id": 68235,
+    "dep_fk_id": 68,
+    "mun_nombre": "El Carmen de Chucurí"
+  },
+  {
+    "mun_pk_id": 66045,
+    "dep_fk_id": 66,
+    "mun_nombre": "Apía"
+  },
+  {
+    "mun_pk_id": 52786,
+    "dep_fk_id": 52,
+    "mun_nombre": "Taminango"
+  },
+  {
+    "mun_pk_id": 68720,
+    "dep_fk_id": 68,
+    "mun_nombre": "Santa Helena del Opón"
+  },
+  {
+    "mun_pk_id": 52320,
+    "dep_fk_id": 52,
+    "mun_nombre": "Guaitarilla"
+  },
+  {
+    "mun_pk_id": 25151,
+    "dep_fk_id": 25,
+    "mun_nombre": "Cáqueza"
+  },
+  {
+    "mun_pk_id": 8573,
+    "dep_fk_id": 8,
+    "mun_nombre": "Puerto Colombia"
+  },
+  {
+    "mun_pk_id": 15276,
+    "dep_fk_id": 15,
+    "mun_nombre": "Floresta"
+  },
+  {
+    "mun_pk_id": 94663,
+    "dep_fk_id": 94,
+    "mun_nombre": "Mapiripana"
+  },
+  {
+    "mun_pk_id": 15248,
+    "dep_fk_id": 15,
+    "mun_nombre": "El Espino"
+  },
+  {
+    "mun_pk_id": 63130,
+    "dep_fk_id": 63,
+    "mun_nombre": "Calarcá"
+  },
+  {
+    "mun_pk_id": 15204,
+    "dep_fk_id": 15,
+    "mun_nombre": "Cómbita"
+  },
+  {
+    "mun_pk_id": 8558,
+    "dep_fk_id": 8,
+    "mun_nombre": "Polonuevo"
+  },
+  {
+    "mun_pk_id": 47058,
+    "dep_fk_id": 47,
+    "mun_nombre": "Ariguaní"
+  },
+  {
+    "mun_pk_id": 68264,
+    "dep_fk_id": 68,
+    "mun_nombre": "Encino"
+  },
+  {
+    "mun_pk_id": 68266,
+    "dep_fk_id": 68,
+    "mun_nombre": "Enciso"
+  },
+  {
+    "mun_pk_id": 5266,
+    "dep_fk_id": 5,
+    "mun_nombre": "Envigado"
+  },
+  {
+    "mun_pk_id": 73268,
+    "dep_fk_id": 73,
+    "mun_nombre": "Espinal"
+  },
+  {
+    "mun_pk_id": 73270,
+    "dep_fk_id": 73,
+    "mun_nombre": "Falan"
+  },
+  {
+    "mun_pk_id": 17272,
+    "dep_fk_id": 17,
+    "mun_nombre": "Filadelfia"
+  },
+  {
+    "mun_pk_id": 63272,
+    "dep_fk_id": 63,
+    "mun_nombre": "Filandia"
+  },
+  {
+    "mun_pk_id": 73275,
+    "dep_fk_id": 73,
+    "mun_nombre": "Flandes"
+  },
+  {
+    "mun_pk_id": 19290,
+    "dep_fk_id": 19,
+    "mun_nombre": "Florencia"
+  },
+  {
+    "mun_pk_id": 76275,
+    "dep_fk_id": 76,
+    "mun_nombre": "Florida"
+  },
+  {
+    "mun_pk_id": 68276,
+    "dep_fk_id": 68,
+    "mun_nombre": "Floridablanca"
+  },
+  {
+    "mun_pk_id": 44279,
+    "dep_fk_id": 44,
+    "mun_nombre": "Fonseca"
+  },
+  {
+    "mun_pk_id": 81300,
+    "dep_fk_id": 81,
+    "mun_nombre": "Fortul"
+  },
+  {
+    "mun_pk_id": 25281,
+    "dep_fk_id": 25,
+    "mun_nombre": "Fosca"
+  },
+  {
+    "mun_pk_id": 15212,
+    "dep_fk_id": 15,
+    "mun_nombre": "Coper"
+  },
+  {
+    "mun_pk_id": 5282,
+    "dep_fk_id": 5,
+    "mun_nombre": "Fredonia"
+  },
+  {
+    "mun_pk_id": 73283,
+    "dep_fk_id": 73,
+    "mun_nombre": "Fresno"
+  },
+  {
+    "mun_pk_id": 5284,
+    "dep_fk_id": 5,
+    "mun_nombre": "Frontino"
+  },
+  {
+    "mun_pk_id": 27025,
+    "dep_fk_id": 27,
+    "mun_nombre": "Alto Baudó"
+  },
+  {
+    "mun_pk_id": 25286,
+    "dep_fk_id": 25,
+    "mun_nombre": "Funza"
+  },
+  {
+    "mun_pk_id": 70235,
+    "dep_fk_id": 70,
+    "mun_nombre": "Galeras"
+  },
+  {
+    "mun_pk_id": 25299,
+    "dep_fk_id": 25,
+    "mun_nombre": "Gama"
+  },
+  {
+    "mun_pk_id": 20295,
+    "dep_fk_id": 20,
+    "mun_nombre": "Gamarra"
+  },
+  {
+    "mun_pk_id": 41306,
+    "dep_fk_id": 41,
+    "mun_nombre": "Gigante"
+  },
+  {
+    "mun_pk_id": 76306,
+    "dep_fk_id": 76,
+    "mun_nombre": "Ginebra"
+  },
+  {
+    "mun_pk_id": 5306,
+    "dep_fk_id": 5,
+    "mun_nombre": "Giraldo"
+  },
+  {
+    "mun_pk_id": 25307,
+    "dep_fk_id": 25,
+    "mun_nombre": "Girardot"
+  },
+  {
+    "mun_pk_id": 5308,
+    "dep_fk_id": 5,
+    "mun_nombre": "Girardota"
+  },
+  {
+    "mun_pk_id": 15317,
+    "dep_fk_id": 15,
+    "mun_nombre": "Guacamayas"
+  },
+  {
+    "mun_pk_id": 54313,
+    "dep_fk_id": 54,
+    "mun_nombre": "Gramalote"
+  },
+  {
+    "mun_pk_id": 5313,
+    "dep_fk_id": 5,
+    "mun_nombre": "Granada"
+  },
+  {
+    "mun_pk_id": 25312,
+    "dep_fk_id": 25,
+    "mun_nombre": "Granada"
+  },
+  {
+    "mun_pk_id": 50313,
+    "dep_fk_id": 50,
+    "mun_nombre": "Granada"
+  },
+  {
+    "mun_pk_id": 68318,
+    "dep_fk_id": 68,
+    "mun_nombre": "Guaca"
+  },
+  {
+    "mun_pk_id": 8560,
+    "dep_fk_id": 8,
+    "mun_nombre": "Ponedera"
+  },
+  {
+    "mun_pk_id": 5315,
+    "dep_fk_id": 5,
+    "mun_nombre": "Guadalupe"
+  },
+  {
+    "mun_pk_id": 41319,
+    "dep_fk_id": 41,
+    "mun_nombre": "Guadalupe"
+  },
+  {
+    "mun_pk_id": 68320,
+    "dep_fk_id": 68,
+    "mun_nombre": "Guadalupe"
+  },
+  {
+    "mun_pk_id": 25320,
+    "dep_fk_id": 25,
+    "mun_nombre": "Guaduas"
+  },
+  {
+    "mun_pk_id": 47318,
+    "dep_fk_id": 47,
+    "mun_nombre": "Guamal"
+  },
+  {
+    "mun_pk_id": 50318,
+    "dep_fk_id": 50,
+    "mun_nombre": "Guamal"
+  },
+  {
+    "mun_pk_id": 73319,
+    "dep_fk_id": 73,
+    "mun_nombre": "Guamo"
+  },
+  {
+    "mun_pk_id": 52565,
+    "dep_fk_id": 52,
+    "mun_nombre": "Providencia"
+  },
+  {
+    "mun_pk_id": 70265,
+    "dep_fk_id": 70,
+    "mun_nombre": "Guaranda"
+  },
+  {
+    "mun_pk_id": 5318,
+    "dep_fk_id": 5,
+    "mun_nombre": "Guarne"
+  },
+  {
+    "mun_pk_id": 25322,
+    "dep_fk_id": 25,
+    "mun_nombre": "Guasca"
+  },
+  {
+    "mun_pk_id": 25326,
+    "dep_fk_id": 25,
+    "mun_nombre": "Guatavita"
+  },
+  {
+    "mun_pk_id": 27135,
+    "dep_fk_id": 27,
+    "mun_nombre": "El Cantón San Pablo"
+  },
+  {
+    "mun_pk_id": 25335,
+    "dep_fk_id": 25,
+    "mun_nombre": "Guayabetal"
+  },
+  {
+    "mun_pk_id": 15092,
+    "dep_fk_id": 15,
+    "mun_nombre": "Betéitiva"
+  },
+  {
+    "mun_pk_id": 68344,
+    "dep_fk_id": 68,
+    "mun_nombre": "Hato"
+  },
+  {
+    "mun_pk_id": 76364,
+    "dep_fk_id": 76,
+    "mun_nombre": "Jamundí"
+  },
+  {
+    "mun_pk_id": 44378,
+    "dep_fk_id": 44,
+    "mun_nombre": "Hatonuevo"
+  },
+  {
+    "mun_pk_id": 5347,
+    "dep_fk_id": 5,
+    "mun_nombre": "Heliconia"
+  },
+  {
+    "mun_pk_id": 73347,
+    "dep_fk_id": 73,
+    "mun_nombre": "Herveo"
+  },
+  {
+    "mun_pk_id": 5353,
+    "dep_fk_id": 5,
+    "mun_nombre": "Hispania"
+  },
+  {
+    "mun_pk_id": 41349,
+    "dep_fk_id": 41,
+    "mun_nombre": "Hobo"
+  },
+  {
+    "mun_pk_id": 73349,
+    "dep_fk_id": 73,
+    "mun_nombre": "Honda"
+  },
+  {
+    "mun_pk_id": 73352,
+    "dep_fk_id": 73,
+    "mun_nombre": "Icononzo"
+  },
+  {
+    "mun_pk_id": 41359,
+    "dep_fk_id": 41,
+    "mun_nombre": "Isnos"
+  },
+  {
+    "mun_pk_id": 5361,
+    "dep_fk_id": 5,
+    "mun_nombre": "Ituango"
+  },
+  {
+    "mun_pk_id": 27006,
+    "dep_fk_id": 27,
+    "mun_nombre": "Acandí"
+  },
+  {
+    "mun_pk_id": 19693,
+    "dep_fk_id": 19,
+    "mun_nombre": "San Sebastián"
+  },
+  {
+    "mun_pk_id": 15368,
+    "dep_fk_id": 15,
+    "mun_nombre": "Jericó"
+  },
+  {
+    "mun_pk_id": 97511,
+    "dep_fk_id": 97,
+    "mun_nombre": "Pacoa"
+  },
+  {
+    "mun_pk_id": 15226,
+    "dep_fk_id": 15,
+    "mun_nombre": "Cuítiva"
+  },
+  {
+    "mun_pk_id": 94887,
+    "dep_fk_id": 94,
+    "mun_nombre": "Pana Pana"
+  },
+  {
+    "mun_pk_id": 5044,
+    "dep_fk_id": 5,
+    "mun_nombre": "Anzá"
+  },
+  {
+    "mun_pk_id": 97889,
+    "dep_fk_id": 97,
+    "mun_nombre": "Yavaraté"
+  },
+  {
+    "mun_pk_id": 52473,
+    "dep_fk_id": 52,
+    "mun_nombre": "Mosquera"
+  },
+  {
+    "mun_pk_id": 27075,
+    "dep_fk_id": 27,
+    "mun_nombre": "Bahía Solano"
+  },
+  {
+    "mun_pk_id": 15820,
+    "dep_fk_id": 15,
+    "mun_nombre": "Tópaga"
+  },
+  {
+    "mun_pk_id": 52418,
+    "dep_fk_id": 52,
+    "mun_nombre": "Los Andes"
+  },
+  {
+    "mun_pk_id": 73408,
+    "dep_fk_id": 73,
+    "mun_nombre": "Lérida"
+  },
+  {
+    "mun_pk_id": 15377,
+    "dep_fk_id": 15,
+    "mun_nombre": "Labranzagrande"
+  },
+  {
+    "mun_pk_id": 23466,
+    "dep_fk_id": 23,
+    "mun_nombre": "Montelíbano"
+  },
+  {
+    "mun_pk_id": 68298,
+    "dep_fk_id": 68,
+    "mun_nombre": "Gámbita"
+  },
+  {
+    "mun_pk_id": 25580,
+    "dep_fk_id": 25,
+    "mun_nombre": "Pulí"
+  },
+  {
+    "mun_pk_id": 23580,
+    "dep_fk_id": 23,
+    "mun_nombre": "Puerto Libertador"
+  },
+  {
+    "mun_pk_id": 5237,
+    "dep_fk_id": 5,
+    "mun_nombre": "Donmatías"
+  },
+  {
+    "mun_pk_id": 5756,
+    "dep_fk_id": 5,
+    "mun_nombre": "Sonsón"
+  },
+  {
+    "mun_pk_id": 97161,
+    "dep_fk_id": 97,
+    "mun_nombre": "Carurú"
+  },
+  {
+    "mun_pk_id": 15664,
+    "dep_fk_id": 15,
+    "mun_nombre": "San José de Pare"
+  },
+  {
+    "mun_pk_id": 23670,
+    "dep_fk_id": 23,
+    "mun_nombre": "San Andrés de Sotavento"
+  },
+  {
+    "mun_pk_id": 23001,
+    "dep_fk_id": 23,
+    "mun_nombre": "Montería"
+  },
+  {
+    "mun_pk_id": 27099,
+    "dep_fk_id": 27,
+    "mun_nombre": "Bojayá"
+  },
+  {
+    "mun_pk_id": 52323,
+    "dep_fk_id": 52,
+    "mun_nombre": "Gualmatán"
+  },
+  {
+    "mun_pk_id": 5040,
+    "dep_fk_id": 5,
+    "mun_nombre": "Anorí"
+  },
+  {
+    "mun_pk_id": 52411,
+    "dep_fk_id": 52,
+    "mun_nombre": "Linares"
+  },
+  {
+    "mun_pk_id": 88001,
+    "dep_fk_id": 88,
+    "mun_nombre": "San Andrés"
+  },
+  {
+    "mun_pk_id": 25258,
+    "dep_fk_id": 25,
+    "mun_nombre": "El Peñón"
+  },
+  {
+    "mun_pk_id": 27495,
+    "dep_fk_id": 27,
+    "mun_nombre": "Nuquí"
+  },
+  {
+    "mun_pk_id": 52520,
+    "dep_fk_id": 52,
+    "mun_nombre": "Francisco Pizarro"
+  },
+  {
+    "mun_pk_id": 99001,
+    "dep_fk_id": 99,
+    "mun_nombre": "Puerto Carreño"
+  },
+  {
+    "mun_pk_id": 8137,
+    "dep_fk_id": 8,
+    "mun_nombre": "Campo de la Cruz"
+  },
+  {
+    "mun_pk_id": 23807,
+    "dep_fk_id": 23,
+    "mun_nombre": "Tierralta"
+  },
+  {
+    "mun_pk_id": 52079,
+    "dep_fk_id": 52,
+    "mun_nombre": "Barbacoas"
+  },
+  {
+    "mun_pk_id": 8421,
+    "dep_fk_id": 8,
+    "mun_nombre": "Luruaco"
+  },
+  {
+    "mun_pk_id": 52385,
+    "dep_fk_id": 52,
+    "mun_nombre": "La Llanada"
+  },
+  {
+    "mun_pk_id": 15238,
+    "dep_fk_id": 15,
+    "mun_nombre": "Duitama"
+  },
+  {
+    "mun_pk_id": 13490,
+    "dep_fk_id": 13,
+    "mun_nombre": "Norosí"
+  },
+  {
+    "mun_pk_id": 25181,
+    "dep_fk_id": 25,
+    "mun_nombre": "Choachí"
+  },
+  {
+    "mun_pk_id": 18094,
+    "dep_fk_id": 18,
+    "mun_nombre": "Belén de los Andaquíes"
+  },
+  {
+    "mun_pk_id": 23068,
+    "dep_fk_id": 23,
+    "mun_nombre": "Ayapel"
+  },
+  {
+    "mun_pk_id": 13650,
+    "dep_fk_id": 13,
+    "mun_nombre": "San Fernando"
+  },
+  {
+    "mun_pk_id": 15183,
+    "dep_fk_id": 15,
+    "mun_nombre": "Chita"
+  },
+  {
+    "mun_pk_id": 5142,
+    "dep_fk_id": 5,
+    "mun_nombre": "Caracolí"
+  },
+  {
+    "mun_pk_id": 94888,
+    "dep_fk_id": 94,
+    "mun_nombre": "Morichal"
+  },
+  {
+    "mun_pk_id": 18205,
+    "dep_fk_id": 18,
+    "mun_nombre": "Curillo"
+  },
+  {
+    "mun_pk_id": 20228,
+    "dep_fk_id": 20,
+    "mun_nombre": "Curumaní"
+  },
+  {
+    "mun_pk_id": 54377,
+    "dep_fk_id": 54,
+    "mun_nombre": "Labateca"
+  },
+  {
+    "mun_pk_id": 68406,
+    "dep_fk_id": 68,
+    "mun_nombre": "Lebrija"
+  },
+  {
+    "mun_pk_id": 25407,
+    "dep_fk_id": 25,
+    "mun_nombre": "Lenguazaque"
+  },
+  {
+    "mun_pk_id": 91001,
+    "dep_fk_id": 91,
+    "mun_nombre": "Leticia"
+  },
+  {
+    "mun_pk_id": 5411,
+    "dep_fk_id": 5,
+    "mun_nombre": "Liborina"
+  },
+  {
+    "mun_pk_id": 52110,
+    "dep_fk_id": 52,
+    "mun_nombre": "Buesaco"
+  },
+  {
+    "mun_pk_id": 15511,
+    "dep_fk_id": 15,
+    "mun_nombre": "Pachavita"
+  },
+  {
+    "mun_pk_id": 68669,
+    "dep_fk_id": 68,
+    "mun_nombre": "San Andrés"
+  },
+  {
+    "mun_pk_id": 52207,
+    "dep_fk_id": 52,
+    "mun_nombre": "Consacá"
+  },
+  {
+    "mun_pk_id": 20310,
+    "dep_fk_id": 20,
+    "mun_nombre": "González"
+  },
+  {
+    "mun_pk_id": 15469,
+    "dep_fk_id": 15,
+    "mun_nombre": "Moniquirá"
+  },
+  {
+    "mun_pk_id": 54418,
+    "dep_fk_id": 54,
+    "mun_nombre": "Lourdes"
+  },
+  {
+    "mun_pk_id": 68425,
+    "dep_fk_id": 68,
+    "mun_nombre": "Macaravita"
+  },
+  {
+    "mun_pk_id": 5425,
+    "dep_fk_id": 5,
+    "mun_nombre": "Maceo"
+  },
+  {
+    "mun_pk_id": 25430,
+    "dep_fk_id": 25,
+    "mun_nombre": "Madrid"
+  },
+  {
+    "mun_pk_id": 44430,
+    "dep_fk_id": 44,
+    "mun_nombre": "Maicao"
+  },
+  {
+    "mun_pk_id": 70429,
+    "dep_fk_id": 70,
+    "mun_nombre": "Majagual"
+  },
+  {
+    "mun_pk_id": 44560,
+    "dep_fk_id": 44,
+    "mun_nombre": "Manaure"
+  },
+  {
+    "mun_pk_id": 23162,
+    "dep_fk_id": 23,
+    "mun_nombre": "Cereté"
+  },
+  {
+    "mun_pk_id": 17001,
+    "dep_fk_id": 17,
+    "mun_nombre": "Manizales"
+  },
+  {
+    "mun_pk_id": 25436,
+    "dep_fk_id": 25,
+    "mun_nombre": "Manta"
+  },
+  {
+    "mun_pk_id": 17433,
+    "dep_fk_id": 17,
+    "mun_nombre": "Manzanares"
+  },
+  {
+    "mun_pk_id": 19809,
+    "dep_fk_id": 19,
+    "mun_nombre": "Timbiquí"
+  },
+  {
+    "mun_pk_id": 5440,
+    "dep_fk_id": 5,
+    "mun_nombre": "Marinilla"
+  },
+  {
+    "mun_pk_id": 17442,
+    "dep_fk_id": 17,
+    "mun_nombre": "Marmato"
+  },
+  {
+    "mun_pk_id": 17444,
+    "dep_fk_id": 17,
+    "mun_nombre": "Marquetalia"
+  },
+  {
+    "mun_pk_id": 66440,
+    "dep_fk_id": 66,
+    "mun_nombre": "Marsella"
+  },
+  {
+    "mun_pk_id": 17446,
+    "dep_fk_id": 17,
+    "mun_nombre": "Marulanda"
+  },
+  {
+    "mun_pk_id": 68444,
+    "dep_fk_id": 68,
+    "mun_nombre": "Matanza"
+  },
+  {
+    "mun_pk_id": 25438,
+    "dep_fk_id": 25,
+    "mun_nombre": "Medina"
+  },
+  {
+    "mun_pk_id": 18785,
+    "dep_fk_id": 18,
+    "mun_nombre": "Solita"
+  },
+  {
+    "mun_pk_id": 95001,
+    "dep_fk_id": 95,
+    "mun_nombre": "San José del Guaviare"
+  },
+  {
+    "mun_pk_id": 25740,
+    "dep_fk_id": 25,
+    "mun_nombre": "Sibaté"
+  },
+  {
+    "mun_pk_id": 73449,
+    "dep_fk_id": 73,
+    "mun_nombre": "Melgar"
+  },
+  {
+    "mun_pk_id": 19450,
+    "dep_fk_id": 19,
+    "mun_nombre": "Mercaderes"
+  },
+  {
+    "mun_pk_id": 50330,
+    "dep_fk_id": 50,
+    "mun_nombre": "Mesetas"
+  },
+  {
+    "mun_pk_id": 95200,
+    "dep_fk_id": 95,
+    "mun_nombre": "Miraflores"
+  },
+  {
+    "mun_pk_id": 19455,
+    "dep_fk_id": 19,
+    "mun_nombre": "Miranda"
+  },
+  {
+    "mun_pk_id": 5042,
+    "dep_fk_id": 5,
+    "mun_nombre": "Santa Fé de Antioquia"
+  },
+  {
+    "mun_pk_id": 86001,
+    "dep_fk_id": 86,
+    "mun_nombre": "Mocoa"
+  },
+  {
+    "mun_pk_id": 68464,
+    "dep_fk_id": 68,
+    "mun_nombre": "Mogotes"
+  },
+  {
+    "mun_pk_id": 68468,
+    "dep_fk_id": 68,
+    "mun_nombre": "Molagavita"
+  },
+  {
+    "mun_pk_id": 5467,
+    "dep_fk_id": 5,
+    "mun_nombre": "Montebello"
+  },
+  {
+    "mun_pk_id": 63470,
+    "dep_fk_id": 63,
+    "mun_nombre": "Montenegro"
+  },
+  {
+    "mun_pk_id": 85162,
+    "dep_fk_id": 85,
+    "mun_nombre": "Monterrey"
+  },
+  {
+    "mun_pk_id": 19473,
+    "dep_fk_id": 19,
+    "mun_nombre": "Morales"
+  },
+  {
+    "mun_pk_id": 70473,
+    "dep_fk_id": 70,
+    "mun_nombre": "Morroa"
+  },
+  {
+    "mun_pk_id": 25473,
+    "dep_fk_id": 25,
+    "mun_nombre": "Mosquera"
+  },
+  {
+    "mun_pk_id": 73461,
+    "dep_fk_id": 73,
+    "mun_nombre": "Murillo"
+  },
+  {
+    "mun_pk_id": 54480,
+    "dep_fk_id": 54,
+    "mun_nombre": "Mutiscua"
+  },
+  {
+    "mun_pk_id": 73483,
+    "dep_fk_id": 73,
+    "mun_nombre": "Natagaima"
+  },
+  {
+    "mun_pk_id": 17486,
+    "dep_fk_id": 17,
+    "mun_nombre": "Neira"
+  },
+  {
+    "mun_pk_id": 41001,
+    "dep_fk_id": 41,
+    "mun_nombre": "Neiva"
+  },
+  {
+    "mun_pk_id": 25488,
+    "dep_fk_id": 25,
+    "mun_nombre": "Nilo"
+  },
+  {
+    "mun_pk_id": 25489,
+    "dep_fk_id": 25,
+    "mun_nombre": "Nimaima"
+  },
+  {
+    "mun_pk_id": 25491,
+    "dep_fk_id": 25,
+    "mun_nombre": "Nocaima"
+  },
+  {
+    "mun_pk_id": 17495,
+    "dep_fk_id": 17,
+    "mun_nombre": "Norcasia"
+  },
+  {
+    "mun_pk_id": 25851,
+    "dep_fk_id": 25,
+    "mun_nombre": "Útica"
+  },
+  {
+    "mun_pk_id": 13836,
+    "dep_fk_id": 13,
+    "mun_nombre": "Turbaco"
+  },
+  {
+    "mun_pk_id": 76497,
+    "dep_fk_id": 76,
+    "mun_nombre": "Obando"
+  },
+  {
+    "mun_pk_id": 68498,
+    "dep_fk_id": 68,
+    "mun_nombre": "Ocamonte"
+  },
+  {
+    "mun_pk_id": 68500,
+    "dep_fk_id": 68,
+    "mun_nombre": "Oiba"
+  },
+  {
+    "mun_pk_id": 5501,
+    "dep_fk_id": 5,
+    "mun_nombre": "Olaya"
+  },
+  {
+    "mun_pk_id": 13052,
+    "dep_fk_id": 13,
+    "mun_nombre": "Arjona"
+  },
+  {
+    "mun_pk_id": 68502,
+    "dep_fk_id": 68,
+    "mun_nombre": "Onzaga"
+  },
+  {
+    "mun_pk_id": 41503,
+    "dep_fk_id": 41,
+    "mun_nombre": "Oporapa"
+  },
+  {
+    "mun_pk_id": 86320,
+    "dep_fk_id": 86,
+    "mun_nombre": "Orito"
+  },
+  {
+    "mun_pk_id": 73504,
+    "dep_fk_id": 73,
+    "mun_nombre": "Ortega"
+  },
+  {
+    "mun_pk_id": 70508,
+    "dep_fk_id": 70,
+    "mun_nombre": "Ovejas"
+  },
+  {
+    "mun_pk_id": 25513,
+    "dep_fk_id": 25,
+    "mun_nombre": "Pacho"
+  },
+  {
+    "mun_pk_id": 19513,
+    "dep_fk_id": 19,
+    "mun_nombre": "Padilla"
+  },
+  {
+    "mun_pk_id": 41518,
+    "dep_fk_id": 41,
+    "mun_nombre": "Paicol"
+  },
+  {
+    "mun_pk_id": 20517,
+    "dep_fk_id": 20,
+    "mun_nombre": "Pailitas"
+  },
+  {
+    "mun_pk_id": 25518,
+    "dep_fk_id": 25,
+    "mun_nombre": "Paime"
+  },
+  {
+    "mun_pk_id": 41524,
+    "dep_fk_id": 41,
+    "mun_nombre": "Palermo"
+  },
+  {
+    "mun_pk_id": 17524,
+    "dep_fk_id": 17,
+    "mun_nombre": "Palestina"
+  },
+  {
+    "mun_pk_id": 41530,
+    "dep_fk_id": 41,
+    "mun_nombre": "Palestina"
+  },
+  {
+    "mun_pk_id": 18247,
+    "dep_fk_id": 18,
+    "mun_nombre": "El Doncello"
+  },
+  {
+    "mun_pk_id": 15516,
+    "dep_fk_id": 15,
+    "mun_nombre": "Paipa"
+  },
+  {
+    "mun_pk_id": 13140,
+    "dep_fk_id": 13,
+    "mun_nombre": "Calamar"
+  },
+  {
+    "mun_pk_id": 15533,
+    "dep_fk_id": 15,
+    "mun_nombre": "Paya"
+  },
+  {
+    "mun_pk_id": 19001,
+    "dep_fk_id": 19,
+    "mun_nombre": "Popayán"
+  },
+  {
+    "mun_pk_id": 76036,
+    "dep_fk_id": 76,
+    "mun_nombre": "Andalucía"
+  },
+  {
+    "mun_pk_id": 85400,
+    "dep_fk_id": 85,
+    "mun_nombre": "Támara"
+  },
+  {
+    "mun_pk_id": 15774,
+    "dep_fk_id": 15,
+    "mun_nombre": "Susacón"
+  },
+  {
+    "mun_pk_id": 23574,
+    "dep_fk_id": 23,
+    "mun_nombre": "Puerto Escondido"
+  },
+  {
+    "mun_pk_id": 19824,
+    "dep_fk_id": 19,
+    "mun_nombre": "Totoró"
+  },
+  {
+    "mun_pk_id": 54172,
+    "dep_fk_id": 54,
+    "mun_nombre": "Chinácota"
+  },
+  {
+    "mun_pk_id": 18460,
+    "dep_fk_id": 18,
+    "mun_nombre": "Milán"
+  },
+  {
+    "mun_pk_id": 19585,
+    "dep_fk_id": 19,
+    "mun_nombre": "Puracé"
+  },
+  {
+    "mun_pk_id": 52203,
+    "dep_fk_id": 52,
+    "mun_nombre": "Colón"
+  },
+  {
+    "mun_pk_id": 5790,
+    "dep_fk_id": 5,
+    "mun_nombre": "Tarazá"
+  },
+  {
+    "mun_pk_id": 15646,
+    "dep_fk_id": 15,
+    "mun_nombre": "Samacá"
+  },
+  {
+    "mun_pk_id": 19300,
+    "dep_fk_id": 19,
+    "mun_nombre": "Guachené"
+  },
+  {
+    "mun_pk_id": 13810,
+    "dep_fk_id": 13,
+    "mun_nombre": "Tiquisio"
+  },
+  {
+    "mun_pk_id": 41357,
+    "dep_fk_id": 41,
+    "mun_nombre": "Íquira"
+  },
+  {
+    "mun_pk_id": 25293,
+    "dep_fk_id": 25,
+    "mun_nombre": "Gachalá"
+  },
+  {
+    "mun_pk_id": 73043,
+    "dep_fk_id": 73,
+    "mun_nombre": "Anzoátegui"
+  },
+  {
+    "mun_pk_id": 91540,
+    "dep_fk_id": 91,
+    "mun_nombre": "Puerto Nariño"
+  },
+  {
+    "mun_pk_id": 52621,
+    "dep_fk_id": 52,
+    "mun_nombre": "Roberto Payán"
+  },
+  {
+    "mun_pk_id": 68861,
+    "dep_fk_id": 68,
+    "mun_nombre": "Vélez"
+  },
+  {
+    "mun_pk_id": 15507,
+    "dep_fk_id": 15,
+    "mun_nombre": "Otanche"
+  },
+  {
+    "mun_pk_id": 8296,
+    "dep_fk_id": 8,
+    "mun_nombre": "Galapa"
+  },
+  {
+    "mun_pk_id": 13894,
+    "dep_fk_id": 13,
+    "mun_nombre": "Zambrano"
+  },
+  {
+    "mun_pk_id": 5045,
+    "dep_fk_id": 5,
+    "mun_nombre": "Apartadó"
+  },
+  {
+    "mun_pk_id": 76020,
+    "dep_fk_id": 76,
+    "mun_nombre": "Alcalá"
+  },
+  {
+    "mun_pk_id": 27001,
+    "dep_fk_id": 27,
+    "mun_nombre": "Quibdó"
+  },
+  {
+    "mun_pk_id": 52405,
+    "dep_fk_id": 52,
+    "mun_nombre": "Leiva"
+  },
+  {
+    "mun_pk_id": 68432,
+    "dep_fk_id": 68,
+    "mun_nombre": "Málaga"
+  },
+  {
+    "mun_pk_id": 15403,
+    "dep_fk_id": 15,
+    "mun_nombre": "La Uvita"
+  },
+  {
+    "mun_pk_id": 68370,
+    "dep_fk_id": 68,
+    "mun_nombre": "Jordán"
+  },
+  {
+    "mun_pk_id": 13074,
+    "dep_fk_id": 13,
+    "mun_nombre": "Barranco de Loba"
+  },
+  {
+    "mun_pk_id": 15480,
+    "dep_fk_id": 15,
+    "mun_nombre": "Muzo"
+  },
+  {
+    "mun_pk_id": 25823,
+    "dep_fk_id": 25,
+    "mun_nombre": "Topaipí"
+  },
+  {
+    "mun_pk_id": 54344,
+    "dep_fk_id": 54,
+    "mun_nombre": "Hacarí"
+  },
+  {
+    "mun_pk_id": 86571,
+    "dep_fk_id": 86,
+    "mun_nombre": "Puerto Guzmán"
+  },
+  {
+    "mun_pk_id": 15599,
+    "dep_fk_id": 15,
+    "mun_nombre": "Ramiriquí"
+  },
+  {
+    "mun_pk_id": 15757,
+    "dep_fk_id": 15,
+    "mun_nombre": "Socha"
+  },
+  {
+    "mun_pk_id": 68522,
+    "dep_fk_id": 68,
+    "mun_nombre": "Palmar"
+  },
+  {
+    "mun_pk_id": 27250,
+    "dep_fk_id": 27,
+    "mun_nombre": "El Litoral San Juan"
+  },
+  {
+    "mun_pk_id": 25839,
+    "dep_fk_id": 25,
+    "mun_nombre": "Ubalá"
+  },
+  {
+    "mun_pk_id": 76520,
+    "dep_fk_id": 76,
+    "mun_nombre": "Palmira"
+  },
+  {
+    "mun_pk_id": 70523,
+    "dep_fk_id": 70,
+    "mun_nombre": "Palmito"
+  },
+  {
+    "mun_pk_id": 73520,
+    "dep_fk_id": 73,
+    "mun_nombre": "Palocabildo"
+  },
+  {
+    "mun_pk_id": 54518,
+    "dep_fk_id": 54,
+    "mun_nombre": "Pamplona"
+  },
+  {
+    "mun_pk_id": 54520,
+    "dep_fk_id": 54,
+    "mun_nombre": "Pamplonita"
+  },
+  {
+    "mun_pk_id": 76834,
+    "dep_fk_id": 76,
+    "mun_nombre": "Tuluá"
+  },
+  {
+    "mun_pk_id": 25524,
+    "dep_fk_id": 25,
+    "mun_nombre": "Pandi"
+  },
+  {
+    "mun_pk_id": 25530,
+    "dep_fk_id": 25,
+    "mun_nombre": "Paratebueno"
+  },
+  {
+    "mun_pk_id": 25535,
+    "dep_fk_id": 25,
+    "mun_nombre": "Pasca"
+  },
+  {
+    "mun_pk_id": 11001,
+    "dep_fk_id": 11,
+    "mun_nombre": "Bogotá D.C."
+  },
+  {
+    "mun_pk_id": 68780,
+    "dep_fk_id": 68,
+    "mun_nombre": "Suratá"
+  },
+  {
+    "mun_pk_id": 47541,
+    "dep_fk_id": 47,
+    "mun_nombre": "Pedraza"
+  },
+  {
+    "mun_pk_id": 20550,
+    "dep_fk_id": 20,
+    "mun_nombre": "Pelaya"
+  },
+  {
+    "mun_pk_id": 17541,
+    "dep_fk_id": 17,
+    "mun_nombre": "Pensilvania"
+  },
+  {
+    "mun_pk_id": 5543,
+    "dep_fk_id": 5,
+    "mun_nombre": "Peque"
+  },
+  {
+    "mun_pk_id": 66001,
+    "dep_fk_id": 66,
+    "mun_nombre": "Pereira"
+  },
+  {
+    "mun_pk_id": 19533,
+    "dep_fk_id": 19,
+    "mun_nombre": "Piamonte"
+  },
+  {
+    "mun_pk_id": 68547,
+    "dep_fk_id": 68,
+    "mun_nombre": "Piedecuesta"
+  },
+  {
+    "mun_pk_id": 73547,
+    "dep_fk_id": 73,
+    "mun_nombre": "Piedras"
+  },
+  {
+    "mun_pk_id": 63548,
+    "dep_fk_id": 63,
+    "mun_nombre": "Pijao"
+  },
+  {
+    "mun_pk_id": 5541,
+    "dep_fk_id": 5,
+    "mun_nombre": "Peñol"
+  },
+  {
+    "mun_pk_id": 68549,
+    "dep_fk_id": 68,
+    "mun_nombre": "Pinchote"
+  },
+  {
+    "mun_pk_id": 41548,
+    "dep_fk_id": 41,
+    "mun_nombre": "Pital"
+  },
+  {
+    "mun_pk_id": 41551,
+    "dep_fk_id": 41,
+    "mun_nombre": "Pitalito"
+  },
+  {
+    "mun_pk_id": 47551,
+    "dep_fk_id": 47,
+    "mun_nombre": "Pivijay"
+  },
+  {
+    "mun_pk_id": 73555,
+    "dep_fk_id": 73,
+    "mun_nombre": "Planadas"
+  },
+  {
+    "mun_pk_id": 73585,
+    "dep_fk_id": 73,
+    "mun_nombre": "Purificación"
+  },
+  {
+    "mun_pk_id": 47555,
+    "dep_fk_id": 47,
+    "mun_nombre": "Plato"
+  },
+  {
+    "mun_pk_id": 85263,
+    "dep_fk_id": 85,
+    "mun_nombre": "Pore"
+  },
+  {
+    "mun_pk_id": 76563,
+    "dep_fk_id": 76,
+    "mun_nombre": "Pradera"
+  },
+  {
+    "mun_pk_id": 73563,
+    "dep_fk_id": 73,
+    "mun_nombre": "Prado"
+  },
+  {
+    "mun_pk_id": 68211,
+    "dep_fk_id": 68,
+    "mun_nombre": "Contratación"
+  },
+  {
+    "mun_pk_id": 27600,
+    "dep_fk_id": 27,
+    "mun_nombre": "Río Quito"
+  },
+  {
+    "mun_pk_id": 8549,
+    "dep_fk_id": 8,
+    "mun_nombre": "Piojó"
+  },
+  {
+    "mun_pk_id": 5576,
+    "dep_fk_id": 5,
+    "mun_nombre": "Pueblorrico"
+  },
+  {
+    "mun_pk_id": 47570,
+    "dep_fk_id": 47,
+    "mun_nombre": "Puebloviejo"
+  },
+  {
+    "mun_pk_id": 15001,
+    "dep_fk_id": 15,
+    "mun_nombre": "Tunja"
+  },
+  {
+    "mun_pk_id": 5873,
+    "dep_fk_id": 5,
+    "mun_nombre": "Vigía del Fuerte"
+  },
+  {
+    "mun_pk_id": 25317,
+    "dep_fk_id": 25,
+    "mun_nombre": "Guachetá"
+  },
+  {
+    "mun_pk_id": 68689,
+    "dep_fk_id": 68,
+    "mun_nombre": "San Vicente de Chucurí"
+  },
+  {
+    "mun_pk_id": 25899,
+    "dep_fk_id": 25,
+    "mun_nombre": "Zipaquirá"
+  },
+  {
+    "mun_pk_id": 15816,
+    "dep_fk_id": 15,
+    "mun_nombre": "Togüí"
+  },
+  {
+    "mun_pk_id": 52696,
+    "dep_fk_id": 52,
+    "mun_nombre": "Santa Bárbara"
+  },
+  {
+    "mun_pk_id": 52356,
+    "dep_fk_id": 52,
+    "mun_nombre": "Ipiales"
+  },
+  {
+    "mun_pk_id": 52227,
+    "dep_fk_id": 52,
+    "mun_nombre": "Cumbal"
+  },
+  {
+    "mun_pk_id": 13433,
+    "dep_fk_id": 13,
+    "mun_nombre": "Mahates"
+  },
+  {
+    "mun_pk_id": 47545,
+    "dep_fk_id": 47,
+    "mun_nombre": "Pijiño del Carmen"
+  },
+  {
+    "mun_pk_id": 15806,
+    "dep_fk_id": 15,
+    "mun_nombre": "Tibasosa"
+  },
+  {
+    "mun_pk_id": 25324,
+    "dep_fk_id": 25,
+    "mun_nombre": "Guataquí"
+  },
+  {
+    "mun_pk_id": 8606,
+    "dep_fk_id": 8,
+    "mun_nombre": "Repelón"
+  },
+  {
+    "mun_pk_id": 15131,
+    "dep_fk_id": 15,
+    "mun_nombre": "Caldas"
+  },
+  {
+    "mun_pk_id": 13600,
+    "dep_fk_id": 13,
+    "mun_nombre": "Río Viejo"
+  },
+  {
+    "mun_pk_id": 20178,
+    "dep_fk_id": 20,
+    "mun_nombre": "Chiriguaná"
+  },
+  {
+    "mun_pk_id": 52001,
+    "dep_fk_id": 52,
+    "mun_nombre": "Pasto"
+  },
+  {
+    "mun_pk_id": 15332,
+    "dep_fk_id": 15,
+    "mun_nombre": "Güicán"
+  },
+  {
+    "mun_pk_id": 13744,
+    "dep_fk_id": 13,
+    "mun_nombre": "Simití"
+  },
+  {
+    "mun_pk_id": 15839,
+    "dep_fk_id": 15,
+    "mun_nombre": "Tutazá"
+  },
+  {
+    "mun_pk_id": 5004,
+    "dep_fk_id": 5,
+    "mun_nombre": "Abriaquí"
+  },
+  {
+    "mun_pk_id": 52885,
+    "dep_fk_id": 52,
+    "mun_nombre": "Yacuanquer"
+  },
+  {
+    "mun_pk_id": 70742,
+    "dep_fk_id": 70,
+    "mun_nombre": "San Luis de Sincé"
+  },
+  {
+    "mun_pk_id": 15673,
+    "dep_fk_id": 15,
+    "mun_nombre": "San Mateo"
+  },
+  {
+    "mun_pk_id": 5475,
+    "dep_fk_id": 5,
+    "mun_nombre": "Murindó"
+  },
+  {
+    "mun_pk_id": 47960,
+    "dep_fk_id": 47,
+    "mun_nombre": "Zapayán"
+  },
+  {
+    "mun_pk_id": 15476,
+    "dep_fk_id": 15,
+    "mun_nombre": "Motavita"
+  },
+  {
+    "mun_pk_id": 15810,
+    "dep_fk_id": 15,
+    "mun_nombre": "Tipacoque"
+  },
+  {
+    "mun_pk_id": 88564,
+    "dep_fk_id": 88,
+    "mun_nombre": "Providencia"
+  },
+  {
+    "mun_pk_id": 52381,
+    "dep_fk_id": 52,
+    "mun_nombre": "La Florida"
+  },
+  {
+    "mun_pk_id": 13222,
+    "dep_fk_id": 13,
+    "mun_nombre": "Clemencia"
+  },
+  {
+    "mun_pk_id": 25592,
+    "dep_fk_id": 25,
+    "mun_nombre": "Quebradanegra"
+  },
+  {
+    "mun_pk_id": 25594,
+    "dep_fk_id": 25,
+    "mun_nombre": "Quetame"
+  },
+  {
+    "mun_pk_id": 63594,
+    "dep_fk_id": 63,
+    "mun_nombre": "Quimbaya"
+  },
+  {
+    "mun_pk_id": 25596,
+    "dep_fk_id": 25,
+    "mun_nombre": "Quipile"
+  },
+  {
+    "mun_pk_id": 54599,
+    "dep_fk_id": 54,
+    "mun_nombre": "Ragonvalia"
+  },
+  {
+    "mun_pk_id": 85279,
+    "dep_fk_id": 85,
+    "mun_nombre": "Recetor"
+  },
+  {
+    "mun_pk_id": 5604,
+    "dep_fk_id": 5,
+    "mun_nombre": "Remedios"
+  },
+  {
+    "mun_pk_id": 47605,
+    "dep_fk_id": 47,
+    "mun_nombre": "Remolino"
+  },
+  {
+    "mun_pk_id": 50606,
+    "dep_fk_id": 50,
+    "mun_nombre": "Restrepo"
+  },
+  {
+    "mun_pk_id": 76606,
+    "dep_fk_id": 76,
+    "mun_nombre": "Restrepo"
+  },
+  {
+    "mun_pk_id": 5607,
+    "dep_fk_id": 5,
+    "mun_nombre": "Retiro"
+  },
+  {
+    "mun_pk_id": 25612,
+    "dep_fk_id": 25,
+    "mun_nombre": "Ricaurte"
+  },
+  {
+    "mun_pk_id": 91460,
+    "dep_fk_id": 91,
+    "mun_nombre": "Mirití Paraná"
+  },
+  {
+    "mun_pk_id": 27810,
+    "dep_fk_id": 27,
+    "mun_nombre": "Unión Panamericana"
+  },
+  {
+    "mun_pk_id": 15660,
+    "dep_fk_id": 15,
+    "mun_nombre": "San Eduardo"
+  },
+  {
+    "mun_pk_id": 52260,
+    "dep_fk_id": 52,
+    "mun_nombre": "El Tambo"
+  },
+  {
+    "mun_pk_id": 73616,
+    "dep_fk_id": 73,
+    "mun_nombre": "Rioblanco"
+  },
+  {
+    "mun_pk_id": 44001,
+    "dep_fk_id": 44,
+    "mun_nombre": "Riohacha"
+  },
+  {
+    "mun_pk_id": 5615,
+    "dep_fk_id": 5,
+    "mun_nombre": "Rionegro"
+  },
+  {
+    "mun_pk_id": 68615,
+    "dep_fk_id": 68,
+    "mun_nombre": "Rionegro"
+  },
+  {
+    "mun_pk_id": 17614,
+    "dep_fk_id": 17,
+    "mun_nombre": "Riosucio"
+  },
+  {
+    "mun_pk_id": 17616,
+    "dep_fk_id": 17,
+    "mun_nombre": "Risaralda"
+  },
+  {
+    "mun_pk_id": 41615,
+    "dep_fk_id": 41,
+    "mun_nombre": "Rivera"
+  },
+  {
+    "mun_pk_id": 70221,
+    "dep_fk_id": 70,
+    "mun_nombre": "Coveñas"
+  },
+  {
+    "mun_pk_id": 76622,
+    "dep_fk_id": 76,
+    "mun_nombre": "Roldanillo"
+  },
+  {
+    "mun_pk_id": 73622,
+    "dep_fk_id": 73,
+    "mun_nombre": "Roncesvalles"
+  },
+  {
+    "mun_pk_id": 19622,
+    "dep_fk_id": 19,
+    "mun_nombre": "Rosas"
+  },
+  {
+    "mun_pk_id": 73624,
+    "dep_fk_id": 73,
+    "mun_nombre": "Rovira"
+  },
+  {
+    "mun_pk_id": 5030,
+    "dep_fk_id": 5,
+    "mun_nombre": "Amagá"
+  },
+  {
+    "mun_pk_id": 5628,
+    "dep_fk_id": 5,
+    "mun_nombre": "Sabanalarga"
+  },
+  {
+    "mun_pk_id": 85300,
+    "dep_fk_id": 85,
+    "mun_nombre": "Sabanalarga"
+  },
+  {
+    "mun_pk_id": 41298,
+    "dep_fk_id": 41,
+    "mun_nombre": "Garzón"
+  },
+  {
+    "mun_pk_id": 5631,
+    "dep_fk_id": 5,
+    "mun_nombre": "Sabaneta"
+  },
+  {
+    "mun_pk_id": 41660,
+    "dep_fk_id": 41,
+    "mun_nombre": "Saladoblanco"
+  },
+  {
+    "mun_pk_id": 17653,
+    "dep_fk_id": 17,
+    "mun_nombre": "Salamina"
+  },
+  {
+    "mun_pk_id": 47675,
+    "dep_fk_id": 47,
+    "mun_nombre": "Salamina"
+  },
+  {
+    "mun_pk_id": 54660,
+    "dep_fk_id": 54,
+    "mun_nombre": "Salazar"
+  },
+  {
+    "mun_pk_id": 63690,
+    "dep_fk_id": 63,
+    "mun_nombre": "Salento"
+  },
+  {
+    "mun_pk_id": 5642,
+    "dep_fk_id": 5,
+    "mun_nombre": "Salgar"
+  },
+  {
+    "mun_pk_id": 23672,
+    "dep_fk_id": 23,
+    "mun_nombre": "San Antero"
+  },
+  {
+    "mun_pk_id": 27425,
+    "dep_fk_id": 27,
+    "mun_nombre": "Medio Atrato"
+  },
+  {
+    "mun_pk_id": 44098,
+    "dep_fk_id": 44,
+    "mun_nombre": "Distracción"
+  },
+  {
+    "mun_pk_id": 13647,
+    "dep_fk_id": 13,
+    "mun_nombre": "San Estanislao"
+  },
+  {
+    "mun_pk_id": 25148,
+    "dep_fk_id": 25,
+    "mun_nombre": "Caparrapí"
+  },
+  {
+    "mun_pk_id": 23586,
+    "dep_fk_id": 23,
+    "mun_nombre": "Purísima de la Concepción"
+  },
+  {
+    "mun_pk_id": 27361,
+    "dep_fk_id": 27,
+    "mun_nombre": "Istmina"
+  },
+  {
+    "mun_pk_id": 52210,
+    "dep_fk_id": 52,
+    "mun_nombre": "Contadero"
+  },
+  {
+    "mun_pk_id": 15425,
+    "dep_fk_id": 15,
+    "mun_nombre": "Macanal"
+  },
+  {
+    "mun_pk_id": 25368,
+    "dep_fk_id": 25,
+    "mun_nombre": "Jerusalén"
+  },
+  {
+    "mun_pk_id": 66594,
+    "dep_fk_id": 66,
+    "mun_nombre": "Quinchía"
+  },
+  {
+    "mun_pk_id": 25224,
+    "dep_fk_id": 25,
+    "mun_nombre": "Cucunubá"
+  },
+  {
+    "mun_pk_id": 25288,
+    "dep_fk_id": 25,
+    "mun_nombre": "Fúquene"
+  },
+  {
+    "mun_pk_id": 15723,
+    "dep_fk_id": 15,
+    "mun_nombre": "Sativasur"
+  },
+  {
+    "mun_pk_id": 25279,
+    "dep_fk_id": 25,
+    "mun_nombre": "Fómeque"
+  },
+  {
+    "mun_pk_id": 52354,
+    "dep_fk_id": 52,
+    "mun_nombre": "Imués"
+  },
+  {
+    "mun_pk_id": 68682,
+    "dep_fk_id": 68,
+    "mun_nombre": "San Joaquín"
+  },
+  {
+    "mun_pk_id": 54498,
+    "dep_fk_id": 54,
+    "mun_nombre": "Ocaña"
+  },
+  {
+    "mun_pk_id": 86568,
+    "dep_fk_id": 86,
+    "mun_nombre": "Puerto Asís"
+  },
+  {
+    "mun_pk_id": 76318,
+    "dep_fk_id": 76,
+    "mun_nombre": "Guacarí"
+  },
+  {
+    "mun_pk_id": 15676,
+    "dep_fk_id": 15,
+    "mun_nombre": "San Miguel de Sema"
+  },
+  {
+    "mun_pk_id": 70820,
+    "dep_fk_id": 70,
+    "mun_nombre": "Santiago de Tolú"
+  },
+  {
+    "mun_pk_id": 68368,
+    "dep_fk_id": 68,
+    "mun_nombre": "Jesús María"
+  },
+  {
+    "mun_pk_id": 70400,
+    "dep_fk_id": 70,
+    "mun_nombre": "La Unión"
+  },
+  {
+    "mun_pk_id": 68160,
+    "dep_fk_id": 68,
+    "mun_nombre": "Cepitá"
+  },
+  {
+    "mun_pk_id": 15832,
+    "dep_fk_id": 15,
+    "mun_nombre": "Tununguá"
+  },
+  {
+    "mun_pk_id": 5656,
+    "dep_fk_id": 5,
+    "mun_nombre": "San Jerónimo"
+  },
+  {
+    "mun_pk_id": 13670,
+    "dep_fk_id": 13,
+    "mun_nombre": "San Pablo"
+  },
+  {
+    "mun_pk_id": 25426,
+    "dep_fk_id": 25,
+    "mun_nombre": "Machetá"
+  },
+  {
+    "mun_pk_id": 23168,
+    "dep_fk_id": 23,
+    "mun_nombre": "Chimá"
+  },
+  {
+    "mun_pk_id": 19355,
+    "dep_fk_id": 19,
+    "mun_nombre": "Inzá"
+  },
+  {
+    "mun_pk_id": 52378,
+    "dep_fk_id": 52,
+    "mun_nombre": "La Cruz"
+  },
+  {
+    "mun_pk_id": 15753,
+    "dep_fk_id": 15,
+    "mun_nombre": "Soatá"
+  },
+  {
+    "mun_pk_id": 5368,
+    "dep_fk_id": 5,
+    "mun_nombre": "Jericó"
+  },
+  {
+    "mun_pk_id": 19130,
+    "dep_fk_id": 19,
+    "mun_nombre": "Cajibío"
+  },
+  {
+    "mun_pk_id": 15494,
+    "dep_fk_id": 15,
+    "mun_nombre": "Nuevo Colón"
+  },
+  {
+    "mun_pk_id": 54125,
+    "dep_fk_id": 54,
+    "mun_nombre": "Cácota"
+  },
+  {
+    "mun_pk_id": 15187,
+    "dep_fk_id": 15,
+    "mun_nombre": "Chivatá"
+  },
+  {
+    "mun_pk_id": 91530,
+    "dep_fk_id": 91,
+    "mun_nombre": "Puerto Alegría"
+  },
+  {
+    "mun_pk_id": 5206,
+    "dep_fk_id": 5,
+    "mun_nombre": "Concepción"
+  },
+  {
+    "mun_pk_id": 94884,
+    "dep_fk_id": 94,
+    "mun_nombre": "Puerto Colombia"
+  },
+  {
+    "mun_pk_id": 13188,
+    "dep_fk_id": 13,
+    "mun_nombre": "Cicuco"
+  },
+  {
+    "mun_pk_id": 25168,
+    "dep_fk_id": 25,
+    "mun_nombre": "Chaguaní"
+  },
+  {
+    "mun_pk_id": 68207,
+    "dep_fk_id": 68,
+    "mun_nombre": "Concepción"
+  },
+  {
+    "mun_pk_id": 86885,
+    "dep_fk_id": 86,
+    "mun_nombre": "Villagarzón"
+  },
+  {
+    "mun_pk_id": 13838,
+    "dep_fk_id": 13,
+    "mun_nombre": "Turbaná"
+  },
+  {
+    "mun_pk_id": 15162,
+    "dep_fk_id": 15,
+    "mun_nombre": "Cerinza"
+  },
+  {
+    "mun_pk_id": 41885,
+    "dep_fk_id": 41,
+    "mun_nombre": "Yaguará"
+  },
+  {
+    "mun_pk_id": 13549,
+    "dep_fk_id": 13,
+    "mun_nombre": "Pinillos"
+  },
+  {
+    "mun_pk_id": 23419,
+    "dep_fk_id": 23,
+    "mun_nombre": "Los Córdobas"
+  },
+  {
+    "mun_pk_id": 68322,
+    "dep_fk_id": 68,
+    "mun_nombre": "Guapotá"
+  },
+  {
+    "mun_pk_id": 19517,
+    "dep_fk_id": 19,
+    "mun_nombre": "Páez"
+  },
+  {
+    "mun_pk_id": 15879,
+    "dep_fk_id": 15,
+    "mun_nombre": "Viracachá"
+  },
+  {
+    "mun_pk_id": 15835,
+    "dep_fk_id": 15,
+    "mun_nombre": "Turmequé"
+  },
+  {
+    "mun_pk_id": 5120,
+    "dep_fk_id": 5,
+    "mun_nombre": "Cáceres"
+  },
+  {
+    "mun_pk_id": 52254,
+    "dep_fk_id": 52,
+    "mun_nombre": "El Peñol"
+  },
+  {
+    "mun_pk_id": 23090,
+    "dep_fk_id": 23,
+    "mun_nombre": "Canalete"
+  },
+  {
+    "mun_pk_id": 5400,
+    "dep_fk_id": 5,
+    "mun_nombre": "La Unión"
+  },
+  {
+    "mun_pk_id": 68271,
+    "dep_fk_id": 68,
+    "mun_nombre": "Florián"
+  },
+  {
+    "mun_pk_id": 5659,
+    "dep_fk_id": 5,
+    "mun_nombre": "San Juan de Urabá"
+  },
+  {
+    "mun_pk_id": 23660,
+    "dep_fk_id": 23,
+    "mun_nombre": "Sahagún"
+  },
+  {
+    "mun_pk_id": 8141,
+    "dep_fk_id": 8,
+    "mun_nombre": "Candelaria"
+  },
+  {
+    "mun_pk_id": 15632,
+    "dep_fk_id": 15,
+    "mun_nombre": "Saboyá"
+  },
+  {
+    "mun_pk_id": 52022,
+    "dep_fk_id": 52,
+    "mun_nombre": "Aldana"
+  },
+  {
+    "mun_pk_id": 25295,
+    "dep_fk_id": 25,
+    "mun_nombre": "Gachancipá"
+  },
+  {
+    "mun_pk_id": 5101,
+    "dep_fk_id": 5,
+    "mun_nombre": "Ciudad Bolívar"
+  },
+  {
+    "mun_pk_id": 17665,
+    "dep_fk_id": 17,
+    "mun_nombre": "San José"
+  },
+  {
+    "mun_pk_id": 52720,
+    "dep_fk_id": 52,
+    "mun_nombre": "Sapuyes"
+  },
+  {
+    "mun_pk_id": 15897,
+    "dep_fk_id": 15,
+    "mun_nombre": "Zetaquira"
+  },
+  {
+    "mun_pk_id": 15696,
+    "dep_fk_id": 15,
+    "mun_nombre": "Santa Sofía"
+  },
+  {
+    "mun_pk_id": 70230,
+    "dep_fk_id": 70,
+    "mun_nombre": "Chalán"
+  },
+  {
+    "mun_pk_id": 41668,
+    "dep_fk_id": 41,
+    "mun_nombre": "San Agustín"
+  },
+  {
+    "mun_pk_id": 52490,
+    "dep_fk_id": 52,
+    "mun_nombre": "Olaya Herrera"
+  },
+  {
+    "mun_pk_id": 5360,
+    "dep_fk_id": 5,
+    "mun_nombre": "Itagüí"
+  },
+  {
+    "mun_pk_id": 15537,
+    "dep_fk_id": 15,
+    "mun_nombre": "Paz de Río"
+  },
+  {
+    "mun_pk_id": 15407,
+    "dep_fk_id": 15,
+    "mun_nombre": "Villa de Leyva"
+  },
+  {
+    "mun_pk_id": 50568,
+    "dep_fk_id": 50,
+    "mun_nombre": "Puerto Gaitán"
+  },
+  {
+    "mun_pk_id": 15531,
+    "dep_fk_id": 15,
+    "mun_nombre": "Pauna"
+  },
+  {
+    "mun_pk_id": 52694,
+    "dep_fk_id": 52,
+    "mun_nombre": "San Pedro de Cartago"
+  },
+  {
+    "mun_pk_id": 68307,
+    "dep_fk_id": 68,
+    "mun_nombre": "Girón"
+  },
+  {
+    "mun_pk_id": 47258,
+    "dep_fk_id": 47,
+    "mun_nombre": "El Piñón"
+  },
+  {
+    "mun_pk_id": 15500,
+    "dep_fk_id": 15,
+    "mun_nombre": "Oicatá"
+  },
+  {
+    "mun_pk_id": 8078,
+    "dep_fk_id": 8,
+    "mun_nombre": "Baranoa"
+  },
+  {
+    "mun_pk_id": 27372,
+    "dep_fk_id": 27,
+    "mun_nombre": "Juradó"
+  },
+  {
+    "mun_pk_id": 41483,
+    "dep_fk_id": 41,
+    "mun_nombre": "Nátaga"
+  },
+  {
+    "mun_pk_id": 15232,
+    "dep_fk_id": 15,
+    "mun_nombre": "Chíquiza"
+  },
+  {
+    "mun_pk_id": 8832,
+    "dep_fk_id": 8,
+    "mun_nombre": "Tubará"
+  },
+  {
+    "mun_pk_id": 25183,
+    "dep_fk_id": 25,
+    "mun_nombre": "Chocontá"
+  },
+  {
+    "mun_pk_id": 54347,
+    "dep_fk_id": 54,
+    "mun_nombre": "Herrán"
+  },
+  {
+    "mun_pk_id": 94001,
+    "dep_fk_id": 94,
+    "mun_nombre": "Inírida"
+  },
+  {
+    "mun_pk_id": 15798,
+    "dep_fk_id": 15,
+    "mun_nombre": "Tenza"
+  },
+  {
+    "mun_pk_id": 23855,
+    "dep_fk_id": 23,
+    "mun_nombre": "Valencia"
+  },
+  {
+    "mun_pk_id": 13062,
+    "dep_fk_id": 13,
+    "mun_nombre": "Arroyohondo"
+  },
+  {
+    "mun_pk_id": 27050,
+    "dep_fk_id": 27,
+    "mun_nombre": "Atrato"
+  },
+  {
+    "mun_pk_id": 27160,
+    "dep_fk_id": 27,
+    "mun_nombre": "Cértegui"
+  },
+  {
+    "mun_pk_id": 15804,
+    "dep_fk_id": 15,
+    "mun_nombre": "Tibaná"
+  },
+  {
+    "mun_pk_id": 27430,
+    "dep_fk_id": 27,
+    "mun_nombre": "Medio Baudó"
+  },
+  {
+    "mun_pk_id": 50110,
+    "dep_fk_id": 50,
+    "mun_nombre": "Barranca de Upía"
+  },
+  {
+    "mun_pk_id": 25817,
+    "dep_fk_id": 25,
+    "mun_nombre": "Tocancipá"
+  },
+  {
+    "mun_pk_id": 13760,
+    "dep_fk_id": 13,
+    "mun_nombre": "Soplaviento"
+  },
+  {
+    "mun_pk_id": 52683,
+    "dep_fk_id": 52,
+    "mun_nombre": "Sandoná"
+  },
+  {
+    "mun_pk_id": 15172,
+    "dep_fk_id": 15,
+    "mun_nombre": "Chinavita"
+  },
+  {
+    "mun_pk_id": 52036,
+    "dep_fk_id": 52,
+    "mun_nombre": "Ancuyá"
+  },
+  {
+    "mun_pk_id": 52573,
+    "dep_fk_id": 52,
+    "mun_nombre": "Puerres"
+  },
+  {
+    "mun_pk_id": 15681,
+    "dep_fk_id": 15,
+    "mun_nombre": "San Pablo de Borbur"
+  },
+  {
+    "mun_pk_id": 15491,
+    "dep_fk_id": 15,
+    "mun_nombre": "Nobsa"
+  },
+  {
+    "mun_pk_id": 54001,
+    "dep_fk_id": 54,
+    "mun_nombre": "Cúcuta"
+  },
+  {
+    "mun_pk_id": 97777,
+    "dep_fk_id": 97,
+    "mun_nombre": "Papunaua"
+  },
+  {
+    "mun_pk_id": 15621,
+    "dep_fk_id": 15,
+    "mun_nombre": "Rondón"
+  },
+  {
+    "mun_pk_id": 13442,
+    "dep_fk_id": 13,
+    "mun_nombre": "María la Baja"
+  },
+  {
+    "mun_pk_id": 54680,
+    "dep_fk_id": 54,
+    "mun_nombre": "Santiago"
+  },
+  {
+    "mun_pk_id": 86760,
+    "dep_fk_id": 86,
+    "mun_nombre": "Santiago"
+  },
+  {
+    "mun_pk_id": 52390,
+    "dep_fk_id": 52,
+    "mun_nombre": "La Tola"
+  },
+  {
+    "mun_pk_id": 15518,
+    "dep_fk_id": 15,
+    "mun_nombre": "Pajarito"
+  },
+  {
+    "mun_pk_id": 66456,
+    "dep_fk_id": 66,
+    "mun_nombre": "Mistrató"
+  },
+  {
+    "mun_pk_id": 66687,
+    "dep_fk_id": 66,
+    "mun_nombre": "Santuario"
+  },
+  {
+    "mun_pk_id": 81736,
+    "dep_fk_id": 81,
+    "mun_nombre": "Saravena"
+  },
+  {
+    "mun_pk_id": 54720,
+    "dep_fk_id": 54,
+    "mun_nombre": "Sardinata"
+  },
+  {
+    "mun_pk_id": 25718,
+    "dep_fk_id": 25,
+    "mun_nombre": "Sasaima"
+  },
+  {
+    "mun_pk_id": 5736,
+    "dep_fk_id": 5,
+    "mun_nombre": "Segovia"
+  },
+  {
+    "mun_pk_id": 76736,
+    "dep_fk_id": 76,
+    "mun_nombre": "Sevilla"
+  },
+  {
+    "mun_pk_id": 86749,
+    "dep_fk_id": 86,
+    "mun_nombre": "Sibundoy"
+  },
+  {
+    "mun_pk_id": 54743,
+    "dep_fk_id": 54,
+    "mun_nombre": "Silos"
+  },
+  {
+    "mun_pk_id": 25743,
+    "dep_fk_id": 25,
+    "mun_nombre": "Silvania"
+  },
+  {
+    "mun_pk_id": 19743,
+    "dep_fk_id": 19,
+    "mun_nombre": "Silvia"
+  },
+  {
+    "mun_pk_id": 68745,
+    "dep_fk_id": 68,
+    "mun_nombre": "Simacota"
+  },
+  {
+    "mun_pk_id": 25745,
+    "dep_fk_id": 25,
+    "mun_nombre": "Simijaca"
+  },
+  {
+    "mun_pk_id": 70001,
+    "dep_fk_id": 70,
+    "mun_nombre": "Sincelejo"
+  },
+  {
+    "mun_pk_id": 47745,
+    "dep_fk_id": 47,
+    "mun_nombre": "Sitionuevo"
+  },
+  {
+    "mun_pk_id": 25754,
+    "dep_fk_id": 25,
+    "mun_nombre": "Soacha"
+  },
+  {
+    "mun_pk_id": 68755,
+    "dep_fk_id": 68,
+    "mun_nombre": "Socorro"
+  },
+  {
+    "mun_pk_id": 19760,
+    "dep_fk_id": 19,
+    "mun_nombre": "Sotara"
+  },
+  {
+    "mun_pk_id": 68770,
+    "dep_fk_id": 68,
+    "mun_nombre": "Suaita"
+  },
+  {
+    "mun_pk_id": 41770,
+    "dep_fk_id": 41,
+    "mun_nombre": "Suaza"
+  },
+  {
+    "mun_pk_id": 25769,
+    "dep_fk_id": 25,
+    "mun_nombre": "Subachoque"
+  },
+  {
+    "mun_pk_id": 19785,
+    "dep_fk_id": 19,
+    "mun_nombre": "Sucre"
+  },
+  {
+    "mun_pk_id": 68152,
+    "dep_fk_id": 68,
+    "mun_nombre": "Carcasí"
+  },
+  {
+    "mun_pk_id": 68773,
+    "dep_fk_id": 68,
+    "mun_nombre": "Sucre"
+  },
+  {
+    "mun_pk_id": 70771,
+    "dep_fk_id": 70,
+    "mun_nombre": "Sucre"
+  },
+  {
+    "mun_pk_id": 25772,
+    "dep_fk_id": 25,
+    "mun_nombre": "Suesca"
+  },
+  {
+    "mun_pk_id": 25779,
+    "dep_fk_id": 25,
+    "mun_nombre": "Susa"
+  },
+  {
+    "mun_pk_id": 25781,
+    "dep_fk_id": 25,
+    "mun_nombre": "Sutatausa"
+  },
+  {
+    "mun_pk_id": 25785,
+    "dep_fk_id": 25,
+    "mun_nombre": "Tabio"
+  },
+  {
+    "mun_pk_id": 8685,
+    "dep_fk_id": 8,
+    "mun_nombre": "Santo Tomás"
+  },
+  {
+    "mun_pk_id": 20787,
+    "dep_fk_id": 20,
+    "mun_nombre": "Tamalameque"
+  },
+  {
+    "mun_pk_id": 81794,
+    "dep_fk_id": 81,
+    "mun_nombre": "Tame"
+  },
+  {
+    "mun_pk_id": 41791,
+    "dep_fk_id": 41,
+    "mun_nombre": "Tarqui"
+  },
+  {
+    "mun_pk_id": 5792,
+    "dep_fk_id": 5,
+    "mun_nombre": "Tarso"
+  },
+  {
+    "mun_pk_id": 85410,
+    "dep_fk_id": 85,
+    "mun_nombre": "Tauramena"
+  },
+  {
+    "mun_pk_id": 25793,
+    "dep_fk_id": 25,
+    "mun_nombre": "Tausa"
+  },
+  {
+    "mun_pk_id": 41799,
+    "dep_fk_id": 41,
+    "mun_nombre": "Tello"
+  },
+  {
+    "mun_pk_id": 25797,
+    "dep_fk_id": 25,
+    "mun_nombre": "Tena"
+  },
+  {
+    "mun_pk_id": 47798,
+    "dep_fk_id": 47,
+    "mun_nombre": "Tenerife"
+  },
+  {
+    "mun_pk_id": 25799,
+    "dep_fk_id": 25,
+    "mun_nombre": "Tenjo"
+  },
+  {
+    "mun_pk_id": 54800,
+    "dep_fk_id": 54,
+    "mun_nombre": "Teorama"
+  },
+  {
+    "mun_pk_id": 41801,
+    "dep_fk_id": 41,
+    "mun_nombre": "Teruel"
+  },
+  {
+    "mun_pk_id": 41797,
+    "dep_fk_id": 41,
+    "mun_nombre": "Tesalia"
+  },
+  {
+    "mun_pk_id": 25805,
+    "dep_fk_id": 25,
+    "mun_nombre": "Tibacuy"
+  },
+  {
+    "mun_pk_id": 25807,
+    "dep_fk_id": 25,
+    "mun_nombre": "Tibirita"
+  },
+  {
+    "mun_pk_id": 25815,
+    "dep_fk_id": 25,
+    "mun_nombre": "Tocaima"
+  },
+  {
+    "mun_pk_id": 5819,
+    "dep_fk_id": 5,
+    "mun_nombre": "Toledo"
+  },
+  {
+    "mun_pk_id": 54820,
+    "dep_fk_id": 54,
+    "mun_nombre": "Toledo"
+  },
+  {
+    "mun_pk_id": 15466,
+    "dep_fk_id": 15,
+    "mun_nombre": "Monguí"
+  },
+  {
+    "mun_pk_id": 68820,
+    "dep_fk_id": 68,
+    "mun_nombre": "Tona"
+  },
+  {
+    "mun_pk_id": 76823,
+    "dep_fk_id": 76,
+    "mun_nombre": "Toro"
+  },
+  {
+    "mun_pk_id": 85430,
+    "dep_fk_id": 85,
+    "mun_nombre": "Trinidad"
+  },
+  {
+    "mun_pk_id": 76828,
+    "dep_fk_id": 76,
+    "mun_nombre": "Trujillo"
+  },
+  {
+    "mun_pk_id": 5837,
+    "dep_fk_id": 5,
+    "mun_nombre": "Turbo"
+  },
+  {
+    "mun_pk_id": 25841,
+    "dep_fk_id": 25,
+    "mun_nombre": "Ubaque"
+  },
+  {
+    "mun_pk_id": 76845,
+    "dep_fk_id": 76,
+    "mun_nombre": "Ulloa"
+  },
+  {
+    "mun_pk_id": 25845,
+    "dep_fk_id": 25,
+    "mun_nombre": "Une"
+  },
+  {
+    "mun_pk_id": 5036,
+    "dep_fk_id": 5,
+    "mun_nombre": "Angelópolis"
+  },
+  {
+    "mun_pk_id": 52699,
+    "dep_fk_id": 52,
+    "mun_nombre": "Santacruz"
+  },
+  {
+    "mun_pk_id": 52083,
+    "dep_fk_id": 52,
+    "mun_nombre": "Belén"
+  },
+  {
+    "mun_pk_id": 63302,
+    "dep_fk_id": 63,
+    "mun_nombre": "Génova"
+  },
+  {
+    "mun_pk_id": 5483,
+    "dep_fk_id": 5,
+    "mun_nombre": "Nariño"
+  },
+  {
+    "mun_pk_id": 8372,
+    "dep_fk_id": 8,
+    "mun_nombre": "Juan de Acosta"
+  },
+  {
+    "mun_pk_id": 23686,
+    "dep_fk_id": 23,
+    "mun_nombre": "San Pelayo"
+  },
+  {
+    "mun_pk_id": 18860,
+    "dep_fk_id": 18,
+    "mun_nombre": "Valparaíso"
+  },
+  {
+    "mun_pk_id": 50400,
+    "dep_fk_id": 50,
+    "mun_nombre": "Lejanías"
+  },
+  {
+    "mun_pk_id": 81591,
+    "dep_fk_id": 81,
+    "mun_nombre": "Puerto Rondón"
+  },
+  {
+    "mun_pk_id": 5001,
+    "dep_fk_id": 5,
+    "mun_nombre": "Medellín"
+  },
+  {
+    "mun_pk_id": 25878,
+    "dep_fk_id": 25,
+    "mun_nombre": "Viotá"
+  },
+  {
+    "mun_pk_id": 76400,
+    "dep_fk_id": 76,
+    "mun_nombre": "La Unión"
+  },
+  {
+    "mun_pk_id": 15763,
+    "dep_fk_id": 15,
+    "mun_nombre": "Sotaquirá"
+  },
+  {
+    "mun_pk_id": 15299,
+    "dep_fk_id": 15,
+    "mun_nombre": "Garagoa"
+  },
+  {
+    "mun_pk_id": 13001,
+    "dep_fk_id": 13,
+    "mun_nombre": "Cartagena de Indias"
+  },
+  {
+    "mun_pk_id": 85015,
+    "dep_fk_id": 85,
+    "mun_nombre": "Chámeza"
+  },
+  {
+    "mun_pk_id": 73148,
+    "dep_fk_id": 73,
+    "mun_nombre": "Carmen de Apicalá"
+  },
+  {
+    "mun_pk_id": 50689,
+    "dep_fk_id": 50,
+    "mun_nombre": "San Martín"
+  },
+  {
+    "mun_pk_id": 25898,
+    "dep_fk_id": 25,
+    "mun_nombre": "Zipacón"
+  },
+  {
+    "mun_pk_id": 13580,
+    "dep_fk_id": 13,
+    "mun_nombre": "Regidor"
+  },
+  {
+    "mun_pk_id": 68250,
+    "dep_fk_id": 68,
+    "mun_nombre": "El Peñón"
+  },
+  {
+    "mun_pk_id": 15215,
+    "dep_fk_id": 15,
+    "mun_nombre": "Corrales"
+  },
+  {
+    "mun_pk_id": 25398,
+    "dep_fk_id": 25,
+    "mun_nombre": "La Peña"
+  },
+  {
+    "mun_pk_id": 25086,
+    "dep_fk_id": 25,
+    "mun_nombre": "Beltrán"
+  },
+  {
+    "mun_pk_id": 5113,
+    "dep_fk_id": 5,
+    "mun_nombre": "Buriticá"
+  },
+  {
+    "mun_pk_id": 23815,
+    "dep_fk_id": 23,
+    "mun_nombre": "Tuchín"
+  },
+  {
+    "mun_pk_id": 15367,
+    "dep_fk_id": 15,
+    "mun_nombre": "Jenesano"
+  },
+  {
+    "mun_pk_id": 15325,
+    "dep_fk_id": 15,
+    "mun_nombre": "Guayatá"
+  },
+  {
+    "mun_pk_id": 8520,
+    "dep_fk_id": 8,
+    "mun_nombre": "Palmar de Varela"
+  },
+  {
+    "mun_pk_id": 15244,
+    "dep_fk_id": 15,
+    "mun_nombre": "El Cocuy"
+  },
+  {
+    "mun_pk_id": 13440,
+    "dep_fk_id": 13,
+    "mun_nombre": "Margarita"
+  },
+  {
+    "mun_pk_id": 25736,
+    "dep_fk_id": 25,
+    "mun_nombre": "Sesquilé"
+  },
+  {
+    "mun_pk_id": 5761,
+    "dep_fk_id": 5,
+    "mun_nombre": "Sopetrán"
+  },
+  {
+    "mun_pk_id": 15401,
+    "dep_fk_id": 15,
+    "mun_nombre": "La Victoria"
+  },
+  {
+    "mun_pk_id": 20013,
+    "dep_fk_id": 20,
+    "mun_nombre": "Agustín Codazzi"
+  },
+  {
+    "mun_pk_id": 15572,
+    "dep_fk_id": 15,
+    "mun_nombre": "Puerto Boyacá"
+  },
+  {
+    "mun_pk_id": 25297,
+    "dep_fk_id": 25,
+    "mun_nombre": "Gachetá"
+  },
+  {
+    "mun_pk_id": 13212,
+    "dep_fk_id": 13,
+    "mun_nombre": "Córdoba"
+  },
+  {
+    "mun_pk_id": 47692,
+    "dep_fk_id": 47,
+    "mun_nombre": "San Sebastián de Buenavista"
+  },
+  {
+    "mun_pk_id": 66088,
+    "dep_fk_id": 66,
+    "mun_nombre": "Belén de Umbría"
+  },
+  {
+    "mun_pk_id": 68855,
+    "dep_fk_id": 68,
+    "mun_nombre": "Valle de San José"
+  },
+  {
+    "mun_pk_id": 18150,
+    "dep_fk_id": 18,
+    "mun_nombre": "Cartagena del Chairá"
+  },
+  {
+    "mun_pk_id": 52693,
+    "dep_fk_id": 52,
+    "mun_nombre": "San Pablo"
+  },
+  {
+    "mun_pk_id": 15114,
+    "dep_fk_id": 15,
+    "mun_nombre": "Busbanzá"
+  },
+  {
+    "mun_pk_id": 52224,
+    "dep_fk_id": 52,
+    "mun_nombre": "Cuaspúd"
+  },
+  {
+    "mun_pk_id": 5842,
+    "dep_fk_id": 5,
+    "mun_nombre": "Uramita"
+  },
+  {
+    "mun_pk_id": 50370,
+    "dep_fk_id": 50,
+    "mun_nombre": "Uribe"
+  },
+  {
+    "mun_pk_id": 44847,
+    "dep_fk_id": 44,
+    "mun_nombre": "Uribia"
+  },
+  {
+    "mun_pk_id": 5847,
+    "dep_fk_id": 5,
+    "mun_nombre": "Urrao"
+  },
+  {
+    "mun_pk_id": 44855,
+    "dep_fk_id": 44,
+    "mun_nombre": "Urumita"
+  },
+  {
+    "mun_pk_id": 5854,
+    "dep_fk_id": 5,
+    "mun_nombre": "Valdivia"
+  },
+  {
+    "mun_pk_id": 15176,
+    "dep_fk_id": 15,
+    "mun_nombre": "Chiquinquirá"
+  },
+  {
+    "mun_pk_id": 25328,
+    "dep_fk_id": 25,
+    "mun_nombre": "Guayabal de Síquima"
+  },
+  {
+    "mun_pk_id": 13657,
+    "dep_fk_id": 13,
+    "mun_nombre": "San Juan Nepomuceno"
+  },
+  {
+    "mun_pk_id": 20001,
+    "dep_fk_id": 20,
+    "mun_nombre": "Valledupar"
+  },
+  {
+    "mun_pk_id": 73861,
+    "dep_fk_id": 73,
+    "mun_nombre": "Venadillo"
+  },
+  {
+    "mun_pk_id": 5861,
+    "dep_fk_id": 5,
+    "mun_nombre": "Venecia"
+  },
+  {
+    "mun_pk_id": 25506,
+    "dep_fk_id": 25,
+    "mun_nombre": "Venecia"
+  },
+  {
+    "mun_pk_id": 25862,
+    "dep_fk_id": 25,
+    "mun_nombre": "Vergara"
+  },
+  {
+    "mun_pk_id": 76863,
+    "dep_fk_id": 76,
+    "mun_nombre": "Versalles"
+  },
+  {
+    "mun_pk_id": 68867,
+    "dep_fk_id": 68,
+    "mun_nombre": "Vetas"
+  },
+  {
+    "mun_pk_id": 17867,
+    "dep_fk_id": 17,
+    "mun_nombre": "Victoria"
+  },
+  {
+    "mun_pk_id": 15442,
+    "dep_fk_id": 15,
+    "mun_nombre": "Maripí"
+  },
+  {
+    "mun_pk_id": 76869,
+    "dep_fk_id": 76,
+    "mun_nombre": "Vijes"
+  },
+  {
+    "mun_pk_id": 5495,
+    "dep_fk_id": 5,
+    "mun_nombre": "Nechí"
+  },
+  {
+    "mun_pk_id": 13473,
+    "dep_fk_id": 13,
+    "mun_nombre": "Morales"
+  },
+  {
+    "mun_pk_id": 5893,
+    "dep_fk_id": 5,
+    "mun_nombre": "Yondó"
+  },
+  {
+    "mun_pk_id": 52585,
+    "dep_fk_id": 52,
+    "mun_nombre": "Pupiales"
+  },
+  {
+    "mun_pk_id": 19845,
+    "dep_fk_id": 19,
+    "mun_nombre": "Villa rica"
+  },
+  {
+    "mun_pk_id": 73870,
+    "dep_fk_id": 73,
+    "mun_nombre": "Villahermosa"
+  },
+  {
+    "mun_pk_id": 85440,
+    "dep_fk_id": 85,
+    "mun_nombre": "Villanueva"
+  },
+  {
+    "mun_pk_id": 44874,
+    "dep_fk_id": 44,
+    "mun_nombre": "Villanueva"
+  },
+  {
+    "mun_pk_id": 68872,
+    "dep_fk_id": 68,
+    "mun_nombre": "Villanueva"
+  },
+  {
+    "mun_pk_id": 73873,
+    "dep_fk_id": 73,
+    "mun_nombre": "Villarrica"
+  },
+  {
+    "mun_pk_id": 50001,
+    "dep_fk_id": 50,
+    "mun_nombre": "Villavicencio"
+  },
+  {
+    "mun_pk_id": 41872,
+    "dep_fk_id": 41,
+    "mun_nombre": "Villavieja"
+  },
+  {
+    "mun_pk_id": 25875,
+    "dep_fk_id": 25,
+    "mun_nombre": "Villeta"
+  },
+  {
+    "mun_pk_id": 50711,
+    "dep_fk_id": 50,
+    "mun_nombre": "Vistahermosa"
+  },
+  {
+    "mun_pk_id": 17877,
+    "dep_fk_id": 17,
+    "mun_nombre": "Viterbo"
+  },
+  {
+    "mun_pk_id": 5887,
+    "dep_fk_id": 5,
+    "mun_nombre": "Yarumal"
+  },
+  {
+    "mun_pk_id": 85001,
+    "dep_fk_id": 85,
+    "mun_nombre": "Yopal"
+  },
+  {
+    "mun_pk_id": 76890,
+    "dep_fk_id": 76,
+    "mun_nombre": "Yotoco"
+  },
+  {
+    "mun_pk_id": 76892,
+    "dep_fk_id": 76,
+    "mun_nombre": "Yumbo"
+  },
+  {
+    "mun_pk_id": 68895,
+    "dep_fk_id": 68,
+    "mun_nombre": "Zapatoca"
+  },
+  {
+    "mun_pk_id": 5895,
+    "dep_fk_id": 5,
+    "mun_nombre": "Zaragoza"
+  },
+  {
+    "mun_pk_id": 76895,
+    "dep_fk_id": 76,
+    "mun_nombre": "Zarzal"
+  },
+  {
+    "mun_pk_id": 73671,
+    "dep_fk_id": 73,
+    "mun_nombre": "Saldaña"
+  },
+  {
+    "mun_pk_id": 25658,
+    "dep_fk_id": 25,
+    "mun_nombre": "San Francisco"
+  },
+  {
+    "mun_pk_id": 50450,
+    "dep_fk_id": 50,
+    "mun_nombre": "Puerto Concordia"
+  },
+  {
+    "mun_pk_id": 70678,
+    "dep_fk_id": 70,
+    "mun_nombre": "San Benito abad"
+  },
+  {
+    "mun_pk_id": 19807,
+    "dep_fk_id": 19,
+    "mun_nombre": "Timbío"
+  },
+  {
+    "mun_pk_id": 66682,
+    "dep_fk_id": 66,
+    "mun_nombre": "Santa Rosa de Cabal"
+  },
+  {
+    "mun_pk_id": 15778,
+    "dep_fk_id": 15,
+    "mun_nombre": "Sutatenza"
+  },
+  {
+    "mun_pk_id": 73854,
+    "dep_fk_id": 73,
+    "mun_nombre": "Valle de San Juan"
+  },
+  {
+    "mun_pk_id": 25386,
+    "dep_fk_id": 25,
+    "mun_nombre": "La Mesa"
+  },
+  {
+    "mun_pk_id": 20570,
+    "dep_fk_id": 20,
+    "mun_nombre": "Pueblo Bello"
+  },
+  {
+    "mun_pk_id": 5649,
+    "dep_fk_id": 5,
+    "mun_nombre": "San Carlos"
+  },
+  {
+    "mun_pk_id": 25572,
+    "dep_fk_id": 25,
+    "mun_nombre": "Puerto Salgar"
+  },
+  {
+    "mun_pk_id": 76403,
+    "dep_fk_id": 76,
+    "mun_nombre": "La Victoria"
+  },
+  {
+    "mun_pk_id": 47707,
+    "dep_fk_id": 47,
+    "mun_nombre": "Santa Ana"
+  },
+  {
+    "mun_pk_id": 63401,
+    "dep_fk_id": 63,
+    "mun_nombre": "La Tebaida"
+  },
+  {
+    "mun_pk_id": 25645,
+    "dep_fk_id": 25,
+    "mun_nombre": "San Antonio del Tequendama"
+  },
+  {
+    "mun_pk_id": 41396,
+    "dep_fk_id": 41,
+    "mun_nombre": "La Plata"
+  },
+  {
+    "mun_pk_id": 19397,
+    "dep_fk_id": 19,
+    "mun_nombre": "La Vega"
+  },
+  {
+    "mun_pk_id": 85136,
+    "dep_fk_id": 85,
+    "mun_nombre": "La Salina"
+  },
+  {
+    "mun_pk_id": 19573,
+    "dep_fk_id": 19,
+    "mun_nombre": "Puerto Tejada"
+  },
+  {
+    "mun_pk_id": 68575,
+    "dep_fk_id": 68,
+    "mun_nombre": "Puerto Wilches"
+  },
+  {
+    "mun_pk_id": 25649,
+    "dep_fk_id": 25,
+    "mun_nombre": "San Bernardo"
+  },
+  {
+    "mun_pk_id": 68572,
+    "dep_fk_id": 68,
+    "mun_nombre": "Puente Nacional"
+  },
+  {
+    "mun_pk_id": 25394,
+    "dep_fk_id": 25,
+    "mun_nombre": "La Palma"
+  },
+  {
+    "mun_pk_id": 85125,
+    "dep_fk_id": 85,
+    "mun_nombre": "Hato Corozal"
+  },
+  {
+    "mun_pk_id": 68418,
+    "dep_fk_id": 68,
+    "mun_nombre": "Los Santos"
+  },
+  {
+    "mun_pk_id": 54553,
+    "dep_fk_id": 54,
+    "mun_nombre": "Puerto Santander"
+  },
+  {
+    "mun_pk_id": 5690,
+    "dep_fk_id": 5,
+    "mun_nombre": "Santo Domingo"
+  },
+  {
+    "mun_pk_id": 54670,
+    "dep_fk_id": 54,
+    "mun_nombre": "San Calixto"
+  },
+  {
+    "mun_pk_id": 68377,
+    "dep_fk_id": 68,
+    "mun_nombre": "La Belleza"
+  },
+  {
+    "mun_pk_id": 20710,
+    "dep_fk_id": 20,
+    "mun_nombre": "San Alberto"
+  },
+  {
+    "mun_pk_id": 68573,
+    "dep_fk_id": 68,
+    "mun_nombre": "Puerto Parra"
+  },
+  {
+    "mun_pk_id": 25653,
+    "dep_fk_id": 25,
+    "mun_nombre": "San Cayetano"
+  },
+  {
+    "mun_pk_id": 47001,
+    "dep_fk_id": 47,
+    "mun_nombre": "Santa Marta"
+  },
+  {
+    "mun_pk_id": 99524,
+    "dep_fk_id": 99,
+    "mun_nombre": "La Primavera"
+  },
+  {
+    "mun_pk_id": 73686,
+    "dep_fk_id": 73,
+    "mun_nombre": "Santa Isabel"
+  },
+  {
+    "mun_pk_id": 76670,
+    "dep_fk_id": 76,
+    "mun_nombre": "San Pedro"
+  },
+  {
+    "mun_pk_id": 5591,
+    "dep_fk_id": 5,
+    "mun_nombre": "Puerto Triunfo"
+  },
+  {
+    "mun_pk_id": 68679,
+    "dep_fk_id": 68,
+    "mun_nombre": "San Gil"
+  },
+  {
+    "mun_pk_id": 86569,
+    "dep_fk_id": 86,
+    "mun_nombre": "Puerto Caicedo"
+  },
+  {
+    "mun_pk_id": 5670,
+    "dep_fk_id": 5,
+    "mun_nombre": "San Roque"
+  },
+  {
+    "mun_pk_id": 5789,
+    "dep_fk_id": 5,
+    "mun_nombre": "Támesis"
+  },
+  {
+    "mun_pk_id": 23555,
+    "dep_fk_id": 23,
+    "mun_nombre": "Planeta Rica"
+  },
+  {
+    "mun_pk_id": 15090,
+    "dep_fk_id": 15,
+    "mun_nombre": "Berbeo"
+  },
+  {
+    "mun_pk_id": 8849,
+    "dep_fk_id": 8,
+    "mun_nombre": "Usiacurí"
+  },
+  {
+    "mun_pk_id": 27413,
+    "dep_fk_id": 27,
+    "mun_nombre": "Lloró"
+  },
+  {
+    "mun_pk_id": 8638,
+    "dep_fk_id": 8,
+    "mun_nombre": "Sabanalarga"
+  },
+  {
+    "mun_pk_id": 5321,
+    "dep_fk_id": 5,
+    "mun_nombre": "Guatapé"
+  },
+  {
+    "mun_pk_id": 70823,
+    "dep_fk_id": 70,
+    "mun_nombre": "Tolú Viejo"
+  },
+  {
+    "mun_pk_id": 25843,
+    "dep_fk_id": 25,
+    "mun_nombre": "Villa de de Ubaté"
+  },
+  {
+    "mun_pk_id": 52399,
+    "dep_fk_id": 52,
+    "mun_nombre": "La Unión"
+  },
+  {
+    "mun_pk_id": 18753,
+    "dep_fk_id": 18,
+    "mun_nombre": "San Vicente del Caguán"
+  },
+  {
+    "mun_pk_id": 8770,
+    "dep_fk_id": 8,
+    "mun_nombre": "Suan"
+  },
+  {
+    "mun_pk_id": 13780,
+    "dep_fk_id": 13,
+    "mun_nombre": "Talaigua Nuevo"
+  },
+  {
+    "mun_pk_id": 13300,
+    "dep_fk_id": 13,
+    "mun_nombre": "Hatillo de Loba"
+  },
+  {
+    "mun_pk_id": 52678,
+    "dep_fk_id": 52,
+    "mun_nombre": "Samaniego"
+  },
+  {
+    "mun_pk_id": 41676,
+    "dep_fk_id": 41,
+    "mun_nombre": "Santa María"
+  },
+  {
+    "mun_pk_id": 54003,
+    "dep_fk_id": 54,
+    "mun_nombre": "Ábrego"
+  },
+  {
+    "mun_pk_id": 17777,
+    "dep_fk_id": 17,
+    "mun_nombre": "Supía"
+  },
+  {
+    "mun_pk_id": 25372,
+    "dep_fk_id": 25,
+    "mun_nombre": "Junín"
+  },
+  {
+    "mun_pk_id": 68167,
+    "dep_fk_id": 68,
+    "mun_nombre": "Charalá"
+  },
+  {
+    "mun_pk_id": 13244,
+    "dep_fk_id": 13,
+    "mun_nombre": "El Carmen de Bolívar"
+  },
+  {
+    "mun_pk_id": 18410,
+    "dep_fk_id": 18,
+    "mun_nombre": "La Montañita"
+  },
+  {
+    "mun_pk_id": 25873,
+    "dep_fk_id": 25,
+    "mun_nombre": "Villapinzón"
+  },
+  {
+    "mun_pk_id": 27150,
+    "dep_fk_id": 27,
+    "mun_nombre": "Carmen del Darién"
+  },
+  {
+    "mun_pk_id": 8001,
+    "dep_fk_id": 8,
+    "mun_nombre": "Barranquilla"
+  },
+  {
+    "mun_pk_id": 52838,
+    "dep_fk_id": 52,
+    "mun_nombre": "Túquerres"
+  },
+  {
+    "mun_pk_id": 15808,
+    "dep_fk_id": 15,
+    "mun_nombre": "Tinjacá"
+  },
+  {
+    "mun_pk_id": 15380,
+    "dep_fk_id": 15,
+    "mun_nombre": "La Capilla"
+  },
+  {
+    "mun_pk_id": 27450,
+    "dep_fk_id": 27,
+    "mun_nombre": "Medio San Juan"
+  },
+  {
+    "mun_pk_id": 18001,
+    "dep_fk_id": 18,
+    "mun_nombre": "Florencia"
+  },
+  {
+    "mun_pk_id": 15180,
+    "dep_fk_id": 15,
+    "mun_nombre": "Chiscas"
+  },
+  {
+    "mun_pk_id": 68255,
+    "dep_fk_id": 68,
+    "mun_nombre": "El Playón"
+  },
+  {
+    "mun_pk_id": 23675,
+    "dep_fk_id": 23,
+    "mun_nombre": "San Bernardo del Viento"
+  },
+  {
+    "mun_pk_id": 15667,
+    "dep_fk_id": 15,
+    "mun_nombre": "San Luis de Gaceno"
+  },
+  {
+    "mun_pk_id": 25758,
+    "dep_fk_id": 25,
+    "mun_nombre": "Sopó"
+  },
+  {
+    "mun_pk_id": 5138,
+    "dep_fk_id": 5,
+    "mun_nombre": "Cañasgordas"
+  },
+  {
+    "mun_pk_id": 25885,
+    "dep_fk_id": 25,
+    "mun_nombre": "Yacopí"
+  },
+  {
+    "mun_pk_id": 73770,
+    "dep_fk_id": 73,
+    "mun_nombre": "Suárez"
+  },
+  {
+    "mun_pk_id": 5579,
+    "dep_fk_id": 5,
+    "mun_nombre": "Puerto Berrío"
+  },
+  {
+    "mun_pk_id": 19364,
+    "dep_fk_id": 19,
+    "mun_nombre": "Jambaló"
+  },
+  {
+    "mun_pk_id": 5652,
+    "dep_fk_id": 5,
+    "mun_nombre": "San Francisco"
+  },
+  {
+    "mun_pk_id": 5660,
+    "dep_fk_id": 5,
+    "mun_nombre": "San Luis"
+  },
+  {
+    "mun_pk_id": 70717,
+    "dep_fk_id": 70,
+    "mun_nombre": "San Pedro"
+  },
+  {
+    "mun_pk_id": 73675,
+    "dep_fk_id": 73,
+    "mun_nombre": "San Antonio"
+  },
+  {
+    "mun_pk_id": 54385,
+    "dep_fk_id": 54,
+    "mun_nombre": "La Esperanza"
+  },
+  {
+    "mun_pk_id": 91536,
+    "dep_fk_id": 91,
+    "mun_nombre": "Puerto Arica"
+  },
+  {
+    "mun_pk_id": 50150,
+    "dep_fk_id": 50,
+    "mun_nombre": "Castilla la Nueva"
+  },
+  {
+    "mun_pk_id": 19698,
+    "dep_fk_id": 19,
+    "mun_nombre": "Santander de Quilichao"
+  },
+  {
+    "mun_pk_id": 5390,
+    "dep_fk_id": 5,
+    "mun_nombre": "La Pintada"
+  },
+  {
+    "mun_pk_id": 25154,
+    "dep_fk_id": 25,
+    "mun_nombre": "Carmen de Carupa"
+  },
+  {
+    "mun_pk_id": 66400,
+    "dep_fk_id": 66,
+    "mun_nombre": "La Virginia"
+  },
+  {
+    "mun_pk_id": 68673,
+    "dep_fk_id": 68,
+    "mun_nombre": "San Benito"
+  },
+  {
+    "mun_pk_id": 5585,
+    "dep_fk_id": 5,
+    "mun_nombre": "Puerto Nare"
+  },
+  {
+    "mun_pk_id": 70708,
+    "dep_fk_id": 70,
+    "mun_nombre": "San Marcos"
+  },
+  {
+    "mun_pk_id": 54398,
+    "dep_fk_id": 54,
+    "mun_nombre": "La Playa"
+  },
+  {
+    "mun_pk_id": 91669,
+    "dep_fk_id": 91,
+    "mun_nombre": "Puerto Santander"
+  },
+  {
+    "mun_pk_id": 15189,
+    "dep_fk_id": 15,
+    "mun_nombre": "Ciénega"
+  },
+  {
+    "mun_pk_id": 44420,
+    "dep_fk_id": 44,
+    "mun_nombre": "La Jagua del Pilar"
+  },
+  {
+    "mun_pk_id": 20383,
+    "dep_fk_id": 20,
+    "mun_nombre": "La Gloria"
+  },
+  {
+    "mun_pk_id": 73678,
+    "dep_fk_id": 73,
+    "mun_nombre": "San Luis"
+  },
+  {
+    "mun_pk_id": 68179,
+    "dep_fk_id": 68,
+    "mun_nombre": "Chipatá"
+  },
+  {
+    "mun_pk_id": 91407,
+    "dep_fk_id": 91,
+    "mun_nombre": "La Pedrera"
+  },
+  {
+    "mun_pk_id": 5667,
+    "dep_fk_id": 5,
+    "mun_nombre": "San Rafael"
+  },
+  {
+    "mun_pk_id": 91405,
+    "dep_fk_id": 91,
+    "mun_nombre": "La Chorrera"
+  },
+  {
+    "mun_pk_id": 19701,
+    "dep_fk_id": 19,
+    "mun_nombre": "Santa Rosa"
+  },
+  {
+    "mun_pk_id": 25662,
+    "dep_fk_id": 25,
+    "mun_nombre": "San Juan de Rioseco"
+  },
+  {
+    "mun_pk_id": 47980,
+    "dep_fk_id": 47,
+    "mun_nombre": "Zona Bananera"
+  },
+  {
+    "mun_pk_id": 76377,
+    "dep_fk_id": 76,
+    "mun_nombre": "La Cumbre"
+  },
+  {
+    "mun_pk_id": 68397,
+    "dep_fk_id": 68,
+    "mun_nombre": "La Paz"
+  },
+  {
+    "mun_pk_id": 17380,
+    "dep_fk_id": 17,
+    "mun_nombre": "La Dorada"
+  },
+  {
+    "mun_pk_id": 20400,
+    "dep_fk_id": 20,
+    "mun_nombre": "La Jagua de Ibirico"
+  },
+  {
+    "mun_pk_id": 66572,
+    "dep_fk_id": 66,
+    "mun_nombre": "Pueblo Rico"
+  },
+  {
+    "mun_pk_id": 70418,
+    "dep_fk_id": 70,
+    "mun_nombre": "Los Palmitos"
+  },
+  {
+    "mun_pk_id": 66383,
+    "dep_fk_id": 66,
+    "mun_nombre": "La Celia"
+  },
+  {
+    "mun_pk_id": 50350,
+    "dep_fk_id": 50,
+    "mun_nombre": "La Macarena"
+  },
+  {
+    "mun_pk_id": 47161,
+    "dep_fk_id": 47,
+    "mun_nombre": "Cerro de San Antonio"
+  },
+  {
+    "mun_pk_id": 17662,
+    "dep_fk_id": 17,
+    "mun_nombre": "Samaná"
+  },
+  {
+    "mun_pk_id": 86755,
+    "dep_fk_id": 86,
+    "mun_nombre": "San Francisco"
+  },
+  {
+    "mun_pk_id": 15842,
+    "dep_fk_id": 15,
+    "mun_nombre": "Úmbita"
+  },
+  {
+    "mun_pk_id": 13620,
+    "dep_fk_id": 13,
+    "mun_nombre": "San Cristóbal"
+  },
+  {
+    "mun_pk_id": 27580,
+    "dep_fk_id": 27,
+    "mun_nombre": "Río Iró"
+  },
+  {
+    "mun_pk_id": 8433,
+    "dep_fk_id": 8,
+    "mun_nombre": "Malambo"
+  },
+  {
+    "mun_pk_id": 13042,
+    "dep_fk_id": 13,
+    "mun_nombre": "Arenal"
+  },
+  {
+    "mun_pk_id": 54206,
+    "dep_fk_id": 54,
+    "mun_nombre": "Convención"
+  },
+  {
+    "mun_pk_id": 15580,
+    "dep_fk_id": 15,
+    "mun_nombre": "Quípama"
+  },
+  {
+    "mun_pk_id": 25099,
+    "dep_fk_id": 25,
+    "mun_nombre": "Bojacá"
+  },
+  {
+    "mun_pk_id": 15236,
+    "dep_fk_id": 15,
+    "mun_nombre": "Chivor"
+  },
+  {
+    "mun_pk_id": 23464,
+    "dep_fk_id": 23,
+    "mun_nombre": "Momil"
+  },
+  {
+    "mun_pk_id": 50006,
+    "dep_fk_id": 50,
+    "mun_nombre": "Acacías"
+  },
+  {
+    "mun_pk_id": 5490,
+    "dep_fk_id": 5,
+    "mun_nombre": "Necoclí"
+  },
+  {
+    "mun_pk_id": 23500,
+    "dep_fk_id": 23,
+    "mun_nombre": "Moñitos"
+  },
+  {
+    "mun_pk_id": 52258,
+    "dep_fk_id": 52,
+    "mun_nombre": "El Tablón de Gómez"
+  },
+  {
+    "mun_pk_id": 23189,
+    "dep_fk_id": 23,
+    "mun_nombre": "Ciénaga de Oro"
+  },
+  {
+    "mun_pk_id": 50325,
+    "dep_fk_id": 50,
+    "mun_nombre": "Mapiripán"
+  },
+  {
+    "mun_pk_id": 13468,
+    "dep_fk_id": 13,
+    "mun_nombre": "Mompós"
+  },
+  {
+    "mun_pk_id": 15224,
+    "dep_fk_id": 15,
+    "mun_nombre": "Cucaita"
+  },
+  {
+    "mun_pk_id": 23417,
+    "dep_fk_id": 23,
+    "mun_nombre": "Lorica"
+  },
+  {
+    "mun_pk_id": 68684,
+    "dep_fk_id": 68,
+    "mun_nombre": "San José de Miranda"
+  },
+  {
+    "mun_pk_id": 15542,
+    "dep_fk_id": 15,
+    "mun_nombre": "Pesca"
+  },
+  {
+    "mun_pk_id": 52240,
+    "dep_fk_id": 52,
+    "mun_nombre": "Chachagüí"
+  },
+  {
+    "mun_pk_id": 8675,
+    "dep_fk_id": 8,
+    "mun_nombre": "Santa Lucía"
+  },
+  {
+    "mun_pk_id": 73411,
+    "dep_fk_id": 73,
+    "mun_nombre": "Líbano"
+  },
+  {
+    "mun_pk_id": 85225,
+    "dep_fk_id": 85,
+    "mun_nombre": "Nunchía"
+  },
+  {
+    "mun_pk_id": 13030,
+    "dep_fk_id": 13,
+    "mun_nombre": "Altos del Rosario"
+  },
+  {
+    "mun_pk_id": 68705,
+    "dep_fk_id": 68,
+    "mun_nombre": "Santa Bárbara"
+  },
+  {
+    "mun_pk_id": 23079,
+    "dep_fk_id": 23,
+    "mun_nombre": "Buenavista"
+  },
+  {
+    "mun_pk_id": 52612,
+    "dep_fk_id": 52,
+    "mun_nombre": "Ricaurte"
+  },
+  {
+    "mun_pk_id": 94885,
+    "dep_fk_id": 94,
+    "mun_nombre": "La Guadalupe"
+  },
+  {
+    "mun_pk_id": 41244,
+    "dep_fk_id": 41,
+    "mun_nombre": "Elías"
+  },
+  {
+    "mun_pk_id": 52540,
+    "dep_fk_id": 52,
+    "mun_nombre": "Policarpa"
+  },
+  {
+    "mun_pk_id": 25339,
+    "dep_fk_id": 25,
+    "mun_nombre": "Gutiérrez"
+  },
+  {
+    "mun_pk_id": 47703,
+    "dep_fk_id": 47,
+    "mun_nombre": "San Zenón"
+  },
+  {
+    "mun_pk_id": 52687,
+    "dep_fk_id": 52,
+    "mun_nombre": "San Lorenzo"
+  },
+  {
+    "mun_pk_id": 15087,
+    "dep_fk_id": 15,
+    "mun_nombre": "Belén"
+  },
+  {
+    "mun_pk_id": 19548,
+    "dep_fk_id": 19,
+    "mun_nombre": "Piendamó"
+  },
+  {
+    "mun_pk_id": 15272,
+    "dep_fk_id": 15,
+    "mun_nombre": "Firavitoba"
+  },
+  {
+    "mun_pk_id": 27800,
+    "dep_fk_id": 27,
+    "mun_nombre": "Unguía"
+  },
+  {
+    "mun_pk_id": 15550,
+    "dep_fk_id": 15,
+    "mun_nombre": "Pisba"
+  },
+  {
+    "mun_pk_id": 85325,
+    "dep_fk_id": 85,
+    "mun_nombre": "San Luis de Palenque"
+  },
+  {
+    "mun_pk_id": 18610,
+    "dep_fk_id": 18,
+    "mun_nombre": "San José del Fragua"
+  },
+  {
+    "mun_pk_id": 70713,
+    "dep_fk_id": 70,
+    "mun_nombre": "San Onofre"
+  },
+  {
+    "mun_pk_id": 25402,
+    "dep_fk_id": 25,
+    "mun_nombre": "La Vega"
+  },
+  {
+    "mun_pk_id": 86757,
+    "dep_fk_id": 86,
+    "mun_nombre": "San Miguel"
+  },
+  {
+    "mun_pk_id": 50686,
+    "dep_fk_id": 50,
+    "mun_nombre": "San Juanito"
+  },
+  {
+    "mun_pk_id": 47460,
+    "dep_fk_id": 47,
+    "mun_nombre": "Nueva Granada"
+  },
+  {
+    "mun_pk_id": 5686,
+    "dep_fk_id": 5,
+    "mun_nombre": "Santa Rosa de Osos"
+  },
+  {
+    "mun_pk_id": 5664,
+    "dep_fk_id": 5,
+    "mun_nombre": "San Pedro los Milagros"
+  },
+  {
+    "mun_pk_id": 5674,
+    "dep_fk_id": 5,
+    "mun_nombre": "San Vicente Ferrer"
+  },
+  {
+    "mun_pk_id": 81220,
+    "dep_fk_id": 81,
+    "mun_nombre": "Cravo Norte"
+  },
+  {
+    "mun_pk_id": 19392,
+    "dep_fk_id": 19,
+    "mun_nombre": "La Sierra"
+  },
+  {
+    "mun_pk_id": 54673,
+    "dep_fk_id": 54,
+    "mun_nombre": "San Cayetano"
+  },
+  {
+    "mun_pk_id": 5376,
+    "dep_fk_id": 5,
+    "mun_nombre": "La Ceja"
+  },
+  {
+    "mun_pk_id": 17388,
+    "dep_fk_id": 17,
+    "mun_nombre": "La Merced"
+  },
+  {
+    "mun_pk_id": 23350,
+    "dep_fk_id": 23,
+    "mun_nombre": "La Apartada"
+  },
+  {
+    "mun_pk_id": 54871,
+    "dep_fk_id": 54,
+    "mun_nombre": "Villa Caro"
+  },
+  {
+    "mun_pk_id": 5380,
+    "dep_fk_id": 5,
+    "mun_nombre": "La Estrella"
+  },
+  {
+    "mun_pk_id": 44650,
+    "dep_fk_id": 44,
+    "mun_nombre": "San Juan del Cesar"
+  },
+  {
+    "mun_pk_id": 68655,
+    "dep_fk_id": 68,
+    "mun_nombre": "Sabana de Torres"
+  },
+  {
+    "mun_pk_id": 41378,
+    "dep_fk_id": 41,
+    "mun_nombre": "La Argentina"
+  },
+  {
+    "mun_pk_id": 91430,
+    "dep_fk_id": 91,
+    "mun_nombre": "La Victoria"
+  },
+  {
+    "mun_pk_id": 70702,
+    "dep_fk_id": 70,
+    "mun_nombre": "San Juan de Betulia"
+  },
+  {
+    "mun_pk_id": 19110,
+    "dep_fk_id": 19,
+    "mun_nombre": "Buenos Aires"
+  },
+  {
+    "mun_pk_id": 50590,
+    "dep_fk_id": 50,
+    "mun_nombre": "Puerto Rico"
+  },
+  {
+    "mun_pk_id": 47660,
+    "dep_fk_id": 47,
+    "mun_nombre": "Sabanas de San Ángel"
+  },
+  {
+    "mun_pk_id": 15109,
+    "dep_fk_id": 15,
+    "mun_nombre": "Buenavista"
+  },
+  {
+    "mun_pk_id": 66318,
+    "dep_fk_id": 66,
+    "mun_nombre": "Guática"
+  },
+  {
+    "mun_pk_id": 68533,
+    "dep_fk_id": 68,
+    "mun_nombre": "Páramo"
+  },
+  {
+    "mun_pk_id": 15764,
+    "dep_fk_id": 15,
+    "mun_nombre": "Soracá"
+  },
+  {
+    "mun_pk_id": 15218,
+    "dep_fk_id": 15,
+    "mun_nombre": "Covarachía"
+  },
+  {
+    "mun_pk_id": 23182,
+    "dep_fk_id": 23,
+    "mun_nombre": "Chinú"
+  },
+  {
+    "mun_pk_id": 15837,
+    "dep_fk_id": 15,
+    "mun_nombre": "Tuta"
+  },
+  {
+    "mun_pk_id": 19532,
+    "dep_fk_id": 19,
+    "mun_nombre": "Patía"
+  },
+  {
+    "mun_pk_id": 91798,
+    "dep_fk_id": 91,
+    "mun_nombre": "Tarapacá"
+  },
+  {
+    "mun_pk_id": 15455,
+    "dep_fk_id": 15,
+    "mun_nombre": "Miraflores"
+  },
+  {
+    "mun_pk_id": 15051,
+    "dep_fk_id": 15,
+    "mun_nombre": "Arcabuco"
+  },
+  {
+    "mun_pk_id": 97001,
+    "dep_fk_id": 97,
+    "mun_nombre": "Mitú"
+  },
+  {
+    "mun_pk_id": 52685,
+    "dep_fk_id": 52,
+    "mun_nombre": "San Bernardo"
+  },
+  {
+    "mun_pk_id": 17174,
+    "dep_fk_id": 17,
+    "mun_nombre": "Chinchiná"
+  },
+  {
+    "mun_pk_id": 15861,
+    "dep_fk_id": 15,
+    "mun_nombre": "Ventaquemada"
+  },
+  {
+    "mun_pk_id": 23678,
+    "dep_fk_id": 23,
+    "mun_nombre": "San Carlos"
+  },
+  {
+    "mun_pk_id": 15106,
+    "dep_fk_id": 15,
+    "mun_nombre": "Briceño"
+  },
+  {
+    "mun_pk_id": 8634,
+    "dep_fk_id": 8,
+    "mun_nombre": "Sabanagrande"
+  },
+  {
+    "mun_pk_id": 52019,
+    "dep_fk_id": 52,
+    "mun_nombre": "Albán"
+  },
+  {
+    "mun_pk_id": 86573,
+    "dep_fk_id": 86,
+    "mun_nombre": "Puerto Leguízamo"
+  },
+  {
+    "mun_pk_id": 52233,
+    "dep_fk_id": 52,
+    "mun_nombre": "Cumbitara"
+  },
+  {
+    "mun_pk_id": 25175,
+    "dep_fk_id": 25,
+    "mun_nombre": "Chía"
+  },
+  {
+    "mun_pk_id": 13654,
+    "dep_fk_id": 13,
+    "mun_nombre": "San Jacinto"
+  },
+  {
+    "mun_pk_id": 54128,
+    "dep_fk_id": 54,
+    "mun_nombre": "Cáchira"
+  },
+  {
+    "mun_pk_id": 25290,
+    "dep_fk_id": 25,
+    "mun_nombre": "Fusagasugá"
+  },
+  {
+    "mun_pk_id": 5240,
+    "dep_fk_id": 5,
+    "mun_nombre": "Ebéjico"
+  },
+  {
+    "mun_pk_id": 25019,
+    "dep_fk_id": 25,
+    "mun_nombre": "Albán"
+  },
+  {
+    "mun_pk_id": 17513,
+    "dep_fk_id": 17,
+    "mun_nombre": "Pácora"
+  },
+  {
+    "mun_pk_id": 68327,
+    "dep_fk_id": 68,
+    "mun_nombre": "Güepsa"
+  },
+  {
+    "mun_pk_id": 13688,
+    "dep_fk_id": 13,
+    "mun_nombre": "Santa Rosa del Sur"
+  },
+  {
+    "mun_pk_id": 5890,
+    "dep_fk_id": 5,
+    "mun_nombre": "Yolombó"
+  },
+  {
+    "mun_pk_id": 15822,
+    "dep_fk_id": 15,
+    "mun_nombre": "Tota"
+  },
+  {
+    "mun_pk_id": 73443,
+    "dep_fk_id": 73,
+    "mun_nombre": "San Sebastián de Mariquita"
+  },
+  {
+    "mun_pk_id": 20614,
+    "dep_fk_id": 20,
+    "mun_nombre": "Río de Oro"
+  },
+  {
+    "mun_pk_id": 15362,
+    "dep_fk_id": 15,
+    "mun_nombre": "Iza"
+  },
+  {
+    "mun_pk_id": 15223,
+    "dep_fk_id": 15,
+    "mun_nombre": "Cubará"
+  },
+  {
+    "mun_pk_id": 19821,
+    "dep_fk_id": 19,
+    "mun_nombre": "Toribío"
+  },
+  {
+    "mun_pk_id": 13873,
+    "dep_fk_id": 13,
+    "mun_nombre": "Villanueva"
+  },
+  {
+    "mun_pk_id": 52287,
+    "dep_fk_id": 52,
+    "mun_nombre": "Funes"
+  },
+  {
+    "mun_pk_id": 15293,
+    "dep_fk_id": 15,
+    "mun_nombre": "Gachantivá"
+  },
+  {
+    "mun_pk_id": 15522,
+    "dep_fk_id": 15,
+    "mun_nombre": "Panqueba"
+  },
+  {
+    "mun_pk_id": 63212,
+    "dep_fk_id": 63,
+    "mun_nombre": "Córdoba"
+  },
+  {
+    "mun_pk_id": 94883,
+    "dep_fk_id": 94,
+    "mun_nombre": "San Felipe"
+  },
+  {
+    "mun_pk_id": 25483,
+    "dep_fk_id": 25,
+    "mun_nombre": "Nariño"
+  },
+  {
+    "mun_pk_id": 5021,
+    "dep_fk_id": 5,
+    "mun_nombre": "Alejandría"
+  },
+  {
+    "mun_pk_id": 25126,
+    "dep_fk_id": 25,
+    "mun_nombre": "Cajicá"
+  },
+  {
+    "mun_pk_id": 52250,
+    "dep_fk_id": 52,
+    "mun_nombre": "El Charco"
+  },
+  {
+    "mun_pk_id": 47189,
+    "dep_fk_id": 47,
+    "mun_nombre": "Ciénaga"
+  },
+  {
+    "mun_pk_id": 68385,
+    "dep_fk_id": 68,
+    "mun_nombre": "Landázuri"
+  },
+  {
+    "mun_pk_id": 85230,
+    "dep_fk_id": 85,
+    "mun_nombre": "Orocué"
+  },
+  {
+    "mun_pk_id": 15022,
+    "dep_fk_id": 15,
+    "mun_nombre": "Almeida"
+  },
+  {
+    "mun_pk_id": 86219,
+    "dep_fk_id": 86,
+    "mun_nombre": "Colón"
+  },
+  {
+    "mun_pk_id": 25377,
+    "dep_fk_id": 25,
+    "mun_nombre": "La Calera"
+  },
+  {
+    "mun_pk_id": 76111,
+    "dep_fk_id": 76,
+    "mun_nombre": "Guadalajara de Buga"
+  },
+  {
+    "mun_pk_id": 20621,
+    "dep_fk_id": 20,
+    "mun_nombre": "La Paz"
+  },
+  {
+    "mun_pk_id": 50223,
+    "dep_fk_id": 50,
+    "mun_nombre": "San Luis de Cubarral"
+  },
+  {
+    "mun_pk_id": 50577,
+    "dep_fk_id": 50,
+    "mun_nombre": "Puerto Lleras"
+  },
+  {
+    "mun_pk_id": 86865,
+    "dep_fk_id": 86,
+    "mun_nombre": "Valle del Guamuez"
+  },
+  {
+    "mun_pk_id": 50287,
+    "dep_fk_id": 50,
+    "mun_nombre": "Fuente de Oro"
+  },
+  {
+    "mun_pk_id": 68524,
+    "dep_fk_id": 68,
+    "mun_nombre": "Palmas del Socorro"
+  },
+  {
+    "mun_pk_id": 50683,
+    "dep_fk_id": 50,
+    "mun_nombre": "San Juan de Arama"
+  },
+  {
+    "mun_pk_id": 20750,
+    "dep_fk_id": 20,
+    "mun_nombre": "San Diego"
+  },
+  {
+    "mun_pk_id": 54405,
+    "dep_fk_id": 54,
+    "mun_nombre": "Los Patios"
+  },
+  {
+    "mun_pk_id": 68686,
+    "dep_fk_id": 68,
+    "mun_nombre": "San Miguel"
+  },
+  {
+    "mun_pk_id": 50680,
+    "dep_fk_id": 50,
+    "mun_nombre": "San Carlos de Guaroa"
+  },
+  {
+    "mun_pk_id": 54874,
+    "dep_fk_id": 54,
+    "mun_nombre": "Villa del Rosario"
+  },
+  {
+    "mun_pk_id": 85250,
+    "dep_fk_id": 85,
+    "mun_nombre": "Paz de Ariporo"
+  },
+  {
+    "mun_pk_id": 50270,
+    "dep_fk_id": 50,
+    "mun_nombre": "El Dorado"
+  },
+  {
+    "mun_pk_id": 47245,
+    "dep_fk_id": 47,
+    "mun_nombre": "El Banco"
+  },
+  {
+    "mun_pk_id": 54245,
+    "dep_fk_id": 54,
+    "mun_nombre": "El Carmen"
+  },
+  {
+    "mun_pk_id": 19256,
+    "dep_fk_id": 19,
+    "mun_nombre": "El Tambo"
+  },
+  {
+    "mun_pk_id": 70233,
+    "dep_fk_id": 70,
+    "mun_nombre": "El Roble"
+  },
+  {
+    "mun_pk_id": 54250,
+    "dep_fk_id": 54,
+    "mun_nombre": "El Tarra"
+  },
+  {
+    "mun_pk_id": 5148,
+    "dep_fk_id": 5,
+    "mun_nombre": "El Carmen de Viboral"
+  },
+  {
+    "mun_pk_id": 68245,
+    "dep_fk_id": 68,
+    "mun_nombre": "El Guacamayo"
+  },
+  {
+    "mun_pk_id": 76246,
+    "dep_fk_id": 76,
+    "mun_nombre": "El Cairo"
+  },
+  {
+    "mun_pk_id": 95025,
+    "dep_fk_id": 95,
+    "mun_nombre": "El Retorno"
+  },
+  {
+    "mun_pk_id": 44110,
+    "dep_fk_id": 44,
+    "mun_nombre": "El Molino"
+  },
+  {
+    "mun_pk_id": 54261,
+    "dep_fk_id": 54,
+    "mun_nombre": "El Zulia"
+  },
+  {
+    "mun_pk_id": 5250,
+    "dep_fk_id": 5,
+    "mun_nombre": "El Bagre"
+  },
+  {
+    "mun_pk_id": 5697,
+    "dep_fk_id": 5,
+    "mun_nombre": "El Santuario"
+  },
+  {
+    "mun_pk_id": 50245,
+    "dep_fk_id": 50,
+    "mun_nombre": "El Calvario"
+  },
+  {
+    "mun_pk_id": 91263,
+    "dep_fk_id": 91,
+    "mun_nombre": "El Encanto"
+  },
+  {
+    "mun_pk_id": 25245,
+    "dep_fk_id": 25,
+    "mun_nombre": "El Colegio"
+  },
+  {
+    "mun_pk_id": 20238,
+    "dep_fk_id": 20,
+    "mun_nombre": "El Copey"
+  },
+  {
+    "mun_pk_id": 50251,
+    "dep_fk_id": 50,
+    "mun_nombre": "El Castillo"
+  },
+  {
+    "mun_pk_id": 25260,
+    "dep_fk_id": 25,
+    "mun_nombre": "El Rosal"
+  },
+  {
+    "mun_pk_id": 25001,
+    "dep_fk_id": 25,
+    "mun_nombre": "Agua de Dios"
+  },
+  {
+    "mun_pk_id": 76250,
+    "dep_fk_id": 76,
+    "mun_nombre": "El Dovio"
+  },
+  {
+    "mun_pk_id": 76248,
+    "dep_fk_id": 76,
+    "mun_nombre": "El Cerrito"
+  },
+  {
+    "mun_pk_id": 20250,
+    "dep_fk_id": 20,
+    "mun_nombre": "El Paso"
+  },
+  {
+    "mun_pk_id": 15322,
+    "dep_fk_id": 15,
+    "mun_nombre": "Guateque"
+  },
+  {
+    "mun_pk_id": 5107,
+    "dep_fk_id": 5,
+    "mun_nombre": "Briceño"
+  },
+  {
+    "mun_pk_id": 52427,
+    "dep_fk_id": 52,
+    "mun_nombre": "Magüí"
+  },
+  {
+    "mun_pk_id": 27660,
+    "dep_fk_id": 27,
+    "mun_nombre": "San José del Palmar"
+  },
+  {
+    "mun_pk_id": 52506,
+    "dep_fk_id": 52,
+    "mun_nombre": "Ospina"
+  },
+  {
+    "mun_pk_id": 25867,
+    "dep_fk_id": 25,
+    "mun_nombre": "Vianí"
+  },
+  {
+    "mun_pk_id": 20770,
+    "dep_fk_id": 20,
+    "mun_nombre": "San Martín"
+  },
+  {
+    "mun_pk_id": 13248,
+    "dep_fk_id": 13,
+    "mun_nombre": "El Guamo"
+  },
+  {
+    "mun_pk_id": 5310,
+    "dep_fk_id": 5,
+    "mun_nombre": "Gómez Plata"
+  },
+  {
+    "mun_pk_id": 94343,
+    "dep_fk_id": 94,
+    "mun_nombre": "Barranco Minas"
+  },
+  {
+    "mun_pk_id": 50573,
+    "dep_fk_id": 50,
+    "mun_nombre": "Puerto López"
+  },
+  {
+    "mun_pk_id": 15600,
+    "dep_fk_id": 15,
+    "mun_nombre": "Ráquira"
+  },
+  {
+    "mun_pk_id": 13667,
+    "dep_fk_id": 13,
+    "mun_nombre": "San Martín de Loba"
+  },
+  {
+    "mun_pk_id": 94886,
+    "dep_fk_id": 94,
+    "mun_nombre": "Cacahual"
+  },
+  {
+    "mun_pk_id": 52317,
+    "dep_fk_id": 52,
+    "mun_nombre": "Guachucal"
+  },
+  {
+    "mun_pk_id": 68296,
+    "dep_fk_id": 68,
+    "mun_nombre": "Galán"
+  },
+  {
+    "mun_pk_id": 19100,
+    "dep_fk_id": 19,
+    "mun_nombre": "Bolívar"
+  },
+  {
+    "mun_pk_id": 15135,
+    "dep_fk_id": 15,
+    "mun_nombre": "Campohermoso"
+  },
+  {
+    "mun_pk_id": 13268,
+    "dep_fk_id": 13,
+    "mun_nombre": "El Peñón"
+  },
+  {
+    "mun_pk_id": 15761,
+    "dep_fk_id": 15,
+    "mun_nombre": "Somondoco"
+  },
+  {
+    "mun_pk_id": 13683,
+    "dep_fk_id": 13,
+    "mun_nombre": "Santa Rosa"
+  },
+  {
+    "mun_pk_id": 19318,
+    "dep_fk_id": 19,
+    "mun_nombre": "Guapí"
+  },
+  {
+    "mun_pk_id": 25486,
+    "dep_fk_id": 25,
+    "mun_nombre": "Nemocón"
+  },
+  {
+    "mun_pk_id": 5856,
+    "dep_fk_id": 5,
+    "mun_nombre": "Valparaíso"
+  },
+  {
+    "mun_pk_id": 27205,
+    "dep_fk_id": 27,
+    "mun_nombre": "Condoto"
+  },
+  {
+    "mun_pk_id": 15047,
+    "dep_fk_id": 15,
+    "mun_nombre": "Aquitania"
+  },
+  {
+    "mun_pk_id": 73055,
+    "dep_fk_id": 73,
+    "mun_nombre": "Armero"
+  }
+]

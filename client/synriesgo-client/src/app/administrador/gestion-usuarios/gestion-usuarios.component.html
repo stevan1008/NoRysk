@@ -1,0 +1,264 @@
+<div class="container">
+  <form [formGroup]="formulario">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <label class="monserrat-font h6 fs-18">
+          Seleccione un cliente
+          &nbsp;
+          <span *ngIf="!f['cliente'].valid"><i class="fas fa-times text-danger"></i></span>
+          <span *ngIf="f['cliente'].valid"><i class="fas fa-check text-success"></i></span>
+
+          <span *ngIf="cargandoCli">
+            &nbsp;
+            <i class="fa-solid fa-spinner fa-xs taskbar-loading"></i>
+          </span>
+
+          <span class="hand-cursor" (click)="recargarClientes()" *ngIf="!cargandoCli" matTooltip="Recargar clientes" [matTooltipShowDelay]="500" [matTooltipPosition]="'above'">
+            &nbsp;
+            <i class="fa-solid fa-rotate-right fa-xs"></i>
+          </span>
+        </label>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-4"></div>
+
+      <div class="col-sm-4 text-center">
+        <mat-select placeholder="Seleccione una opción" formControlName="cliente" class="form-control mt-1" (selectionChange)="gestionarCliente()"
+                    [ngClass]="{'readonly-block': cargandoCli || cargandoFormulario || cargandoBorrado}">
+          <mat-select-filter [placeholder]="'Buscar'" [displayMember]="'cli_razon_social'" [array]="clientes" (filteredReturn)="filtroClientes =$event"></mat-select-filter>
+          <mat-option value="0" disabled>Seleccione una opción</mat-option>
+          <mat-option value="{{cli.cli_pk_id}}" *ngFor="let cli of filtroClientes">{{cli.cli_pk_id}} - {{cli.cli_razon_social}}</mat-option>
+        </mat-select>
+      </div>
+
+      <div class="col-sm-4"></div>
+    </div>
+
+    <br/><br/>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="p-2 rounded" style="background-color: #D6DBDF">
+          <label class="monserrat-font fs-26 mt-1 ms-1" *ngIf="idUsuario == ''">Crear usuario responsable entidad</label>
+          <label class="monserrat-font fs-26 mt-1 ms-1" *ngIf="idUsuario != ''">Actualizar usuario responsable entidad</label>
+          <i class="fa-solid fa-user-plus text-syn-1 fa-xl va-baseline me-1 float-end mt-3"></i>
+        </div>
+      </div>
+    </div>
+
+    <br/>
+
+    <div class="appear-affect-fast" *ngIf="cargandoUsu">
+      <div class="row">
+        <div class="col-12 text-center">
+          <img width="200" src="assets/carga/cargando1.gif"/>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 text-center">
+          <label class="h6 monserrat-font">Buscando el usuario</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="appear-affect-fast" *ngIf="!cargandoUsu">
+      <div class="row">
+        <div class="col-3">
+          <label class="h6">
+            Correo eléctronico
+            &nbsp;
+            <span *ngIf="!f['email'].valid"><i class="fas fa-times text-danger"></i></span>
+            <span *ngIf="f['email'].valid"><i class="fas fa-check text-success"></i></span>
+
+            <span *ngIf="cargandoCorreo">
+              &nbsp;
+              <i class="fa-solid fa-spinner fa-xs taskbar-loading"></i>
+            </span>
+          </label>
+
+          <br>
+
+          <mat-form-field class="example-full-width">
+            <mat-label>Correo eléctronico</mat-label>
+
+            <input matInput formControlName="email" type="text" maxlength="100" placeholder="Correo Eléctronico"
+                   [readonly]="this.f['cliente'].value == null || cargandoCorreo || cargandoFormulario || idUsuario != '' || cargandoBorrado"
+                  (change)="verificarCorreoElectronico()">
+
+            <mat-error *ngIf="f['email'].hasError('required')">
+              El correo electronico es <strong>obligatorio</strong>
+            </mat-error>
+
+            <mat-error *ngIf="f['email'].hasError('pattern')">
+              El formato del correo electronico no es válido.
+            </mat-error>
+          </mat-form-field>
+        </div>
+
+        <div class="col-3">
+          <label class="h6">
+            Nombre
+            &nbsp;
+            <span *ngIf="!f['nombre'].valid"><i class="fas fa-times text-danger"></i></span>
+            <span *ngIf="f['nombre'].valid"><i class="fas fa-check text-success"></i></span>
+          </label>
+
+          <br>
+
+          <mat-form-field class="example-full-width">
+            <mat-label>Nombre</mat-label>
+
+            <input matInput formControlName="nombre" type="text" maxlength="200" placeholder="Nombre del usuario"
+                   [readonly]="this.f['cliente'].value == null || cargandoFormulario || cargandoBorrado">
+
+            <mat-error *ngIf="f['nombre'].hasError('required')">
+              El correo electronico es obligatorio.
+            </mat-error>
+          </mat-form-field>
+        </div>
+
+        <div class="col-3">
+          <label class="h6">
+            Tipo de documento
+            &nbsp;
+            <span *ngIf="!f['tipoDocumento'].valid"><i class="fas fa-times text-danger"></i></span>
+            <span *ngIf="f['tipoDocumento'].valid"><i class="fas fa-check text-success"></i></span>
+          </label>
+
+          <br>
+
+          <mat-select placeholder="Seleccione una opción" formControlName="tipoDocumento" class="form-control mt-1"
+                      [ngClass]="{'readonly-block': this.f['cliente'].value == null || cargandoFormulario || cargandoBorrado}">
+            <mat-option value="0" disabled>Seleccione una opción</mat-option>
+            <mat-option value="{{tdo.tdo_pk_id}}" *ngFor="let tdo of tiposDocumento">{{tdo.tdo_descripcion}}</mat-option>
+          </mat-select>
+        </div>
+
+        <div class="col-3">
+          <label class="h6">
+            Documento
+            &nbsp;
+            <span *ngIf="!f['documento'].valid"><i class="fas fa-times text-danger"></i></span>
+            <span *ngIf="f['documento'].valid"><i class="fas fa-check text-success"></i></span>
+          </label>
+
+          <br>
+
+          <mat-form-field class="example-full-width">
+            <mat-label>Documento</mat-label>
+
+            <input matInput formControlName="documento" type="text" maxlength="100" placeholder="Documento del usuario"
+                   [readonly]="this.f['cliente'].value == null || cargandoFormulario || cargandoBorrado">
+
+            <mat-error *ngIf="f['documento'].hasError('required')">
+              El documento es obligatorio.
+            </mat-error>
+          </mat-form-field>
+        </div>
+      </div>
+
+      <br/>
+
+      <div class="row">
+        <div class="col-12 text-center">
+          <label class="monserrat-font fs-16" *ngIf="activacionUsuario !== null && activacionUsuario">
+            <i class="fa-solid fa-envelope-circle-check text-green-1"></i>
+            &nbsp;
+            El usuario ya activó la cuenta.
+          </label>
+
+          <label class="monserrat-font fs-16 hand-cursor" *ngIf="activacionUsuario !== null && !activacionUsuario" (click)="reenviarCorreoVerificacion()"
+                 matTooltip="Clic para reenviar correo de verificación" [matTooltipPosition]="'above'" [matTooltipDisabled]="cargandoEmail">
+            <i class="fa-solid fa-user-lock text-tomato"></i>
+            &nbsp;
+            El usuario no ha activado su cuenta.
+            <span *ngIf="cargandoEmail">
+              &nbsp;
+              <i class="fa-solid fa-spinner taskbar-loading"></i>
+            </span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 text-center">
+          <label class="monserrat-font fs-16" *ngIf="idUsuario == ''">
+            <br/>
+            <i class="fa-solid fa-circle-info"></i>
+            &nbsp;
+            Por defecto se crea con el rol "Responsable de la entidad" y la contraseña se genera automáticamente al momento de la creación.
+          </label>
+
+          <label class="monserrat-font fs-16" *ngIf="idUsuario != '' && hayCambios">
+            <br/>
+            <i class="fa-solid fa-circle-info text-syn-3"></i>
+            &nbsp;
+            Al actualizar el usuario, se le asignará una nueva contraseña y se enviará correo de activación.
+          </label>
+        </div>
+      </div>
+
+      <br><br>
+
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <button class="btn bg-syn-4" [disabled]="formulario.invalid || !accionesActivas" (click)="onSubmit()" *ngIf="idUsuario == ''">
+            <i class="fa-solid fa-save"></i>
+            &nbsp;
+            <label class="monserrat-font fw-bold hand-cursor">
+              Crear usuario
+              <span *ngIf="cargandoFormulario">
+                &nbsp;
+                <i class="fa-solid fa-spinner taskbar-loading"></i>
+              </span>
+            </label>
+          </button>
+
+          <button class="btn bg-syn-2 m-2" [disabled]="formulario.invalid || !hayCambios || !accionesActivas" (click)="onUpdate()" *ngIf="idUsuario != '' && !cargandoBorrado">
+            <i class="fa-solid fa-save"></i>
+            &nbsp;
+            <label class="monserrat-font fw-bold hand-cursor">
+              Actualizar usuario
+              <span *ngIf="cargandoFormulario">
+                &nbsp;
+                <i class="fa-solid fa-spinner taskbar-loading"></i>
+              </span>
+            </label>
+          </button>
+
+          <button class="btn bg-tomato m-2" [disabled]="cargandoFormulario" (click)="gestionarConfirmacionInhabilitacion()"
+                  *ngIf="idUsuario != '' && !confirmacionInhabilitacion && !cargandoBorrado">
+            <i class="fa-solid fa-trash"></i>
+            &nbsp;
+            <label class="monserrat-font fw-bold hand-cursor">
+              Inhabilitar usuario
+            </label>
+          </button>
+
+          <button class="btn bg-tomato m-2" (click)="onDelete()" *ngIf="idUsuario != '' && confirmacionInhabilitacion && !cargandoBorrado">
+            &nbsp;
+            <i class="fa-solid fa-hourglass-start taskbar-loading"></i>
+            &nbsp;
+            <label class="monserrat-font fw-bold hand-cursor">
+              ¿Seguro?
+            </label>
+            &nbsp;
+          </button>
+
+          <button class="btn bg-tomato m-2 monserrat-font fw-bold" *ngIf="cargandoBorrado">
+            <i class="fa-solid fa-trash"></i>
+            &nbsp;
+            Inhabilitando
+            &nbsp;
+            <i class="fa-solid fa-spinner taskbar-loading"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+
+<app-error-conexion [identificador]="''"></app-error-conexion>

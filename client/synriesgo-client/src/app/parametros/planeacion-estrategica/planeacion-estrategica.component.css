@@ -1,0 +1,74 @@
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.example-full-width {
+    width: 100%;
+    background-color: white;
+}
+
+.mat-form-field-appearance-fill .mat-form-field-flex {
+    background-color: white;
+}
+
+.eighty-percent {
+  width: calc(80% - 40px);
+}
+
+.cog-spinning {
+  transform: rotate(15deg);
+  animation-name: cog-spinning-anim;
+  animation-duration: 20000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes cog-spinning-anim {
+  from { transform: rotate(15deg) }
+  to { transform: rotate(195deg) }
+}
+
+.cog-spinning-inverse {
+  animation-name: cog-spinning-inverse-anim;
+  animation-duration: 20000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes cog-spinning-inverse-anim {
+  from { transform: rotate(0deg) }
+  to { transform: rotate(-180deg) }
+}
+
+.company-icon {
+  position: absolute;
+  left: 47%;
+  margin-top: 3%;
+  width: 6%;
+}
+
+.mision-title {
+  color: #2874A6 !important;
+}
+
+.vision-title {
+  color: #F39C12
+}
+
+.objetivos-title {
+  color: #229954
+}
+
+.pinon-naranja {
+  position: absolute;
+  margin-left: -1.9%;
+  margin-top: -4.2%;
+}
+
+.pinon-azul {
+  position: absolute;
+  margin-left: -8%;
+  margin-top: -4.2%;
+}

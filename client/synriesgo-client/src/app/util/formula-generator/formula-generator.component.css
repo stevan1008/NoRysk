@@ -1,0 +1,28 @@
+.elemento {
+    margin: 0 auto;
+    border: 1px #F4F6F6 solid;
+}
+
+.elemento-border {
+    border: 1px #F6AA63 solid;
+    transition: all 1s ease;
+}
+
+.elemento:hover {
+    background-color: #F4F6F6;
+}
+
+.mini-buttons {
+    padding: 0px;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+}
+
+.number-input {
+    max-width: 400px;
+}
+
+.wrong-number {
+    color: tomato;
+}

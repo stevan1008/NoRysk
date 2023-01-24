@@ -1,0 +1,7 @@
+[
+    {"prb_pk_id": "1", "prb_desc": "Muy Alta", "prb_tooltip": "- Puede ocurrir más de una vez al mes - Se espera la ocurrencia del evento en más del 15% de los casos - ≥ 90%"},
+    {"prb_pk_id": "2", "prb_desc": "Alta", "prb_tooltip": "- Se presenta al menos una vez cada trimestre - Se espera la ocurrencia del evento entre el 10% y 15% de los casos. - ≥ 75% y < 90%"},
+    {"prb_pk_id": "3", "prb_desc": "Moderada", "prb_tooltip": "- Se presenta al menos una vez cada semestre - Se espera la ocurrencia del evento entre el 5% y 10% de los casos - ≥ 35% y < 75%"},
+    {"prb_pk_id": "4", "prb_desc": "Baja", "prb_tooltip": "- Se presenta al menos una vez cada año - Se espera la ocurrencia del evento entre en 2% y 5% de los casos - ≥ 5% y < 35%"},
+    {"prb_pk_id": "5", "prb_desc": "Muy Baja", "prb_tooltip": "- Se ha presentado en alguna ocasión en los últimos 3 años - Se espera la ocurrencia del evento en menos del 2% de los casos - < %5"}
+]

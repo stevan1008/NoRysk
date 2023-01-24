@@ -1,0 +1,99 @@
+<br/><br/><br/>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4 text-center"></div>
+
+    <div class="col-sm-2 text-center">
+      <div class="input-group input-group-sm">
+        <input [(ngModel)]="numero" type="text" class="form-control text-center number-input" placeholder="Número"
+               [ngClass]="{'wrong-number': !numeroCorrecto}" (input)="validarNumero()"/>
+
+        <span class="input-group-text hand-cursor text-light"  [ngClass]="{'bg-secondary': !numeroCorrecto, 'bg-syn-1': numeroCorrecto}"
+              (click)="agregarElemento(numero, true)">
+          <i class="fa-solid fa-arrow-turn-down"></i>
+        </span>
+      </div>
+    </div>
+
+    <div class="col-sm-2 text-center">
+      <div class="input-group input-group-sm">
+        <input [(ngModel)]="variable" type="text" class="form-control text-center number-input" placeholder="Variable"
+               [ngClass]="{'wrong-number': !variableCorrecta}" (input)="validarVariable()"/>
+
+        <span class="input-group-text hand-cursor text-light"  [ngClass]="{'bg-secondary': !variableCorrecta, 'bg-syn-1': variableCorrecta}"
+              (click)="agregarVariable(variable)">
+          <i class="fa-solid fa-arrow-turn-down"></i>
+        </span>
+      </div>
+    </div>
+
+    <div class="col-sm-4 text-center"></div>
+  </div>
+
+  <div class="row mt-3">
+    <div class="col-sm-12 text-center">
+      <button class="btn bg-syn-1 p-0 ps-3 pe-3 m-1" *ngFor="let op of operadores" (click)="agregarElemento(op)">
+        <label class="text-light fs-24 hand-cursor" [innerHtml]="op"></label>
+      </button>
+    </div>
+  </div>
+
+  <br/>
+
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <div class="monserrat-font fs-26 p-2 m-2 rounded elemento text-center appear-effect-fast d-inline-block" *ngFor="let frm of formula"
+           [ngClass]="{'elemento-border': frm.seleccionado}">
+        <button class="btn btn-danger mini-buttons mb-2" (click)="eliminarElemento(frm.id, frm.variable)">-</button>
+
+        <br/>
+
+        <span *ngIf="frm.elemento != ''">{{frm.elemento}}</span>
+        <span class="hand-cursor text-syn-3" *ngIf="frm.elemento == ''" (click)="seleccionarElemento(frm.id)">?</span>
+
+        <br/>
+
+        <button class="btn btn-secondary mini-buttons me-2" (click)="insertarElementoIzquierda(frm.id)">+</button>
+        <button class="btn btn-secondary mini-buttons ms-2" (click)="insertarElementoDerecha(frm.id)">+</button>
+      </div>
+
+      <div *ngIf="errores !== ''">
+        <br/>
+        <label class="monserrat-font text-tomato fw-bold fs-14">{{errores}}</label>
+      </div>
+    </div>
+  </div>
+
+  <div class="appear-effect-fast" *ngIf="errores == '' && formulaTexto != ''">
+    <br/>
+
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <label class="monserrat-font fw-bold fs-16">Indicador final: {{formulaTexto}}</label>
+
+        <br/>
+
+        <button class="btn bg-syn-4 monserrat-font fw-bold mt-3" *ngIf="resultadoPrueba == null" (click)="probarIndicador()">
+          <i class="fa-solid fa-flask"></i>&nbsp;Probar indicador con datos de prueba
+        </button>
+
+        <div *ngIf="resultadoPrueba != null">
+          <br/>
+
+          <div class="monserrat-font" *ngFor="let vai of variablesAgregadas">
+            > {{vai.variable}}: {{vai.valor}}
+          </div>
+
+          <br/>
+
+          <label class="h6 monserrat-font">Indicador procesado: {{formulaProcesada}}</label>
+
+          <br/>
+
+          <label class="h6 monserrat-font">Resultado: {{resultadoPrueba}}</label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

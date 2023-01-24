@@ -1,0 +1,8 @@
+[
+    {"per_id_pk": 1, "per_desc": "Díario"},
+    {"per_id_pk": 2, "per_desc": "Mensual"},
+    {"per_id_pk": 3, "per_desc": "Bimensual"},
+    {"per_id_pk": 4, "per_desc": "Trimestral"},
+    {"per_id_pk": 5, "per_desc": "Semestral"},
+    {"per_id_pk": 6, "per_desc": "Anual"}
+]

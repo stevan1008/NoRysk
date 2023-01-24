@@ -1,0 +1,6 @@
+[
+    {"mpc_pk_id": "1", "mpc_descripcion": "Estratégicos"},
+    {"mpc_pk_id": "2", "mpc_descripcion": "Misionales"},
+    {"mpc_pk_id": "3", "mpc_descripcion": "Apoyo"},
+    {"mpc_pk_id": "4", "mpc_descripcion": "Evaluación y control"}
+]

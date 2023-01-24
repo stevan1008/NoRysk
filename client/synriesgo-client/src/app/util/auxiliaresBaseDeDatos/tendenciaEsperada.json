@@ -1,0 +1,5 @@
+[
+    {"ten_pk_id": 1, "ten_desc": "Créciente"},
+    {"ten_pk_id": 2, "ten_desc": "Estático"},
+    {"ten_pk_id": 3, "ten_desc": "Decréciente"}
+]

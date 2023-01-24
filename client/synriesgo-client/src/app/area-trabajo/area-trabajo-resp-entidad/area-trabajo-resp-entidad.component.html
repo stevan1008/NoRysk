@@ -1,0 +1,220 @@
+<mat-drawer-container class="example-container" [hasBackdrop]="true">
+  <!-- Sidenav -->
+  <mat-drawer #drawer [mode]="'over'" class="p-3 sidenav text-center">
+    <img width="220" src="/assets/logos/logo_texto_solo.svg" style="filter: drop-shadow(2px 2px 2px rgb(0 0 0 / 0.4))"/>
+
+    <br/><hr/>
+
+    <label class="monserrat-font text-light fst-italic fs-12">Parámetros</label>
+
+    <div class="hand-cursor m-2 btn-sidenav text-light" *ngFor="let mod of modulosRespEntidadPar" (click)="abrirModulo(mod.id); drawer.toggle()">
+      <i class="fa-xl" [class]="mod.icono"></i>
+      &nbsp;
+      <label class="monserrat-font hand-cursor">{{mod.nombre}}</label>
+    </div>
+
+    <br/>
+
+    <label class="monserrat-font text-light fst-italic fs-12">Gestión</label>
+
+    <div class="hand-cursor m-2 btn-sidenav text-light" *ngFor="let mod of modulosRespEntidad" (click)="abrirModulo(mod.id); drawer.toggle()">
+      <i class="fa-xl" [class]="mod.icono"></i>
+      &nbsp;
+      <label class="monserrat-font hand-cursor">{{mod.nombre}}</label>
+    </div>
+  </mat-drawer>
+
+  <!-- Contenido -->
+  <mat-drawer-content id="areaTrabajo" class="vh100 area-adjust">
+    <div *ngIf="(modulosCerrados || (modulosMinimizados && !modulosCerrados)) && !cerrando">
+      <br/><br/>
+    </div>
+
+    <div [ngClass]="{'container': !pantallaDividida, 'container-fluid ps-3 pe-3': pantallaDividida}">
+      <!-- Menu principal -->
+      <div class="appear-effect-fast w-100" *ngIf="(modulosCerrados || (modulosMinimizados && !modulosCerrados)) && !cerrando">
+        <div class="row">
+          <div class="col-12 text-center">
+            <hr/>
+            <label class="monserrat-font fs-18 p-1 ps-3 pe-3 bg-light section-divider" style="margin-left: -66px">
+              Parámetros
+            </label>
+          </div>
+        </div>
+
+        <br/>
+
+        <div class="text-center">
+          <mat-card class="module-card d-inline-block m-2 p-0 pb-3"  *ngFor="let mod of modulosRespEntidadPar" (click)="abrirModulo(mod.id)">
+            <label class="module-title monserrat-font fs-16 w-100 text-center bg-syn-1 text-light pt-3 pb-3">
+              <i class="box-shadow" [class]="mod.icono"></i>&nbsp;&nbsp;<label class="text-shadow">{{mod.nombre}}</label>
+            </label>
+
+            <div class="content">
+              <img class="img-module-card" [src]="'/assets/menuPrincipal/resp-entidad/' + mod.imagen"/>
+            </div>
+
+            <mat-card-content class="mt-2 pe-2 ps-2">{{mod.descripcion}}</mat-card-content>
+          </mat-card>
+        </div>
+
+        <br/><br/>
+
+        <div class="row">
+          <div class="col-12 text-center">
+            <hr/>
+            <label class="monserrat-font fs-18 p-1 ps-3 pe-3 bg-light section-divider" style="margin-left: -47px">
+              Gestión
+            </label>
+          </div>
+        </div>
+
+        <br/>
+
+        <div class="text-center">
+          <mat-card class="module-card d-inline-block m-2 p-0 pb-3"  *ngFor="let mod of modulosRespEntidad" (click)="abrirModulo(mod.id)">
+            <label class="module-title monserrat-font fs-16 w-100 text-center bg-syn-1 text-light pt-3 pb-3">
+              <i class="box-shadow" [class]="mod.icono"></i>&nbsp;&nbsp;<label class="text-shadow">{{mod.nombre}}</label>
+            </label>
+
+            <div class="content">
+              <img class="img-module-card" [src]="'/assets/menuPrincipal/resp-entidad/' + mod.imagen"/>
+            </div>
+
+            <mat-card-content class="mt-2 pe-2 ps-2">{{mod.descripcion}}</mat-card-content>
+          </mat-card>
+        </div>
+      </div>
+
+      <br/><br/><br/>
+
+      <!-- Modulos -->
+      <div class="row">
+        <!-- Planeación estratégica -->
+        <div *ngIf="modulosAbiertos[1]" [ngClass]="obtenerReglasNgClass(1)">
+          <mat-card class="p-0">
+            <ng-container *ngTemplateOutlet="headbar; context: { data : {'module': 1, 'icon': 'fa-solid fa-sheet-plastic fa-xl','title': 'Planeación estratégica'}}"></ng-container>
+
+            <div class="p-2 module">
+              <br/>
+
+              <app-planeacion-estrategica *ngIf="modulosAbiertos[1]" class="appear-effect" [ngClass]="{'display-none': !modulosVisibles[1]}"
+                                          (moduloCargando)="activarCargaModulo($event)"
+                                          (moduloLibre)="desactivarCargaModulo($event)"></app-planeacion-estrategica>
+              <br/>
+            </div>
+          </mat-card>
+
+          <br/><br/><br/><br/><br/>
+        </div>
+
+        <!-- Mapa de procesos -->
+        <div *ngIf="modulosAbiertos[2]" [ngClass]="obtenerReglasNgClass(2)">
+          <mat-card class="p-0">
+            <ng-container *ngTemplateOutlet="headbar; context: { data : {'module': 2, 'icon': 'fa-solid fa-gears fa-xl','title': 'Mapa de procesos'}}"></ng-container>
+
+            <div class="p-2 module">
+              <app-mapa-procesos *ngIf="modulosAbiertos[2]" class="appear-effect" [ngClass]="{'display-none': !modulosVisibles[2]}"
+                                 [gestionSedesAbierto]="gestionSedesAbierto"
+                                 (moduloCargando)="activarCargaModulo($event)"
+                                 (moduloLibre)="desactivarCargaModulo($event)"></app-mapa-procesos>
+              <br/>
+            </div>
+          </mat-card>
+
+          <br/><br/><br/><br/><br/>
+        </div>
+
+        <!-- Gestión de sedes -->
+        <div *ngIf="modulosAbiertos[3]" [ngClass]="obtenerReglasNgClass(3)">
+          <mat-card class="p-0">
+            <ng-container *ngTemplateOutlet="headbar; context: { data : {'module': 3, 'icon': 'fa-solid fa-building fa-xl','title': 'Gestión de sedes'}}"></ng-container>
+
+            <div class="p-2 module">
+              <app-gestion-sedes *ngIf="modulosAbiertos[3]" class="appear-effect" [ngClass]="{'display-none': !modulosVisibles[3]}"
+                                  (moduloCargando)="activarCargaModulo($event)"
+                                  (moduloLibre)="desactivarCargaModulo($event)"></app-gestion-sedes>
+              <br/>
+            </div>
+          </mat-card>
+
+          <br/><br/><br/><br/><br/>
+        </div>
+
+        <div class="col-6 text-center" *ngIf="pantallaDividida && noModulosVisibles === 1">
+          <label class="p-3 monserrat-font hand-cursor mt-5" (click)="drawer.toggle()">
+            <i class="fa-regular fa-window-restore fa-2xl" style="font-size: 70px"></i>
+            <br/><br/><br/>
+            Haga clic aquí para abrir un segundo módulo
+          </label>
+        </div>
+      </div>
+
+      <br/><br/><br/>
+    </div>
+
+    <!-- Toolbar -->
+    <mat-toolbar class="toolbar toolbar" style="height: 45px;">
+      <span class="hand-cursor me-2" (click)="drawer.toggle()">
+        <i class="fa-solid fa-bars text-light"></i>
+      </span>
+
+      <img width="120" style="filter: drop-shadow(2px 2px 2px rgb(0 0 0 / 0.4))" src="/assets/logos/logo_texto_solo.svg"/>
+
+      <span class="am-spacer"></span>
+
+      <span class="text-light hand-cursor">
+        <i class="fa-solid fa-user fa-xs va-middle me-2 box-shadow"></i>
+        <label class="monserrat-font fs-14 va-middle hand-cursor text-shadow">{{nombreUsuario}}</label>
+      </span>
+    </mat-toolbar>
+
+    <!-- Taskbar -->
+    <mat-toolbar class="taskbar bg-dark-blue" style="height: 55px;">
+      <div class="row text-center w-100">
+        <div class="col-12">
+          <label class="monserrat-font text-light" *ngIf="modulosCerrados">
+            <i class="fa-regular fa-hand-pointer"></i>&nbsp;&nbsp;Abra un módulo para comenzar
+          </label>
+
+          <span *ngFor="let tsb of modulosTaskbar">
+            <button *ngIf="tsb != null" class="btn button-tsb p-1 ms-2 me-2 ps-2 pe-2 bg-light" [ngClass]="{'button-tsb-open': modulosVisibles[tsb.id]}"
+                    (click)="visualizarModulo(tsb.id)" matTooltip="{{tsb.nombre}}">
+              <i [class]="tsb.icono"></i>
+
+              <span *ngIf="tsb.cargando">
+                &nbsp;
+                <i class="fa-solid fa-spinner taskbar-loading"></i>
+              </span>
+            </button>
+          </span>
+        </div>
+      </div>
+    </mat-toolbar>
+  </mat-drawer-content>
+</mat-drawer-container>
+
+<!-- Plantillas -->
+<ng-template #headbar let-data="data">
+  <div class="bg-headbar header p-3">
+    <i class="text-light fa-xs box-shadow" [class]="data.icon"></i>
+    &nbsp;
+    <label class="monserrat-font fs-5 va-bottom text-light text-shadow">{{data.title}}</label>
+
+    <span class="float-end hand-cursor" (click)="cerrarModulo(data.module)" matTooltip="Cerrar módulo" [matTooltipShowDelay]="1000">
+      <i class="fa-solid fa-circle-xmark fa-lg text-tomato box-shadow"></i>
+    </span>
+
+    <span class="float-end hand-cursor me-3" (click)="minimizarModulo(data.module)" matTooltip="Minimizar módulo" [matTooltipShowDelay]="1000">
+      <i class="fa-solid fa-square-caret-down fa-lg text-light box-shadow"></i>
+    </span>
+
+    <span class="float-end hand-cursor me-3" (click)="habilitarEnPantallDividida(data.module)" matTooltip="Pantalla dividida" [matTooltipShowDelay]="1000" *ngIf="!pantallaDividida">
+      <i class="fa-regular fa-window-restore fa-lg text-light box-shadow"></i>
+    </span>
+
+    <span class="float-end hand-cursor me-3" (click)="deshabilitarEnPantallDividida(data.module)" matTooltip="Pantalla completa" [matTooltipShowDelay]="1000" *ngIf="pantallaDividida">
+      <i class="fa-regular fa-window-maximize fa-lg text-light box-shadow"></i>
+    </span>
+  </div>
+</ng-template>

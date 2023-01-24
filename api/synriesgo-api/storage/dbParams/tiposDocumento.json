@@ -1,0 +1,12 @@
+[
+    {"tdo_pk_id": "1", "tdo_descripcion": "Cédula de ciudadanía", "tdo_descripcion_corta": "CC"},
+    {"tdo_pk_id": "2", "tdo_descripcion": "Cédula de extranjería", "tdo_descripcion_corta": "CE"},
+    {"tdo_pk_id": "3", "tdo_descripcion": "Tarjeta de identidad", "tdo_descripcion_corta": "TI"},
+    {"tdo_pk_id": "4", "tdo_descripcion": "Registro civil", "tdo_descripcion_corta": "RC"},
+    {"tdo_pk_id": "5", "tdo_descripcion": "Pasaporte", "tdo_descripcion_corta": "PA"},
+    {"tdo_pk_id": "6", "tdo_descripcion": "Permiso especial de permanencia", "tdo_descripcion_corta": "PP"},
+    {"tdo_pk_id": "7", "tdo_descripcion": "Carné diplomático", "tdo_descripcion_corta": "CD"},
+    {"tdo_pk_id": "8", "tdo_descripcion": "Salvoconducto", "tdo_descripcion_corta": "SC"},
+    {"tdo_pk_id": "9", "tdo_descripcion": "No identificado", "tdo_descripcion_corta": "NI"},
+    {"tdo_pk_id": "10", "tdo_descripcion": "Otro", "tdo_descripcion_corta": "OT"}
+]

@@ -1,0 +1,5 @@
+[
+    {"efc_pk_id": "1", "efc_desc": "Adecuado"},
+    {"efc_pk_id": "2", "efc_desc": "Parcialmente Adecuado"},
+    {"efc_pk_id": "3", "efc_desc": "Inadecuado"}
+]

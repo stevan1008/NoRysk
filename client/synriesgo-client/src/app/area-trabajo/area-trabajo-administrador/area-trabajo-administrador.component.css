@@ -1,0 +1,107 @@
+.toolbar {
+    position: fixed;
+    top: 0px;
+    z-index: 10px !important;
+}
+
+.button-tsb {
+    min-width: 50px;
+}
+
+.button-tsb-open {
+    border: 3px solid #F6AA63;
+}
+
+.btn-sidenav {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.header {
+    border-radius: 5px 5px 0px 0px;
+}
+
+.toolbar {
+    background: linear-gradient(90deg, rgba(29,109,128,1) 35%, rgba(102,191,191,1) 100%);
+    box-shadow: 0px 2px 6px lightgray;
+}
+
+.taskbar {
+    position: fixed;
+    bottom: 0px;
+    z-index: 10px !important;
+    box-shadow: 0px -2px 6px lightgray;
+}
+
+.sidenav {
+    background: linear-gradient(180deg, rgba(29,109,128,1) 35%, rgba(102,191,191,1) 100%);
+}
+
+.module-card {
+    max-width: 300px;
+    transition: all 0.5s ease;
+}
+
+.module-card:hover {
+    filter: saturate(1.6);
+    cursor: pointer !important;
+}
+
+.module-card:hover .module-title {
+    cursor: pointer !important;
+}
+
+.module-title {
+    border-radius: 3px 3px 0px 0px;
+}
+
+.content:after {
+    position: absolute;
+    content:"";
+    height: 179.66px;
+    width: 100%;
+    top: 52px;
+    left: 0;
+    transition: background 0.5s ease;
+    background: linear-gradient(to bottom, #1D6D80 0%, rgb(29, 109, 128, 0.2) 40%, #FFFFFF 100%);
+}
+
+.img-module-card {
+    width: 100%;
+    margin-left: 0px;
+}
+
+.module {
+    border: 2px solid #44A2A2;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 2px rgb(0 0 0 / 40%);
+}
+
+.box-shadow {
+    filter: drop-shadow(2px 2px 2px rgb(0 0 0 / 0.4));
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    height: 85%;
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.area-adjust {
+    height: calc(100vh - 55px) !important;
+    top: 45px;
+}
+

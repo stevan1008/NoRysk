@@ -1,0 +1,20 @@
+// This file can be replaced during build by using the `fileReplacements` array.
+// `ng build` replaces `environment.ts` with `environment.prod.ts`.
+// The list of file replacements can be found in `angular.json`.
+
+export const environment = {
+  production: false,
+
+  // Versión - actualización grande - actualización media - actualización menor - correcciones mayores - correcciones menores
+  build: '0.5.2.0.0.0 2022-11-01',
+  laravel: 'http://127.0.0.1:8000',
+  laravelApi: 'http://127.0.0.1:8000/api',
+  client: 'http://127.0.0.1:4200',
+  OAuthPasswordGrantClient: {
+    'id': '2', 
+    'secret': 'XInf04S8XV7vmDhogvYlfYmo8Y7j6jdpvMaHAhGj' // cv1qfBiuWNSK69WSGyCjk1RvdSA8mGCJYSaurLTm
+  },
+  OAuthPassworResetToken: {
+    'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiOWJkODBmZWQ5YWYyZjFiMDkxYjE5ZmVjMGNlYmFiYTA0YjAyYWRkOGUwNTAzYjFlY2U0MTYyODZkOGVlZDYzZmQ5NjE1YzVhMWVjODAwNjEiLCJpYXQiOjE2NzAyNTMxNDMsIm5iZiI6MTY3MDI1MzE0MywiZXhwIjoxNzAxNzg5MTQzLCJzdWIiOiIxIiwic2NvcGVzIjpbInBhc3N3b3JkLXJlc2V0Il19.VynLIvZLeC5kZRBEUvzuIE77Yb5MEN0HuqzqQuQTxJr-trhq0tLofmKGT02EHZgBoetl6INa5EhFN021pimdP4uQt1wcWeVZqUR-ZKHPwRHMLdVyO1jotLryRGIgNu3vc-LZQFWbtXxDroXc8kfBLxq2TPLaGQRJFencwTszaWpezY15wkF3TV2q9vzfPLEXHNEEReUvpWFUuvJYaX4vti8H_oYkDDPtr8BTxXOxLvalSD6WWZl0RtpumOLZgYPl9rkyzJP0nOtTw0Cn-m3h3yL3Hr7NMoT9LqN9-w_wP6zaedXPXRjby60Nqc1ItSgLfDTeUJOeg4-OeQC0L0GjYzwrQsUQwLaPgQIlOI9f_JGJ90e2-8lo9PoC7hb7RUSTE0y5VCqYWx5AWKuUc-4XSvF92IONGcnfF9Rk6tSZrRTmgJkcJT0zLjdDwolEsz4jnH5XYdWoa-7EaeY83Ug9ZEd-v5g58lscLtcjIJJY9o12ozE9M5mKuXR_9kWNYj4zCVG-bvILNB5mDLDkhnzhe9PDhBbpmIea2sP791ncGDJ2W_CNQeT227dGvM6hCmqs3mmDDfbB7aGJaOVKYwtQdqdJAjfyUjs1-tfn518ID77SQXHBr6WDtLI86fSl2ZgW7TNdlcawgybXm_wP7ewjCvcVQl6GIcCdcSDTomZUkVo'
+  },  // eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiMzcwOTk4MzRjMWQ0ZDMzZjQzYzJhZDI5ZGJiY2ViZjA4NjkxMjBiY2VkNmZmODA4ZjIwM2M1NjlmYzljNDNlZTk2YjhjNjIxYjk0MjZlYmIiLCJpYXQiOjE2Njg3MTY5OTksIm5iZiI6MTY2ODcxNjk5OSwiZXhwIjoxNzAwMjUyOTk5LCJzdWIiOiIxIiwic2NvcGVzIjpbInBhc3N3b3JkLXJlc2V0Il19.BkkK59ObTDJlZQmsybbTwgTJVMH7DWB5Ac0HXtb9C81EpS_y6qdxBt-8phP1UOwvlDd70SzGk9FbqF3nedYhxZaYHa3nvs2zWxiLAI3J9G5I7RKSfNaG_1lwmPuJednGB3PbjBSQ8TowEaarKQsqHrsydK8exzbA8RBYhvjhJpmRNvkQuTVqzL5X1ITbhHPgXebtJcglCHsrt0N5qMqn63DMmOzP1_X-qieV1HHIVcpoU2ijmtJ01o-Qouj4ibUO2bvE4qXzeuyOmRtAgv53On9GAOsLag4X6oEGZX6Fp_GVVwyIF4HV8DT_-ib46R4Fue6ITG2Q8feX6sjPC1gAlIzeFRlMQvYxNEItemg5v4s8r40RM_pMNZfiRu6nELDbT_6GRHRwp84F1Fmyf0VphwJz-BII50xd1a1lvRPtux38Apxo4ZIw6g5Ao5zgSTXY5tyjzeLln0kT69qnSsQPcrND23AgHqVJ2oPPMGsHe9MWTPwHqNgpnycPq6QuAgmPH1bSU3VneiCrHJKQwoy0ZQRDLAtuuBBAZ3seA11HamYWfAzB5nWSIZH7XmIw60VwRjPgn-XZU-xek9tcLLyQOTpXRdwL6gv8a_Si6S2_HgVL7SC6douEEYMHii6nyxivhOUjCU5643Bkh8vQYmoSUI3s1bLOQezl31vDe71JlVc
+}; 

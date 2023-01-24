@@ -1,0 +1,5 @@
+[
+    {"dic_pk_id": "1", "dic_desc": "Adecuado"},
+    {"dic_pk_id": "2", "dic_desc": "Parcialmente Adecuado"},
+    {"dic_pk_id": "3", "dic_desc": "Inadecuado"}
+]

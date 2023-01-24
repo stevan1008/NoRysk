@@ -1,0 +1,270 @@
+<div class="container">
+    <form [formGroup]="formulario">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <label class="monserrat-font fs-26 mt-1 ms-1">Gestión de Riesgo</label>
+              </div>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <label class="h6">
+                    Riesgo Mitigado
+                </label>
+                <br>
+                <!-- Falta conexión con el backend para este apartado -->
+            </div>
+        </div>
+        <div *ngFor="let elem of dataStored; index as i">
+            <br><br>
+            <h2>Categorización del control</h2>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <label class="h6">
+                        Descripción del control
+                    </label>
+                    <br>
+                    <mat-form-field class="example-full-width">
+                        <mat-label> Descripción del control </mat-label>
+                        <textarea matInput [(ngModel)]="dataStored[i].cri_desc" [ngModelOptions]="{standalone:true}" (input)="revisarFormulario()" placeholder="Describa el control a usar..."></textarea>
+                    </mat-form-field>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <label class="h6">
+                    Categoria del control  
+                    </label>
+                    <br>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Categoria</mat-label>
+                        <mat-select [(ngModel)]="dataStored[i].cgr_fk_id" [ngModelOptions]="{standalone:true}" (selectionChange)="revisarFormulario()">
+                            <mat-option value="0" disabled>Seleccione una opción</mat-option>
+                            <mat-option *ngFor="let cdc of categoriaGestionRiesgo"  [value]="cdc.cgr_pk_id">
+                                {{cdc.cgr_desc}}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <label class="h6">
+                        Responsable del control
+                    </label>
+                    <br>
+                    <mat-form-field class="example-full-width">
+                        <mat-label> Responsable del control </mat-label>
+                        <input matInput [(ngModel)]="dataStored[i].cri_responsable" [ngModelOptions]="{standalone:true}" (input)="revisarFormulario()" placeholder="Digite el nombre del responsable del control...">
+                    </mat-form-field>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <label class="h6">
+                        Tipo de control
+                    </label>
+                    <br>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Tipo de control</mat-label>
+                        <mat-select [(ngModel)]="dataStored[i].tdc_fk_id" [ngModelOptions]="{standalone:true}" (selectionChange)="revisarFormulario()">
+                            <mat-option value="0" disabled>Seleccione una opción</mat-option>
+                            <mat-option *ngFor="let tdc of tiposControl"  [value]="tdc.tdc_pk_id">
+                                {{tdc.tdc_desc}}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <label class="h6">
+                        Naturaleza
+                    </label>
+                    <br>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Naturaleza</mat-label>
+                        <mat-select [(ngModel)]="dataStored[i].nac_fk_id" [ngModelOptions]="{standalone:true}" (selectionChange)="revisarFormulario()">
+                            <mat-option value="0" disabled>Seleccione una opción</mat-option>
+                            <mat-option *ngFor="let nac of naturalezaControl" [value]="nac.nac_pk_id">
+                                {{nac.nac_desc}}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <label class="h6">
+                        Periodicidad
+                    </label>
+                    <br>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Periodicidad</mat-label>
+                        <mat-select [(ngModel)]="dataStored[i].pec_fk_id" [ngModelOptions]="{standalone:true}" (selectionChange)="revisarFormulario()">
+                            <mat-option value="0" disabled>Seleccione una opción</mat-option>
+                            <mat-option *ngFor="let pec of periodicidadControl"  [value]="pec.pec_pk_id">
+                                {{pec.pec_desc}}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <label class="h6">
+                        Referencia del control
+                    </label>
+                    <br>
+                    <mat-form-field class="eighty-percent">
+                        <mat-label>Referencia del control</mat-label>
+                        <textarea matInput [(ngModel)]="dataStored[i].cri_ref_control" [ngModelOptions]="{standalone:true}" (input)="revisarFormulario()" placeholder="Referenia del control aplicado..."></textarea>
+                    </mat-form-field>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <label class="h6">
+                        Fallas existentes
+                    </label>
+                    <br>
+                    <h3>-----------------------------------  Necesita interacción de DB  -----------------------------------</h3>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-6">
+                    <label class="h6">
+                        Mitiga
+                    </label>
+                    <br>
+                    <section class="example-section">
+                        <mat-checkbox [(ngModel)]="dataStored[i].cri_mitiga_1" [ngModelOptions]="{standalone:true}" (change)="revisarFormulario()" class="example-margin">Probabilidad</mat-checkbox>
+                        <mat-checkbox class="example-margin" [(ngModel)]="dataStored[i].cri_mitiga_2" (change)="revisarFormulario()" [ngModelOptions]="{standalone:true}">Impacto</mat-checkbox>
+                    </section>
+                </div>
+                <div class="col-sm-6">
+                    <label class="h6">
+                        Seguridad y Continuidad
+                    </label>
+                    <br>
+                    <section class="example-section">
+                        <mat-checkbox [(ngModel)]="dataStored[i].cri_seg_cont_1" [ngModelOptions]="{standalone:true}" (change)="revisarFormulario()" class="example-margin">Conficencialidad</mat-checkbox>
+                        <mat-checkbox [(ngModel)]="dataStored[i].cri_seg_cont_2" [ngModelOptions]="{standalone:true}" (change)="revisarFormulario()" class="example-margin">Integridad</mat-checkbox>
+                        <mat-checkbox [(ngModel)]="dataStored[i].cri_seg_cont_3" [ngModelOptions]="{standalone:true}" (change)="revisarFormulario()" class="example-margin">Disponibilidad</mat-checkbox>
+                    </section>
+                </div>
+            </div> 
+            <br><br>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="text-center">
+                        <label class="h6">
+                            Aplicabilidad del control
+                        </label>
+                    </div>
+                    <br>
+                    <div>
+                        <br>
+                        <section>
+                            <p><mat-checkbox [(ngModel)]="dataStored[i].cri_apl_control_1" (change)="revisarFormulario()" [ngModelOptions]="{standalone:true}">Requisito de Cliente</mat-checkbox></p>
+                            <p><mat-checkbox [(ngModel)]="dataStored[i].cri_apl_control_2" (change)="revisarFormulario()" [ngModelOptions]="{standalone:true}">Requisito Normativo</mat-checkbox></p>
+                        </section>
+                    </div>
+                </div>
+                <div class="col-sm 6 text-center" *ngIf="dataStored[i].cri_apl_control_2">
+                    <label class="h6">
+                        ¿Cuál?
+                    </label>
+                    <br>
+                    <mat-form-field class="example-full-width">
+                        <mat-label> Cuál </mat-label>
+                        <input [(ngModel)]="dataStored[i].cri_apl_control_otro" (input)="revisarFormulario()" [ngModelOptions]="{standalone:true}" matInput placeholder="Describa cuál...">
+                    </mat-form-field>
+                </div>
+            </div>
+            <br><br>
+            <h2>Valoración del control</h2>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <label class="h6">
+                        Diseño
+                    </label>
+                    <br>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Diseño</mat-label>
+                        <mat-select [(ngModel)]="dataStored[i].dic_fk_id" [ngModelOptions]="{standalone:true}" (selectionChange)="revisarFormulario()">
+                            <mat-option value="0" disabled>Seleccione una opción</mat-option>
+                            <mat-option *ngFor="let dic of disenoControl"  [value]="dic.dic_pk_id">
+                                {{dic.dic_desc}}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <label class="h6">
+                        Ejecución
+                    </label>
+                    <br>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Ejecución</mat-label>
+                        <mat-select [(ngModel)]="dataStored[i].ejc_fk_id" [ngModelOptions]="{standalone:true}" (selectionChange)="revisarFormulario()">
+                            <mat-option value="0" disabled>Seleccione una opción</mat-option>
+                            <mat-option *ngFor="let ejc of ejecucionControl" [value]="ejc.ejc_pk_id">
+                                {{ejc.ejc_desc}}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <label class="h6">
+                        Efectividad
+                    </label>
+                    <br>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Efectividad</mat-label>
+                        <mat-select [(ngModel)]="dataStored[i].efc_fk_id" [ngModelOptions]="{standalone:true}" (selectionChange)="revisarFormulario()">
+                            <mat-option value="0" disabled>Seleccione una opción</mat-option>
+                            <mat-option *ngFor="let efc of efectividadControl"  [value]="efc.efc_pk_id">
+                                {{efc.efc_desc}}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <label class="h6">
+                        Fortaleza del Control
+                    </label>
+                    <br>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Fortaleza del Control</mat-label>
+                        <mat-select [(ngModel)]="dataStored[i].foc_fk_id" [ngModelOptions]="{standalone:true}" (selectionChange)="revisarFormulario()">
+                            <mat-option value="0" disabled>Seleccione una opción</mat-option>
+                            <mat-option *ngFor="let foc of fortalezaControl" [value]="foc.foc_pk_id">
+                                {{foc.foc_desc}}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="row" *ngIf="formularioCorrecto">
+            <div class="col-sm-12 text-center">
+                <button class="btn bg-syn-4" (click)="onSubmit()">
+                    <i class="fa-solid fa-save"></i>
+                    &nbsp;
+                    <label class="monserrat-font fw-bold hand-cursor">
+                      Guardar Gestión
+                    </label>
+                </button>
+            </div>
+            <br><br>
+        </div>
+        <h2>{{formularioCorrecto}}</h2>
+    </form>
+</div>

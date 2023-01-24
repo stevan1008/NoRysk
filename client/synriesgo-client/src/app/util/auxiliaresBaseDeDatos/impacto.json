@@ -1,0 +1,7 @@
+[
+    {"imp_pk_id": "1", "imp_desc": "Insignificante"},
+    {"imp_pk_id": "2", "imp_desc": "Menor"},
+    {"imp_pk_id": "3", "imp_desc": "Moderado"},
+    {"imp_pk_id": "4", "imp_desc": "Mayor"},
+    {"imp_pk_id": "5", "imp_desc": "Superior"}
+]

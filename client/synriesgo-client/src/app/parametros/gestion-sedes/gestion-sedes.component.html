@@ -1,0 +1,197 @@
+<div class="container">
+  <form [formGroup]="formulario">
+    <!-- Carrgando -->
+    <div *ngIf="cargando">
+      <br/>
+
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <img width="200" src="assets/carga/cargando1.gif"/>
+          <br/>
+          <label class="monserrat-font fs-18">Cargando</label>
+        </div>
+      </div>
+
+      <br/><br/>
+    </div>
+
+    <div *ngIf="!cargando">
+      <br/>
+
+      <div class="row">
+        <div class="col-6">
+          <label class="glacial-indiferent-font mb-2 fw-bold fs-15">Nombre de la sede</label>
+
+          <input class="form-control w-100 glacial-indiferent-font" type="text" maxlength="500" placeholder="Nombre de la sede"/>
+        </div>
+      </div>
+
+      <br/>
+
+      <div class="row mb-2">
+        <div class="col-12">
+          <label class="glacial-indiferent-font fw-bold fs-15">
+            Procesos de la sede
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-6">
+          <label class="glacial-indiferent-font fs-14 mb-3">
+            Existentes
+
+            <span *ngIf="cargandoCli">
+              &nbsp;
+              <i class="fa-solid fa-spinner fa-xs taskbar-loading"></i>
+            </span>
+
+            <span class="hand-cursor" (click)="recargarProcesos()" *ngIf="!cargandoCli" matTooltip="Recargar procesos" [matTooltipShowDelay]="500" [matTooltipPosition]="'above'">
+              &nbsp;
+              <i class="fa-solid fa-rotate-right fa-xs"></i>
+            </span>
+          </label>
+
+          <input formControlName="filtroProceso" maxlength="50" class="form-control mb-1 bs-input glacial-indiferent-font"
+                 (input)="filtrarProcesos()" placeholder="Buscar (a partir de 3 caracteres)"/>
+
+          <div cdkDropList #procesosList="cdkDropList" [cdkDropListData]="procesos" [cdkDropListConnectedTo]="[procesosSedeList]"
+               class="list-container list1-width" (cdkDropListDropped)="drop($event)">
+            <div *ngFor="let prc of procesos" cdkDrag>
+              <div class="item-box glacial-indiferent-font fs-16" [ngClass]="{'display-none': !prc.prc_visible, 'bg-syn-1 text-light': prc.mpc_fk_id == 1,
+                   'bg-syn-2': prc.mpc_fk_id == 2, 'bg-syn-3': prc.mpc_fk_id == 3, 'bg-syn-4': prc.mpc_fk_id == 4}">
+                {{prc.prc_nombre}}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <label class="glacial-indiferent-font fs-14 mb-3">Asignados</label>
+
+          <div cdkDropList #procesosSedeList="cdkDropList" [cdkDropListData]="procesosSede"
+               class="list-container list2-width" (cdkDropListDropped)="drop($event)">
+            <div class="item-box glacial-indiferent-font fs-16" *ngFor="let prc of procesosSede" cdkDrag [ngClass]="{'bg-syn-1 text-light': prc.mpc_fk_id == 1,
+                 'bg-syn-2': prc.mpc_fk_id == 2, 'bg-syn-3': prc.mpc_fk_id == 3, 'bg-syn-4': prc.mpc_fk_id == 4}">
+              {{prc.prc_nombre}}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br/>
+
+      <div class="row">
+        <div class="col-12 text-center">
+          <label class="monserrat-font fs-14 m-2">
+            <div class="d-inline bg-syn-1 rounded" style="width: 20px; height: 20px">&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            Estratégicos
+          </label>
+
+          <label class="monserrat-font fs-14 m-2">
+            <div class="d-inline bg-syn-2 rounded" style="width: 20px; height: 20px">&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            Misionales
+          </label>
+
+          <label class="monserrat-font fs-14 m-2">
+            <div class="d-inline bg-syn-3 rounded" style="width: 20px; height: 20px">&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            Apoyo
+          </label>
+
+          <label class="monserrat-font fs-14 m-2">
+            <div class="d-inline bg-syn-4 rounded" style="width: 20px; height: 20px">&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            Evaluación
+          </label>
+
+          <br/><br/>
+
+          <label class="monserrat-font fs-14 fst-italic">
+            Arrastre de un lado hacía el otro
+          </label>
+        </div>
+      </div>
+
+      <div *ngIf="procesosSede.length > 0">
+        <br/><hr/><br/>
+
+        <div #mapaProcesosSede>
+          <!-- Estrategicos -->
+          <span *ngIf="estrategicos.length > 0">
+            <ng-container *ngTemplateOutlet="pHead; context: { data : {'title': 'Estratégicos', 'arrow': 'arrow-est', 'background': 'bg-syn-1'}}"></ng-container>
+            <ng-container *ngTemplateOutlet="pContent; context: { data : {'macroproceso': 'estrategicos', 'id': 1, 'model': estrategicos}}"></ng-container>
+
+            <br/>
+          </span>
+
+          <!-- Misionales -->
+          <span *ngIf="misionales.length > 0">
+            <ng-container *ngTemplateOutlet="pHead; context: { data : {'title': 'Misionales', 'arrow': 'arrow-mis', 'background': 'bg-syn-2'}}"></ng-container>
+            <ng-container *ngTemplateOutlet="pContent; context: { data : {'macroproceso': 'misionales', 'id': 2, 'model': misionales}}"></ng-container>
+
+            <br/>
+          </span>
+
+          <!-- Apoyo -->
+          <span *ngIf="apoyo.length > 0">
+            <ng-container *ngTemplateOutlet="pHead; context: { data : {'title': 'Apoyo', 'arrow': 'arrow-apo', 'background': 'bg-syn-3'}}"></ng-container>
+            <ng-container *ngTemplateOutlet="pContent; context: { data : {'macroproceso': 'apoyo', 'id': 3, 'model': apoyo}}"></ng-container>
+
+            <br/>
+          </span>
+
+          <!-- Evaluacion y control -->
+          <span *ngIf="evaluacion.length > 0">
+            <ng-container *ngTemplateOutlet="pHead; context: { data : {'title': 'Evaluación y control', 'arrow': 'arrow-eva', 'background': 'bg-syn-4'}}"></ng-container>
+            <ng-container *ngTemplateOutlet="pContent; context: { data : {'macroproceso': 'evaluacion', 'id': 4, 'model': evaluacion}}"></ng-container>
+          </span>
+        </div>
+
+        <br/><br/>
+
+        <div class="row">
+          <div class="col-12 text-center">
+            <button class="btn text-light" style="background-color: #8E44AD" (click)="exportarMapaProcesos()">
+              <span *ngIf="!exportando">
+                <i class="fa-regular fa-file-image"></i>&nbsp;&nbsp;
+                <label class="monserrat-font hand-cursor">Exportar mapa de procesos</label>
+              </span>
+
+              <span *ngIf="exportando">
+                <i class="fa-solid fa-spinner fa-xs taskbar-loading"></i>&nbsp;&nbsp;
+                <label class="monserrat-font hand-cursor">Exportando</label>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+
+<!-- Plantilla título del proceso -->
+<ng-template #pHead let-data="data">
+  <div class="row macroprocesos-title mt-4" *ngIf="!cargando">
+    <div class="col-12 text-center">
+      <label class="arrow-left" [class]="data.arrow"></label>
+      <label class="monserrat-font text-light fs-24 p-2" [class]="data.background">{{data.title}}</label>
+      <label class="arrow-right" [class]="data.arrow"></label>
+    </div>
+  </div>
+</ng-template>
+
+<!-- Plantilla contenido del proceso -->
+<ng-template #pContent let-data="data">
+  <div class="text-center rounded p-3" [class]="data.macroproceso" *ngIf="!cargando">
+    <div *ngIf="data.model.length === 0">
+      <br/>
+      <label class="monserrat-font text-light">No se han agregado procesos aún</label>
+    </div>
+
+    <span class="proceso camingo-code-font m-2 p-1 rounded hand-cursor appear-effect-fast d-inline-flex" *ngFor="let prc of data.model; index as i">
+      <input [(ngModel)]="data.model[i].prc_nombre" id="sed{{data.id}}-{{i}}" class="form-control text-center" type="text" [disabled]="true"
+             placeholder="Nombre del proceso" oninput="this.size = +this.value.length === 0 ? 5 : this.value.length" [ngModelOptions]="{standalone: true}"/>
+    </span>
+  </div>
+</ng-template>
+
+<app-error-conexion [identificador]="''"></app-error-conexion>

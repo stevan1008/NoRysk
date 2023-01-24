@@ -1,0 +1,9 @@
+[
+    {"tpr_pk_id": "1", "tpr_desc": "Fraude Interno", "tpr_tooltip": "Actos que de forma intencionada buscan defraudar o apropiarse indebidamente de activos de la compañía o incumplir normas o leyes, en los que está implicado al menos un empleado de la organización."},
+    {"tpr_pk_id": "2", "tpr_desc": "Fraude Externo", "tpr_tooltip": "Actos realizados por una persona externa a la compañía, que buscan defraudar, apropiarse indebidamente de activos o incumplir normas o leyes que perjudiquen la organización"},
+    {"tpr_pk_id": "3", "tpr_desc": "Relaciones Laborales", "tpr_tooltip": "Actos que incumplen la legislación laboral, con los acuerdos internos de trabajo y, en general, la legislación vigente sobre la materia."},
+    {"tpr_pk_id": "4", "tpr_desc": "Clientes", "tpr_tooltip": "Fallas negligentes o involuntarias en las obligaciones pactadas con los clientes y que puedan impedir el cumplimiento de los servicios contratados."},
+    {"tpr_pk_id": "5", "tpr_desc": "Daños a Activos Físicos", "tpr_tooltip": "Actos que deriven en daños o perjuicios a los activos físicos de la compañía."},
+    {"tpr_pk_id": "6", "tpr_desc": "Fallas Tecnológicas", "tpr_tooltip": "Interrupción de los servicios por fallas en la tecnología de información y/o pérdidas derivadas de incidentes por fallas tecnológicas."},
+    {"tpr_pk_id": "7", "tpr_desc": "Ejecución y Administración de Procesos", "tpr_tooltip": "Deficiencias en la ejecución de procesos, en el procedimiento de operaciones y en las relaciones con proveedores y terceros y/o pérdidas derivadas de errores en la ejecución y administración de los procesos definidos por la organización."}
+]

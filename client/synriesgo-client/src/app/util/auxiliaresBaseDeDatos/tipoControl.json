@@ -1,0 +1,6 @@
+[
+    {"tdc_pk_id": "1", "tdc_desc": "Preventivo"},
+    {"tdc_pk_id": "2", "tdc_desc": "Detectivo"},
+    {"tdc_pk_id": "3", "tdc_desc": "Correctivo"},
+    {"tdc_pk_id": "4", "tdc_desc": "Disuasivo"}
+]

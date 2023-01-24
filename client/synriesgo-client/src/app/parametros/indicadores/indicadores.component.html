@@ -1,0 +1,318 @@
+<div class="container">
+    <form [formGroup]="formulario">
+        <br>
+        <h1 class="text-center">Indicadores</h1>
+        <mat-card>
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <label class="h6">
+                        Fecha de creación del indicador
+                    </label>
+                    <br>
+                    <mat-form-field class="seventy-percent">
+                        <mat-label>Seleccione una Fecha</mat-label>
+                        <input matInput [matDatepicker]="picker" formControlName="fechaCreacion">
+                        <mat-hint>MM/DD/YYYY</mat-hint>
+                        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                        <mat-datepicker #picker></mat-datepicker>
+                    </mat-form-field>
+                </div>
+            </div>
+            <br><br>
+            <br><br>
+            <h2>Descripción del indicador</h2>
+            <br><br>
+            <div>
+                <div class="row">       
+                    <div class="col-sm-6 text-center">
+                        <label class="h6">
+                            Nombre del indicador
+                        </label>
+                        <br>
+                        <mat-form-field class="example-full-width">
+                            <mat-label> Nombre del indicador </mat-label>
+                            <input matInput formControlName="nombreIndicador" placeholder="Describa el proceso a crear">
+                        </mat-form-field>
+                    </div>
+                    <div class="col-sm-6 text-center">
+                        <label class="h6">
+                            Objetivo del indicador
+                        </label>
+                        <br>
+                        <mat-form-field class="example-full-width">
+                            <mat-label>Objetivo del indicador</mat-label>
+                            <textarea formControlName="objetivoIndicador" matInput placeholder="Escriba el objetivo del indicador..."></textarea>                        
+                        </mat-form-field>
+                    </div>
+                </div>
+                <br><br>
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <label class="h6">
+                            Categoria
+                        </label>
+                        <br>
+                        <mat-form-field class="eighty-percent">
+                            <mat-label>Categoria</mat-label>
+                            <mat-select formControlName="categoriaIndicador">
+                                <mat-option value="0" disabled>Seleccione una opción</mat-option>
+                              <mat-option *ngFor="let mac of macroprocesos" [value]="mac.mac_pk_id">
+                                {{mac.mac_desc}}
+                              </mat-option>
+                            </mat-select>
+                        </mat-form-field>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <br><br>
+            <h2>Medidción de indicador</h2>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-12">
+                    <label class="h6">
+                        Formula
+                    </label>
+                    <br>
+                    <angular-editor formControlName="formulaIndicador" [config]="editorConfig"></angular-editor>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <label class="h6">
+                        Unidad de Medida
+                    </label>
+                    <br>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Unidad de Medida</mat-label>
+                        <mat-select formControlName="unidadIndicador">
+                            <mat-option value="0" disabled>Seleccione una opción</mat-option>
+                          <mat-option *ngFor="let uni of unidades" [value]="uni.uni_pk_id">
+                            {{uni.uni_desc}}
+                          </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <label class="h6">
+                        Tendencia Esperada
+                    </label>
+                    <br>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Tendencia Esperada</mat-label>
+                        <mat-select formControlName="tendenciaIndicador">
+                            <mat-option value="0" disabled>Seleccione una opción</mat-option>
+                          <mat-option *ngFor="let ten of tendenciasEsperadas" [value]="ten.ten_pk_id">
+                            {{ten.ten_desc}}
+                          </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <label class="h6">
+                        Periodicidad
+                    </label>
+                    <br>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Periodicidad</mat-label>
+                        <mat-select formControlName="periodicidadIndicador">
+                          <mat-option value="0" disabled>Seleccione una opción</mat-option>
+                          <mat-option *ngFor="let per of periodicidades" [value]="per.per_pk_id">
+                            {{per.per_desc}}
+                          </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <label class="h6">
+                        Meta
+                    </label>
+                    <br>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>
+                            Meta 
+                        </mat-label>
+                        <input matInput type="number" formControlName="metaIndicador"  placeholder="Meta a completar (relacionada con la unidad de medida)">
+                    </mat-form-field>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <label class="h6">
+                        Rangos de evaluación del %
+                    </label>
+                    <br>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Rangos de evaluación</mat-label>
+                        <mat-select formControlName="rangosEvaluacion">
+                            <mat-option value="0" disabled>Seleccione una opción</mat-option>
+                            <mat-option *ngFor="let rae of rangosEvaluacion" [value]="rae.rae_pk_id">
+                                {{rae.rae_desc}}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+                <div class="col-sm-6 text-center" *ngIf="f['rangosEvaluacion'].value">
+                    <label class="h6">
+                        Valor
+                    </label>
+                    <br>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Valor</mat-label>
+                        <input matInput formControlName="valorRango" type="number">
+                    </mat-form-field>
+                </div>
+            </div>
+            <br><br>
+            <br><br>
+            <h2>Definición de variables</h2>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <label class="h6">
+                        Tipo
+                    </label>
+                    <br>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Tipo</mat-label>
+                        <mat-select formControlName="tipoDefVar">
+                            <mat-option value="0" disabled>Seleccione una opción</mat-option>
+                            <mat-option *ngFor="let tme of tiposMedidads" [value]="tme.tme_pk_id">
+                                {{tme.tme_desc}}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <label class="h6">
+                        Nombre de la variable
+                    </label>
+                    <br>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Nombre de la varible</mat-label>
+                        <input matInput formControlName="nombreVariable" placeholder="Escriba el nombre de la variable">
+                    </mat-form-field>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <label class="h6">
+                        Fuente
+                    </label>
+                    <br>
+                    <mat-form-field class="eighty-percent">
+                        <mat-label>Fuente</mat-label>
+                        <textarea formControlName="fuenteVar" matInput placeholder="Ej: Reporte..."></textarea>                        
+                    </mat-form-field>
+                </div>
+            </div>
+            <br><br>
+            <div class="row" *ngIf="+f['tipoDefVar'].value === 2">
+                <div class="col-sm-12">
+                    <label class="h6">
+                        Formula Variable
+                    </label>
+                    <br>
+                    <angular-editor formControlName="formulaVariable" [config]="editorConfig"></angular-editor>
+                </div>
+            </div>
+            <br><br>
+            <br><br>
+            <h2>Comunicación del indicador</h2>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <label class="h6">
+                        ¿A quién comunicar los resultados?
+                    </label>
+                    <br>
+                    <mat-form-field class="seventy-percent" *ngFor="let per of personasComunicar; index as i">
+                        <mat-label> Persona #{{i + 1}}</mat-label>
+                        <input matInput [(ngModel)]="personasComunicar[i].nombre_persona" [ngModelOptions]="{standalone:true}" placeholder="Digite el nombre de la persona a comunicar...">
+                    </mat-form-field>
+                    <div class="text-end">
+                        <button mat-fab color="primary" (click)="gestionarPersonasCom()">
+                            <mat-icon>add</mat-icon>  
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <label class="h6">
+                        ¿Qué medio será usado para la comunicación?
+                    </label>
+                    <br>
+                    <mat-form-field class="seventy-percent" *ngFor="let med of mediosComunicar; index as i">
+                        <mat-label> Medio #{{i + 1}}</mat-label>
+                        <input matInput [(ngModel)]="mediosComunicar[i].medio_desc" [ngModelOptions]="{standalone:true}" placeholder="Digite el nombre del medio que usará para comunicar...">
+                    </mat-form-field>
+                    <div class="text-end">
+                        <button mat-fab color="primary" (click)="gestionarMediosCom()">
+                            <mat-icon>add</mat-icon>  
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <br><br>
+            <h2>Revisión</h2>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <label class="h6">
+                        Nombre del responsable de la revisión
+                    </label>
+                    <br>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Nombre</mat-label>
+                        <input matInput type="text" formControlName="nombreRev">
+                    </mat-form-field>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <label class="h6">
+                        Cargo que ejerce el responsable de la revisión
+                    </label>
+                    <br>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Cargo</mat-label>
+                        <input matInput type="text" formControlName="cargoRev">
+                    </mat-form-field>
+                </div>
+            </div>
+            <br><br>
+            <br><br>
+            <h2>Aprobación</h2>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <label class="h6">
+                        Nombre del responsable quién aprueba
+                    </label>
+                    <br>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Nombre</mat-label>
+                        <input matInput type="text" formControlName="nombreAprob">
+                    </mat-form-field>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <label class="h6">
+                        Cargo del responsable quién aprueba
+                    </label>
+                    <br>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Nombre</mat-label>
+                        <input matInput type="text" formControlName="cargoAprob">
+                    </mat-form-field>
+                </div>
+            </div>
+        </mat-card>
+    </form>
+</div>

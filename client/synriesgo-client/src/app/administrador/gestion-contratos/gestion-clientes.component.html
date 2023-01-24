@@ -1,0 +1,323 @@
+<div class="container">
+  <form [formGroup]="formulario">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="p-2 rounded" style="background-color: #D6DBDF">
+          <label class="monserrat-font fs-26 mt-1 ms-1">Crear un cliente</label>
+          <i class="fa-solid fa-user-plus text-syn-1 fa-xl va-baseline me-1 float-end mt-3"></i>
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="p-1 ps-2 pe-2 rounded border border-light-2">
+      <div class="row">
+        <div class="col-sm-12">
+          <label class="monserrat-font h6 fs-16">Datos básicos</label>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="row">
+        <div class="col-4 text-center">
+          <label class="h6">
+            Razón social
+            &nbsp;
+            <span *ngIf="!f['razonSocial'].valid"><i class="fas fa-times text-danger"></i></span>
+            <span *ngIf="f['razonSocial'].valid"><i class="fas fa-check text-success"></i></span>
+          </label>
+
+          <br>
+
+          <mat-form-field class="example-full-width">
+            <mat-label>Razón social</mat-label>
+
+            <input matInput formControlName="razonSocial" type="text" maxlength="500" placeholder="Razón social">
+
+            <mat-error *ngIf="f['razonSocial'].hasError('required')">
+              La razón social es <strong>obligatoria</strong>
+            </mat-error>
+          </mat-form-field>
+        </div>
+
+        <div class="col-4 text-center">
+          <label class="h6">
+            Representante legal
+            &nbsp;
+            <span *ngIf="!f['representanteLegal'].valid"><i class="fas fa-times text-danger"></i></span>
+            <span *ngIf="f['representanteLegal'].valid"><i class="fas fa-check text-success"></i></span>
+          </label>
+          <br>
+          <mat-form-field class="example-full-width">
+            <mat-label>Representante legal</mat-label>
+
+            <input matInput formControlName="representanteLegal" type="text" maxlength="250" placeholder="Representante legal">
+
+            <mat-error *ngIf="f['representanteLegal'].hasError('required')">
+              El representante legal es <strong>obligatorio</strong>
+            </mat-error>
+          </mat-form-field>
+        </div>
+
+        <div class="col-4 text-center">
+          <label class="h6">
+            Correo eléctronico
+            &nbsp;
+            <span *ngIf="!f['email'].valid"><i class="fas fa-times text-danger"></i></span>
+            <span *ngIf="f['email'].valid"><i class="fas fa-check text-success"></i></span>
+          </label>
+
+          <br>
+
+          <mat-form-field class="example-full-width">
+            <mat-label>Correo eléctronico</mat-label>
+
+            <input matInput formControlName="email" type="text" maxlength="100" placeholder="Correo Eléctronico">
+
+            <mat-error *ngIf="f['email'].hasError('required')">
+              El correo electronico es <strong>obligatorio</strong>
+            </mat-error>
+
+            <mat-error *ngIf="f['email'].hasError('pattern')">
+              El formato del correo electronico no es <strong>válido</strong>
+            </mat-error>
+          </mat-form-field>
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="p-1 ps-2 pe-2 rounded border border-light-2">
+      <div class="row">
+        <div class="col-sm-12">
+          <label class="monserrat-font h6 fs-16">Ubicación</label>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="row">
+        <div class="col-4 text-center">
+          <label class="h6">
+            Departamento
+            &nbsp;
+            <span *ngIf="!f['departamento'].valid"><i class="fas fa-times text-danger"></i></span>
+            <span *ngIf="f['departamento'].valid"><i class="fas fa-check text-success"></i></span>
+          </label>
+
+          <br>
+
+          <mat-select placeholder="Seleccione una opción" formControlName="departamento" (selectionChange)="getMunicipios()" class="form-control mt-1">
+            <mat-select-filter [placeholder]="'Buscar'" [displayMember]="'dep_nombre'" [array]="departamentos" (filteredReturn)="filtroDepartamentos =$event"></mat-select-filter>
+            <mat-option value="0" disabled>Seleccione una opción</mat-option>
+            <mat-option value="{{dep.dep_pk_id}}" *ngFor="let dep of filtroDepartamentos">{{dep.dep_nombre}}</mat-option>
+          </mat-select>
+        </div>
+
+        <div class="col-4 text-center">
+          <label class="h6">
+            Municipio
+            &nbsp;
+            <span *ngIf="!f['ciudad'].valid"><i class="fas fa-times text-danger"></i></span>
+            <span *ngIf="f['ciudad'].valid"><i class="fas fa-check text-success"></i></span>
+          </label>
+          <br>
+
+          <mat-select placeholder="Seleccione una opción" formControlName="ciudad" class="form-control mt-1">
+            <mat-select-filter [placeholder]="'Buscar'" [displayMember]="'mun_nombre'" [array]="municipios" (filteredReturn)="filtroMunicipios =$event"></mat-select-filter>
+            <mat-option value="0" disabled>Seleccione una opción</mat-option>
+            <mat-option value="{{mun.mun_pk_id}}" *ngFor="let mun of filtroMunicipios">{{mun.mun_nombre}}</mat-option>
+          </mat-select>
+        </div>
+
+        <div class="col-4 text-center">
+          <label class="h6">
+            Dirección
+            &nbsp;
+            <span *ngIf="!f['direccion'].valid"><i class="fas fa-times text-danger"></i></span>
+            <span *ngIf="f['direccion'].valid"><i class="fas fa-check text-success"></i></span>
+          </label>
+
+          <br>
+
+          <mat-form-field class="w-100">
+            <mat-label>Dirección</mat-label>
+
+            <input matInput formControlName="direccion" type="text" maxlength="250" placeholder="Dirección">
+
+            <mat-error *ngIf="f['direccion'].hasError('required')">
+              La dirección es <strong>obligatoria</strong>
+            </mat-error>
+          </mat-form-field>
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="p-1 ps-2 pe-2 rounded border border-light-2">
+      <div class="row">
+        <div class="col-sm-12">
+          <label class="monserrat-font h6 fs-16">Acceso</label>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="row">
+        <div class="col-4">
+          <label class="h6">
+            Fecha de inicio
+            &nbsp;
+            <span *ngIf="!f['fechaInicio'].valid"><i class="fas fa-times text-danger"></i></span>
+            <span *ngIf="f['fechaInicio'].valid"><i class="fas fa-check text-success"></i></span>
+          </label>
+
+          <br>
+
+          <input formControlName="fechaInicio" class="form-control" type="date" onkeydown="return false" (change)="gestionarFechaInicio()"/>
+        </div>
+
+        <div class="col-4">
+          <label class="h6">
+            Fecha de fin
+            &nbsp;
+            <span *ngIf="!f['fechaFin'].valid"><i class="fas fa-times text-danger"></i></span>
+            <span *ngIf="f['fechaFin'].valid"><i class="fas fa-check text-success"></i></span>
+          </label>
+
+          <br>
+
+          <input formControlName="fechaFin" class="form-control" type="date" onkeydown="return false" (change)="gestionarFechaFin()"/>
+        </div>
+
+        <div class="col-4 text-center">
+          <label class="h6">
+            Número de sedes
+            &nbsp;
+            <span *ngIf="!f['numeroSedes'].valid"><i class="fas fa-times text-danger"></i></span>
+            <span *ngIf="f['numeroSedes'].valid"><i class="fas fa-check text-success"></i></span>
+          </label>
+          <br>
+          <mat-form-field class="example-full-width">
+            <mat-label>Número de sedes</mat-label>
+
+            <input matInput formControlName="numeroSedes" type="number" min="1" max="300" placeholder="Número de sedes">
+
+            <mat-error *ngIf="f['numeroSedes'].hasError('required')">
+              El número que representa la cantidad de sedes es <strong>obligatorio</strong>
+            </mat-error>
+          </mat-form-field>
+        </div>
+      </div>
+    </div>
+
+    <br><br>
+
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <button class="btn bg-syn-4" [disabled]="formulario.invalid" (click)="onSubmit()" *ngIf="idCliente == '0'">
+          <i class="fa-solid fa-save"></i>
+          &nbsp;
+          <label class="monserrat-font fw-bold hand-cursor">
+            Crear cliente
+            <span *ngIf="cargandoFormulario">
+              &nbsp;
+              <i class="fa-solid fa-spinner taskbar-loading"></i>
+            </span>
+          </label>
+        </button>
+
+        <button class="btn bg-syn-2 m-2" [disabled]="formulario.invalid || !hayCambios" (click)="onUpdate()" *ngIf="idCliente != '0'">
+          <i class="fa-solid fa-save"></i>
+          &nbsp;
+          <label class="monserrat-font fw-bold hand-cursor">
+            Actualizar cliente
+            <span *ngIf="cargandoFormulario">
+              &nbsp;
+              <i class="fa-solid fa-spinner taskbar-loading"></i>
+            </span>
+          </label>
+        </button>
+
+        <button class="btn bg-syn-3 m-2" (click)="limpiarFomrulario()" *ngIf="idCliente != '0'">
+          <i class="fa-solid fa-broom"></i>&nbsp;Limpiar formulario
+        </button>
+      </div>
+    </div>
+
+    <br><br>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="p-2 rounded" style="background-color: #D6DBDF">
+          <label class="monserrat-font fs-26 mt-1 ms-1">Clientes existentes</label>
+          <i class="fa-solid fa-users text-syn-1 fa-xl va-baseline me-1 float-end mt-3"></i>
+        </div>
+      </div>
+    </div>
+
+    <div *ngIf="cargando">
+      <br/>
+
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <img width="200" src="assets/carga/cargando1.gif"/>
+          <br/>
+          <label class="monserrat-font fs-18">Cargando</label>
+        </div>
+      </div>
+
+      <br/><br/>
+    </div>
+
+    <div class="appear-affect" *ngIf="!cargando">
+      <br><br>
+
+      <div class="row">
+        <div class="col-12">
+          <table datatable [dtOptions]="opcionesTabla" class="row-border hover glacial-indiferent-font" *ngIf="rerender">
+            <thead>
+              <tr>
+                <th class="text-center">ID</th>
+                <th class="text-center">Razón social</th>
+                <th class="text-center">Número de sedes</th>
+                <th class="text-center">Fecha inicio</th>
+                <th class="text-center">Fecha fin</th>
+                <th class="text-center">Estado</th>
+                <th class="text-center">Acciones</th>
+              </tr>
+            </thead>
+
+            <tbody class="text-center">
+              <tr *ngFor="let cli of clientes; index as i">
+                <td>{{cli.cli_pk_id}}</td>
+                <td>{{cli.cli_razon_social}}</td>
+                <td>{{cli.cli_numero_sedes}}</td>
+                <td>{{cli.cli_fecha_inicio | date}}</td>
+                <td>{{cli.cli_fecha_fin | date}}</td>
+                <td>
+                  <label *ngIf="cli.activo" class="bg-syn-4 p-2 rounded fw-bold">
+                    Activo<br/>{{cli.dias_habiles}} día(s) restantes
+                  </label>
+
+                  <label *ngIf="!cli.activo" class="bg-tomato p-3 rounded fw-bold">Inactivo</label>
+                </td>
+                <td>
+                  <button class="btn bg-syn-2" (click)="prepararActualizacion(cli, i)">
+                    <i class="fa-solid fa-pencil-alt"></i>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+
+<app-error-conexion [identificador]="''"></app-error-conexion>

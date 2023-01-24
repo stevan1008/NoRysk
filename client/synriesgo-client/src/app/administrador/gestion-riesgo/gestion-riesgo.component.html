@@ -1,0 +1,248 @@
+<div class="container">
+    <form [formGroup]="formulario">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <label class="monserrat-font fs-26 mt-1 ms-1">Gestión de Riesgo</label>
+              </div>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <label class="h6">
+                    Sede
+                </label>
+                <br>
+                <mat-form-field class="fifty-percent">
+                    <mat-label>Sede</mat-label>
+                    <mat-select formControlName="sede">
+                        <mat-option value="0" disabled>Seleccione una opción</mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-sm-6 text-center">
+                <label class="h6">
+                    Proceso
+                </label>
+                <br>
+                <mat-form-field class="example-full-width">
+                    <mat-label>Proceso</mat-label>
+                    <mat-select formControlName="proceso">
+                        <mat-option value="0" disabled>Seleccione una opción</mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
+            <div class="col-sm-6 text-center">
+                <label class="h6">
+                    Subproceso
+                </label>
+                <br>
+                <mat-form-field class="example-full-width">
+                    <mat-label>Subproceso</mat-label>
+                    <mat-select formControlName="subproceso" (selectionChange)="revisarFormulario()">
+                        <mat-option value="0" disabled>Seleccione una opción</mat-option>
+                        <mat-option value="99">Todos</mat-option>
+                    </mat-select>
+                </mat-form-field>          
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-sm-6 text-center">
+                <label class="h6">
+                    Categoria <i class="far fa-question-circle"  matTooltip="General: El riesgo es inherente a la operación de más de uno de los procesos de la compañia.
+                                                                            \nEspecifico: El riesgo se genera únicamente en la ejecución de un proceso particular de la compañia"></i>
+                </label>
+                <br>
+                <mat-form-field class="example-full-width">
+                    <mat-label>
+                        Categoria
+                    </mat-label>
+                    <mat-select formControlName="categoria" (selectionChange)="revisarFormulario()">
+                        <mat-option value="0" disabled>Seleccione una opción</mat-option>
+                        <mat-option *ngFor="let cgr of categoriasGestionRiesgo"  [value]="cgr.cgr_pk_id">
+                            {{cgr.cgr_desc}}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
+            <div class="col-sm-6 text-center">
+                <label class="h6">
+                    Clasificación <i class="far fa-question-circle"  matTooltip="Cada opción cuenta con un tooltip descriptivo."></i>
+                </label>
+                <br>
+                <mat-form-field class="example-full-width">
+                    <mat-label>Clasificación</mat-label>
+                    <mat-select formControlName="clasificacion" (selectionChange)="revisarFormulario()">
+                        <mat-option value="0" disabled>Seleccione una opción</mat-option>
+                        <mat-option *ngFor="let clr of clasificacionesGestionRiesgo" [value]="clr.clr_pk_id"  matTooltip="{{clr.clr_tooltip}}" (onSelectionChange)="limpiarSaltoClasificacion()">
+                            {{clr.clr_desc}}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <h2>Caracterización de riesgos</h2>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <label class="h6">
+                    Tipo de Riesgo <i class="far fa-question-circle"  matTooltip="Cada opción cuenta con un tooltip descriptivo."></i>
+                </label>
+                <br>
+                <mat-form-field class="eighty-percent">
+                    <mat-label>Tipo de Riesgo</mat-label>
+                    <mat-select formControlName="tipoRiesgo" (selectionChange)="revisarFormulario()">
+                        <mat-select-filter [placeholder]="'Buscar'" [displayMember]="'tpr_desc'" [array]="tiposRiesgo" (filteredReturn)="filtroTipoRiesgo =$event"></mat-select-filter>
+                        <mat-option value="0" disabled>Seleccione una opción</mat-option>
+                        <mat-option *ngFor="let tpr of filtroTipoRiesgo" [value]="tpr.tpr_pk_id" matTooltip="{{tpr.tpr_tooltip}}">
+                            {{tpr.tpr_desc}}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <label class="h6">
+                Falla
+            </label>
+            <br>
+            <div class="col-sm-6">
+                <br>
+                <section class="example-section" [formGroup]="formulario">
+                    <h4>Seleccione las fallas que aplican:</h4>
+                    <div *ngFor="let fgr of fallasGestionRiesgo; index as i">
+                        <p><mat-checkbox formControlName="{{'fallaRiesgo' + i}}" (change)="revisarFormulario()">{{fgr.fgr_desc}}</mat-checkbox></p>
+                    </div>
+                </section>
+            </div>
+            <div class="col-sm-6">
+                <br>
+                <section class="example-section" [formGroup]="formulario">
+                    <div *ngFor="let fgr of fallasGestionRiesgo2; index as i">
+                        <p><mat-checkbox formControlName="{{'fallaRiesgo' + i}}" (change)="revisarFormulario()">{{fgr.fgr_desc}}</mat-checkbox></p>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-sm-6 text-center">
+                <label class="h6">
+                    Factor Riesgo <i class="far fa-question-circle"  matTooltip="Cada opción cuenta con un tooltip descriptivo."></i>
+                </label>
+                <br>
+                <mat-form-field class="example-full-width">
+                    <mat-label>Factor Riesgo</mat-label>
+                    <mat-select formControlName="factorRiesgo" (selectionChange)="revisarFormulario()">
+                        <mat-option value="0" disabled>Seleccione una opción</mat-option>
+                        <mat-option *ngFor="let far of factoresRiesgo" [value]="far.far_pk_id" matTooltip="{{far.far_tooltip}}">
+                            {{far.far_desc}}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
+            <div class="col-sm-6 text-center">
+                <label class="h6">
+                    Descripción de la materialización
+                </label>
+                <br>
+                <mat-form-field class="example-full-width">
+                    <mat-label>Descripción de la materialización</mat-label>
+                    <textarea matInput formControlName="descMaterializacion" (input)="revisarFormulario()" placeholder="Describa la materialización aplicada..."></textarea>
+                </mat-form-field>
+            </div>
+        </div>
+
+        <div class="row" *ngIf="+f['clasificacion'].value === 4">
+            <br><br>
+            <h2>Seguridad de la información</h2>
+            <br><br>
+            <br><br>
+            <div class="col-sm-6 text-center">
+                <label class="h6">
+                    Activo de información que se afecta
+                </label>
+                <br>
+                <mat-form-field class="example-full-width">
+                    <mat-label>Activo de información que se afecta</mat-label>
+                    <input matInput formControlName="actividadRiesgoAfectado" (input)="revisarFormulario()" type="text" placeholder="Activo de información que se afecta">
+                </mat-form-field>
+            </div>
+            <div class="col-sm-6">
+                <div class="text-center">
+                    <label class="h6">
+                        Pilares de eguridad de información
+                    </label>
+                </div>
+                <div>
+                    <br>
+                    <section class="example-section" [formGroup]="formulario">
+                        <h4>Pilares:</h4>
+                        <p><mat-checkbox formControlName="pilaresAfectados1" (change)="revisarFormulario()" >Confidencialidad  {{f['pilaresAfectados1'].value}}</mat-checkbox></p>
+                        <p><mat-checkbox formControlName="pilaresAfectados2" (change)="revisarFormulario()">Integridad  {{f['pilaresAfectados2'].value}}</mat-checkbox></p>
+                        <p><mat-checkbox formControlName="pilaresAfectados3" (change)="revisarFormulario()">Disponibilidad  {{f['pilaresAfectados3'].value}}</mat-checkbox></p>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <br><br>
+        <div class="row">
+            <h2>Valoración del Riesgo</h2>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-sm-6">
+                <label class="h6">
+                    Probabilidad <i class="far fa-question-circle"  matTooltip="Cada opción cuenta con un tooltip descriptivo."></i>
+                </label>
+                <br>
+                <mat-form-field class="example-full-width">
+                    <mat-label>Probabilidad</mat-label>
+                    <mat-select formControlName="probabilidad" (selectionChange)="revisarFormulario()">
+                        <mat-option value="0" disabled>Seleccione una opción</mat-option>
+                        <mat-option *ngFor="let prb of probabilidades" [value]="prb.prb_pk_id" matTooltip="{{prb.prb_tooltip}}">
+                            {{prb.prb_desc}}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
+            <div class="col-sm-6">
+                <label class="h6">
+                    Impacto
+                </label>
+                <br>
+                <mat-form-field class="example-full-width">
+                    <mat-label>Impacto</mat-label>
+                    <mat-select formControlName="impacto" (selectionChange)="revisarFormulario()">
+                        <mat-option value="0" disabled>Seleccione una opción</mat-option>
+                        <mat-option *ngFor="let imp of impactos" [value]="imp.imp_pk_id">
+                            {{imp.imp_desc}}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
+        </div>
+        <br><br>
+        <div class="row" *ngIf="revisarFormulario()">
+            <div class="col-sm-12 text-center">
+                <button class="btn bg-syn-4" (click)="onSubmit()">
+                    <i class="fa-solid fa-save"></i>
+                    &nbsp;
+                    <label class="monserrat-font fw-bold hand-cursor">
+                      Guardar Gestión
+                    </label>
+                </button>
+            </div>
+            <br><br>
+        </div>
+    </form>
+</div>

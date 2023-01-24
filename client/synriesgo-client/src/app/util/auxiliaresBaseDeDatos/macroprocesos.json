@@ -1,0 +1,6 @@
+[
+    {"mac_pk_id": "1", "mac_desc": "Estratégicos", "procesos": []},
+    {"mac_pk_id": "2", "mac_desc": "Misionales", "procesos": []},
+    {"mac_pk_id": "3", "mac_desc": "Apoyo", "procesos": []},
+    {"mac_pk_id": "4", "mac_desc": "Evaluación y control", "procesos": []}
+]

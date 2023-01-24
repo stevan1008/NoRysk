@@ -1,0 +1,15 @@
+[
+    {"fgr_pk_id": "13", "fgr_desc": "Fallas en la definición de los servicios"},
+    {"fgr_pk_id": "14", "fgr_desc": "Fallas en la ejecución de los procesos"},
+    {"fgr_pk_id": "15", "fgr_desc": "Fallas en la operatividad de los clientes"},
+    {"fgr_pk_id": "16", "fgr_desc": "Fallas en la segregación de funciones"},
+    {"fgr_pk_id": "17", "fgr_desc": "Fallas en la seguridad del entorno laboral"},
+    {"fgr_pk_id": "18", "fgr_desc": "Fallas en las relaciones laborales"},
+    {"fgr_pk_id": "19", "fgr_desc": "Fallas en los productos"},
+    {"fgr_pk_id": "20", "fgr_desc": "Fallas en los sistemas"},
+    {"fgr_pk_id": "21", "fgr_desc": "Hurto o fraude"},
+    {"fgr_pk_id": "22", "fgr_desc": "Inoportunidad o inexactitud en la generación de información y/o reportes"},
+    {"fgr_pk_id": "23", "fgr_desc": "Prácticas inapropiadas de negocios o de mercado"},
+    {"fgr_pk_id": "24", "fgr_desc": "Revelación de información del cliente"},
+    {"fgr_pk_id": "25", "fgr_desc": "Vulnerabilidad de los sistemas"}
+]

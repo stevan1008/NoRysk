@@ -1,0 +1,32 @@
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+    background-color: white;
+}
+
+.mat-form-field-appearance-fill .mat-form-field-flex {
+    background-color: white;
+}
+
+.fifty-percent {
+  width: 50%;
+}
+
+.seventy-percent {
+    width: 70%;
+}
+
+.eighty-percent {
+  width: 80%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+        display: none;
+}
+

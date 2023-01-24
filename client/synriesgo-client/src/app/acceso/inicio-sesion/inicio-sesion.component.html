@@ -1,0 +1,136 @@
+<form [formGroup]="formulario">
+  <div class="externo">
+    <div class="is-box">
+      <div class="is-wrapper-1">
+        <div class="is-header">
+          <div class="people w-100">
+            <img width="220" class="logo" src="/assets/logos/logo_texto.svg"/>
+          </div>
+        </div>
+      </div>
+
+      <div class="is-content pe-5 ps-5 pb-5" [ngClass]="{'pt-3': !cargando, 'pt-1': cargando}">
+        <!-- Carga -->
+        <div *ngIf="cargando" class="appear-effect mt-4">
+          <div class="row">
+            <div class="col-12 text-center">
+              <img width="150" src="assets/carga/cargando1.gif"/>
+            </div>
+          </div>
+
+          <br/>
+
+          <div class="row">
+            <div class="col-12 text-center">
+              <label class="h6 monserrat-font">Por favor espere</label>
+            </div>
+          </div>
+        </div>
+
+        <!-- Formulario -->
+        <div class="cube" [ngClass]="{'cube_show_front': !mostrarCaptcha, 'cube_show_back': mostrarCaptcha}" *ngIf="!cargando">
+          <div class="cube_face_front p-2">
+            <mat-form-field class="w-100" appearance="standard">
+              <mat-label>Correo electrónico</mat-label>
+              <input matInput formControlName="correo" placeholder="correo@dominio" type="email"/>
+            </mat-form-field>
+
+            <mat-form-field class="w-100" appearance="standard">
+              <mat-label>Contraseña</mat-label>
+              <input matInput formControlName="contrasena" type="password"/>
+            </mat-form-field>
+
+            <br/>
+
+            <label class="w-100 text-end hand-cursor mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <i class="fa-solid fa-lock-open fa-xs"></i>&nbsp;&nbsp;Recuperar contraseña
+            </label>
+
+            <br/><br/>
+
+            <button class="btn btn-info w-100" type="button" [disabled]="f['correo'].invalid || f['contrasena'].invalid" (click)="gestionarMostrarCaptcha()">
+              <i class="fa-solid fa-arrow-right fa-xs"></i>&nbsp;&nbsp;Siguiente
+            </button>
+          </div>
+
+          <div class="cube_face_back text-center p-2">
+            <canvas id="captcha" class="captcha" width="150" height="70"></canvas>
+            <br/>
+
+            <mat-form-field class="w-100" appearance="standard">
+              <mat-label>Texto de la imagen</mat-label>
+              <input matInput formControlName="captcha" type="text" autocomplete="off"/>
+            </mat-form-field>
+
+            <br/><br/>
+
+            <div class="row">
+              <div class="col-4">
+                <button class="btn btn-info w-100" (click)="gestionarMostrarCredenciales()">
+                  <i class="fa-solid fa-arrow-left fa-xs"></i>
+                </button>
+              </div>
+              <div class="col-8">
+                <button class="btn btn-success w-100" [disabled]="formulario.invalid || captcha != f['captcha'].value" (click)="validarUsuario()">
+                  <i class="fa-solid fa-key fa-xs"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+
+<form [formGroup]="formularioRec">
+  <!-- Recuperación de contraseña -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <label class="monserrat-font fs-16" id="exampleModalLabel">
+            <i class="fa-solid fa-user-lock"></i>&nbsp;&nbsp;Recuperar contraseña
+          </label>
+
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="modal-body">
+          <div class="row">
+            <div class="text-center">
+              <mat-form-field class="w-100 text-center" appearance="standard">
+                <mat-label>Correo electrónico</mat-label>
+                <input matInput formControlName="correoRecuperacion" type="email" autocomplete="off"/>
+              </mat-form-field>
+
+              <br/><br/>
+
+              <canvas id="captcha2" class="captcha" width="150" height="70"></canvas>
+
+              <mat-form-field class="w-100 text-center m-0 p-0" appearance="standard">
+                <mat-label>Texto de la imagen</mat-label>
+                <input matInput formControlName="captcha2" type="text" autocomplete="off"/>
+              </mat-form-field>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <div class="row w-100">
+            <div class="col-12 text-center">
+              <button type="button" class="btn bg-syn-1 text-light m-2" data-bs-dismiss="modal" (click)="recuperarContrasena()"
+                      [disabled]="formularioRec.invalid || captcha != f2['captcha2'].value">
+                <i class="fa-solid fa-key"></i>&nbsp;Recuperar contraseña
+              </button>
+
+              <button type="button" class="btn btn-secondary m-2" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+
+<app-error-conexion [identificador]="''"></app-error-conexion>

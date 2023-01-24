@@ -1,0 +1,101 @@
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.example-full-width {
+    width: 100%;
+    background-color: white;
+}
+
+.mat-form-field-appearance-fill .mat-form-field-flex {
+    background-color: white;
+}
+
+.fifty-percent {
+    width: 50%;
+}
+
+.eighty-percent {
+  width: 80%;
+}
+
+.form-control:focus{
+  border-color: #cccccc;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.spinner {
+  height: 0px;
+  font-size: 30px;
+  margin-top: 19px;
+}
+
+.arrow-left {
+  width: 0;
+  height: 0;
+  margin-right: -6px;
+  margin-bottom: -27px;
+  border-top: 23.174px solid transparent;
+  border-bottom: 28px solid transparent;
+  transform: rotate(45deg) rotateY(180deg) !important;
+}
+
+.arrow-right {
+  width: 0;
+  height: 0;
+  margin-left: -6px;
+  margin-bottom: -27px;
+  border-top: 23.174px solid transparent;
+  border-bottom: 28px solid transparent;
+  border-right: 28px solid #1D6D80;
+  transform: rotate(-45deg) !important;
+}
+
+.arrow-est {
+  border-right: 28px solid #1D6D80;
+}
+
+.arrow-mis {
+  border-right: 28px solid #66BFBF;
+}
+
+.arrow-apo {
+  border-right: 28px solid #F6AA63;
+}
+
+.arrow-eva {
+  border-right: 28px solid #B3D17A;
+}
+
+.macroprocesos-title {
+  margin-bottom: -1px !important;
+}
+
+.estrategicos {
+  background-color: #1D6D80;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.misionales {
+  background-color: #66BFBF;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.apoyo {
+  background-color: #F6AA63;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.evaluacion {
+  background-color: #B3D17A;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.proceso {
+  min-width: 232px !important;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}

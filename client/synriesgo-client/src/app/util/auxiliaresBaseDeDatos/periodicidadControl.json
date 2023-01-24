@@ -1,0 +1,10 @@
+[
+    {"pec_pk_id": "1", "pec_desc": "AD-HOC"},
+    {"pec_pk_id": "2", "pec_desc": "Diario"},
+    {"pec_pk_id": "3", "pec_desc": "Semanal"},
+    {"pec_pk_id": "4", "pec_desc": "Mensual"},
+    {"pec_pk_id": "5", "pec_desc": "Bimestral"},
+    {"pec_pk_id": "6", "pec_desc": "Trimestral"},
+    {"pec_pk_id": "7", "pec_desc": "Semestral"},
+    {"pec_pk_id": "8", "pec_desc": "Anual"}
+]

@@ -1,0 +1,5 @@
+[
+    {"nac_pk_id": "1", "nac_desc": "Automático"},
+    {"nac_pk_id": "2", "nac_desc": "Semi-automático"},
+    {"nac_pk_id": "3", "nac_desc": "Manual"}
+]

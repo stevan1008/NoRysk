@@ -1,0 +1,131 @@
+.list-container {
+    border: solid 1px #ccc;
+    min-height: 60px;
+    background: white;
+    border-radius: 5px;
+    overflow-y: auto;
+    display: block;
+}
+
+.list1-width {
+    max-height: 200px;
+    min-height: 200px;
+}
+
+.list2-width {
+    max-height: 242px;
+    min-height: 242px;
+}
+
+.item-box {
+    padding: 20px 10px;
+    border-bottom: solid 1px white;
+    color: rgba(0, 0, 0, 0.87);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    cursor: move;
+    font-size: 14px;
+}
+
+.cdk-drag-preview {
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+                0 8px 10px 1px rgba(0, 0, 0, 0.14),
+                0 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
+.cdk-drag-placeholder {
+    opacity: 0;
+}
+
+.cdk-drag-animating {
+    transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.example-box:last-child {
+    border: none;
+}
+
+.example-list.cdk-drop-list-dragging .example-box:not(.cdk-drag-placeholder) {
+    transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.bs-input
+{
+    outline: 0px !important;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+}
+
+.arrow-left {
+    width: 0;
+    height: 0;
+    margin-right: -6px;
+    margin-bottom: -27px;
+    border-top: 23.174px solid transparent;
+    border-bottom: 28px solid transparent;
+    transform: rotate(45deg) rotateY(180deg) !important;
+}
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    margin-left: -6px;
+    margin-bottom: -27px;
+    border-top: 23.174px solid transparent;
+    border-bottom: 28px solid transparent;
+    border-right: 28px solid #1D6D80;
+    transform: rotate(-45deg) !important;
+}
+
+.arrow-est {
+    border-right: 28px solid #1D6D80;
+}
+
+.arrow-mis {
+    border-right: 28px solid #66BFBF;
+}
+
+.arrow-apo {
+    border-right: 28px solid #F6AA63;
+}
+
+.arrow-eva {
+    border-right: 28px solid #B3D17A;
+}
+
+.macroprocesos-title {
+    margin-bottom: -1px !important;
+}
+
+.estrategicos {
+    background-color: #1D6D80;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.misionales {
+    background-color: #66BFBF;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.apoyo {
+    background-color: #F6AA63;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.evaluacion {
+    background-color: #B3D17A;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.proceso {
+    min-width: 232px !important;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
